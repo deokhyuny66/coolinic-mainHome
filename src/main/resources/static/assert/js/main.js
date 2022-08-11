@@ -9,8 +9,6 @@
 }); 슬라이드 */
 
 $(function(){
-
-
     $(window).scroll(function(){
       if($(document).scrollTop()<= 1700){
         $('#popup_btn_box').fadeOut(300);

@@ -1,45 +1,82 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <html>
 <head>
 	<title>VINGO</title>
-	
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-	<meta name="title" content="ºù°í">
-	<meta name="description" content="½º¸¶Æ®ÇÑ ÀÌµ¿Çü Àú¿ÂÃ¢°í ºù°í! 24½Ã°£ ¸ð´ÏÅÍ¸µ ¼­ºñ½º¿Í Àü±¹ A/S ¸¦ Áö¿øÇÕ´Ï´Ù.">
-	<meta name="keyword" content="ºù°í, vingo, ³ÃÀåÄÁÅ×ÀÌ³Ê, ³Ãµ¿ÄÁÅ×ÀÌ³Ê, Àú¿ÂÃ¢°í, ³ÃÀåÃ¢°í, ³Ãµ¿Ã¢°í, Àú¿ÂÀúÀå¼Ò">
-	<meta name="og:title" content="ºù°í">
-	<meta name="og:description" content="½º¸¶Æ®ÇÑ ÀÌµ¿Çü Àú¿ÂÃ¢°í ºù°í! 24½Ã°£ ¸ð´ÏÅÍ¸µ ¼­ºñ½º¿Í Àü±¹ A/S ¸¦ Áö¿øÇÕ´Ï´Ù.">
+	<meta name="title" content="ë¹™ê³ ">
+	<meta name="description" content="ìŠ¤ë§ˆíŠ¸í•œ ì´ë™í˜• ì €ì˜¨ì°½ê³  ë¹™ê³ ! 24ì‹œê°„ ëª¨ë‹ˆí„°ë§ ì„œë¹„ìŠ¤ì™€ ì „êµ­ A/S ë¥¼ ì§€ì›í•©ë‹ˆë‹¤.">
+	<meta name="keyword" content="ë¹™ê³ , vingo, ëƒ‰ìž¥ì»¨í…Œì´ë„ˆ, ëƒ‰ë™ì»¨í…Œì´ë„ˆ, ì €ì˜¨ì°½ê³ , ëƒ‰ìž¥ì°½ê³ , ëƒ‰ë™ì°½ê³ , ì €ì˜¨ì €ìž¥ì†Œ">
+	<meta name="og:title" content="ë¹™ê³ ">
+	<meta name="og:description" content="ìŠ¤ë§ˆíŠ¸í•œ ì´ë™í˜• ì €ì˜¨ì°½ê³  ë¹™ê³ ! 24ì‹œê°„ ëª¨ë‹ˆí„°ë§ ì„œë¹„ìŠ¤ì™€ ì „êµ­ A/S ë¥¼ ì§€ì›í•©ë‹ˆë‹¤.">
 	<link rel="canonical" href="https://vingo.co.kr" />
 	<meta name="author" content="VINGO">
-
-	
 	<meta name="naver-site-verification" content="" />
-	
 	<meta name="google-site-verification" content="" />
-	
-	
-	<link href="/assert/css/common.css" rel="stylesheet">
-
+	<link href="/assert/css/commonn.css" rel="stylesheet">
 	<link href="/assert/css/jquery.bxslider.css" rel="stylesheet">	
-	
-	
 	<script src="/assert/js/jquery-3.1.1.min.js"></script>
 	<script src="/assert/js/jquery.fadethis.js"></script>
 	<script src="/assert/js/jquery.bxslider.js"></script>
 	<script src="/assert/js/main.js"></script>
-	//
-	
 	<link rel="apple-touch-icon" href="/assert/images/logo_zhf_icon.ico">
 	<link rel="shortcut icon" href="/assert/images/logo_zhf_icon.ico">
+	<style>
+	.scrolltable {
+	    table-layout: fixed;
+	    border-collapse: collapse;
+	}
+	.scrolltable thead {
+	   	display:block;
+	    color:#fff;
+	}
+	.scrolltable tbody {
+	    display:block;
+	    overflow-y:auto;
+	    height:180px;
+	    width:100%;
+	}
 	
+	/* ìŠ¤í¬ë¡¤ë°” ì—†ì• ê¸° */
+	body{ -ms-overflow-style: none; } 
+	::-webkit-scrollbar { display: none; }
+	.scrolltable{ -ms-overflow-style: none; } 
+	.scrolltable::-webkit-scrollbar{ display:none; }
+	
+	/* í–‰ ìž¥ì‹ */
+	.scrolltable th, .scrolltable td {
+	  padding: 10px;
+	  text-align: left;
+	  width: 130px;
+	  text-align: center;
+	  /* font-size: 0.875em; */
+	} 
+	.scrolltable tbody tr:nth-child(2n+1) {
+	    background-color: #f0f0f0;
+	}
+	
+	#tempDiv ::-webkit-scrollbar {
+ 		width: 5px;
+	}
+	
+	/* Track */
+	#tempDiv ::-webkit-scrollbar-track {
+	  border-radius: 5px;
+	}
+	 
+	/* Handle */
+	#tempDiv ::-webkit-scrollbar-thumb {
+	  background: #000; 
+	  border-radius: 5px;
+	}
+	</style>
 </head>
 <body>
 	<div id="wrap">
 
 <div id="nav">
-   <h1 id="logo"><a href="/"><img src="/assert/images/logo.png"></a></h1>
+   <h1 id="logo"><a href="/"><img src="/assert/images/logo.png" style="width:160px;"></a></h1>
    <div id="hambuger_box">
      <div>
        <span></span>
@@ -49,10 +86,10 @@
    </div>
    <ul id="menu">
      <li><a href="/vingolive">VINGO LIVE</a></li>
-     <li><a href="https://www.vingo.co.kr/estimate/index" target="_blank">°£Æí°ßÀû</a></li>
-     <!-- <li><a href="/estimate/index" target="_blank">°ßÀû³»±â</a></li>  -->
-     <li><a href="https://smartstore.naver.com/vingo" target="_blank">ºù°í ½º¸¶Æ® ½ºÅä¾î</a></li>
-     <li><a href="https://blog.naver.com/vingoservice" target="_blank">ºí·Î±×</a></li>
+     <li><a href="https://www.vingo.co.kr/estimate/index" target="_blank">ê°„íŽ¸ê²¬ì </a></li>
+     <!-- <li><a href="/estimate/index" target="_blank">ê²¬ì ë‚´ê¸°</a></li>  -->
+     <li><a href="https://smartstore.naver.com/vingo" target="_blank">ë¹™ê³  ìŠ¤ë§ˆíŠ¸ ìŠ¤í† ì–´</a></li>
+     <li><a href="https://blog.naver.com/vingoservice" target="_blank">ë¸”ë¡œê·¸</a></li>
    </ul>
 </div>
 
@@ -60,218 +97,322 @@
 	    <div class="cont_box">
 	      <div>
 	        <div class="img_box">
-	          <img src="/assert/images/main.png" alt="Á¦ÁÖµµ ¿ùÁ¤¸® ºù°í ¼³Ä¡ »ç·Ê" class="main_img_pc">
-	          <img src="/assert/images/main_mobile.png" alt="Á¦ÁÖµµ ¿ùÁ¤¸® ºù°í ¼³Ä¡ »ç·Ê ¸ð¹ÙÀÏ¹öÀü" class="main_img_mobile">
+	          <img src="/assert/images/main.png" alt="ì œì£¼ë„ ì›”ì •ë¦¬ ë¹™ê³  ì„¤ì¹˜ ì‚¬ë¡€" class="main_img_pc">
+	          <img src="/assert/images/main_mobile.png" alt="ì œì£¼ë„ ì›”ì •ë¦¬ ë¹™ê³  ì„¤ì¹˜ ì‚¬ë¡€ ëª¨ë°”ì¼ë²„ì „" class="main_img_mobile">
 	        </div>
 	        <div class="txt">
-	          <p class="sub_txt">Àú¿ÂÃ¢°í°¡ ÇÊ¿äÇÑ ¼ø°£,</p>
-	          <p class="main_txt">VINGO</p>
-	          <p class="detail_txt">°¡Àå °£ÆíÇÑ ¸¶ÀÌÅ©·Î ÄÝµåÃ¼ÀÎ ½ºÅä¸®Áö ¼­ºñ½º<br>ºù°í¸¦ °æÇèÇØº¸¼¼¿ä.</p>
+	          <p class="sub_txt">ëƒ‰ë™ê³µì¡° í†µí•©í”Œëž«í¼</p>
+	          <p class="main_txt">COOLINIC</p>
+	          <p class="detail_txt">ê°€ìž¥ ê°„íŽ¸í•˜ê³  í™•ì‹¤í•œ A/S ì„œë¹„ìŠ¤<br>ì¿¨ë¦¬ë‹‰ì„ ê²½í—˜í•´ë³´ì„¸ìš”.</p>
 	        </div>
-	        <p class="explanation_txt">Á¦ÁÖµµ ¿ùÁ¤¸® ºù°í ¼³Ä¡ »ç·Ê</p>
+	        <p class="explanation_txt">ì œì£¼ë„ ì›”ì •ë¦¬ ë¹™ê³  ì„¤ì¹˜ ì‚¬ë¡€</p>
 	      </div>
 	      <!--
 	      <div class="bxslider">
 	        <div> 
-	          <img src="images/main.png" alt="Á¦ÁÖµµ ¿ùÁ¤¸® ºù°í ¼³Ä¡ »ç·Ê" class="main_img_pc">
-	          <img src="images/main_mobile.png" alt="Á¦ÁÖµµ ¿ùÁ¤¸® ºù°í ¼³Ä¡ »ç·Ê ¸ð¹ÙÀÏ¹öÀü" class="main_img_mobile">
+	          <img src="images/main.png" alt="ì œì£¼ë„ ì›”ì •ë¦¬ ë¹™ê³  ì„¤ì¹˜ ì‚¬ë¡€" class="main_img_pc">
+	          <img src="images/main_mobile.png" alt="ì œì£¼ë„ ì›”ì •ë¦¬ ë¹™ê³  ì„¤ì¹˜ ì‚¬ë¡€ ëª¨ë°”ì¼ë²„ì „" class="main_img_mobile">
 	          <div class="txt">
-	            <p class="sub_txt">Àú¿ÂÃ¢°í°¡ ÇÊ¿äÇÑ ¼ø°£,</p>
+	            <p class="sub_txt">ì €ì˜¨ì°½ê³ ê°€ í•„ìš”í•œ ìˆœê°„,</p>
 	            <p class="main_txt">VINGO</p>
-	            <p class="detail_txt">°¡Àå °£ÆíÇÑ ¸¶ÀÌÅ©·Î ÄÝµåÃ¼ÀÎ ½ºÅä¸®Áö ¼­ºñ½º<br>ºù°í¸¦ °æÇèÇØº¸¼¼¿ä.</p>
+	            <p class="detail_txt">ê°€ìž¥ ê°„íŽ¸í•œ ë§ˆì´í¬ë¡œ ì½œë“œì²´ì¸ ìŠ¤í† ë¦¬ì§€ ì„œë¹„ìŠ¤<br>ë¹™ê³ ë¥¼ ê²½í—˜í•´ë³´ì„¸ìš”.</p>
 	          </div>
-	          <p class="explanation_txt">Á¦ÁÖµµ ¿ùÁ¤¸® ºù°í ¼³Ä¡ »ç·Ê</p>
+	          <p class="explanation_txt">ì œì£¼ë„ ì›”ì •ë¦¬ ë¹™ê³  ì„¤ì¹˜ ì‚¬ë¡€</p>
 	        </div>-->
 	      </div>
 	  </header>
 	  <section id="sec01"> 
 	    <div class="Characteristics_box">
-	      <img src="/assert/images/Characteristics01.png" alt="ºù°í Àü´ã ¸Å´ÏÀú °í°´¼­ºñ½º ÀÌ¹ÌÁö">
-	      <div class="bk_box">
+	      <img src="/assert/images/Characteristics01.png" alt="ë¹™ê³  ì „ë‹´ ë§¤ë‹ˆì € ê³ ê°ì„œë¹„ìŠ¤ ì´ë¯¸ì§€">
+	      <a href="#">
+	      	<div class="bk_box">
 	        <div class="text_box">
-	          <p class="main">ºù°í ¸Å´ÏÀú Áö¿øÀ¸·Î<br>Æí¸®ÇÏ°Ô ºù°í¸¦ ¸ÂÀÌÇÏ¼¼¿ä.</p>
-	          <p class="sub">»ó´ãºÎÅÍ ¼³Ä¡ ¹× ±³À°±îÁö Àü´ã ¸Å´ÏÀú°¡<br>¸ðµç °úÁ¤À» Ä£ÀýÇÏ°í Á¤È®ÇÏ°Ô ¾È³»ÇØ µå¸³´Ï´Ù.</p>
+	          <p class="main">ì†Œë¹„ìžì˜ ê¸´ê¸‰ A/SëŠ” ë¬¼ë¡ ,<br>ì œì¡°ì‚¬ì˜ A/S ëŒ€í–‰ë„ ê°„íŽ¸í•©ë‹ˆë‹¤.<br><br></p>
+	          <p class="sub">ì „êµ­ 2500ê°œì‚¬ ì¿¨ë¦¬ë‹‰ íŒŒíŠ¸ë„ˆë¡œ êµ¬ì„± ëœ<br>ë„¤íŠ¸ì›Œí¬ë¡œ ë¹ ë¥´ê²Œ A/Së¥¼ ì§€ì›í•©ë‹ˆë‹¤.<br><br>
+				<span class="moreBtn_sv">ë” ë³´ëŸ¬ ê°€ê¸° +</span>
+	          </p>
 	        </div>
-	      </div>
+	       </div>
+	      </a>
 	    </div>
 	    <div class="Characteristics_box">
-	      <img src="/assert/images/Characteristics02.png" alt="ºù°í °è¾à ÀÌ¹ÌÁö">
+	      <img src="/assert/images/Characteristics02.png" alt="ë¹™ê³  ê³„ì•½ ì´ë¯¸ì§€">
+	      <a href="#">
 	      <div class="bk_box">
 	        <div class="text_box">
-	          <p class="main">º¸Áõ±Ý°ú À§¾à±Ý ¾ø´Â<br>ºù°í¸¦ ¼±ÅÃÇÏ¼¼¿ä.</p>
-	          <p class="sub">ÀÓ´ëº¸Áõ±Ý°ú ÇØÁöÀ§¾à±ÝÀÌ ¾ø´Â ÇÕ¸®ÀûÀÎ<br>°¡°ÝÀ¸·Î ÀÓ´ë ¼­ºñ½º¸¦ Á¦°øÇÕ´Ï´Ù.</p>
+	          <p class="main">ëª¨ë“  ì •ë³´Â·ì´ë ¥ ê´€ë¦¬ëŠ”<br>í•„ìˆ˜ ìž…ë‹ˆë‹¤.<br><br></p>
+	          <p class="sub">ì„¤ì¹˜ ì™„ë£Œ ì‹œì ë¶€í„° ëª¨ë“  ê³ ìž¥ì´ë ¥ì„ ì¶”ì í•˜ì—¬<br>ì‚¬í›„ê´€ë¦¬ ì„œë¹„ìŠ¤ë¥¼ ì œê³µí•©ë‹ˆë‹¤.<br><br>
+	          	<span class="moreBtn_sv">ë” ë³´ëŸ¬ ê°€ê¸° +</span>
+	          </p>
 	        </div>
 	      </div>
+	     </a>
 	    </div>
 	    <div class="Characteristics_box">
-	      <img src="/assert/images/Characteristics03.png" alt="ºù°í ¸ð´ÏÅÍ¸µ ÀÌ¹ÌÁö">
+	      <img src="/assert/images/Characteristics03.png" alt="ë¹™ê³  ëª¨ë‹ˆí„°ë§ ì´ë¯¸ì§€">
+	     <a href="#">
 	      <div class="bk_box">
 	        <div class="text_box">
-	          <p class="main">ºù°í Live ¼­ºñ½º·Î<br>°íÀå °ÆÁ¤¾øÀÌ ÆíÈ÷ ÁÖ¹«¼¼¿ä.</p>
-	          <p class="sub">°íÀå ¹ß»ý ½Ã 24½Ã°£ ºù°í ¸ð´ÏÅÍ¸µ ¼¾¼­°¡<br>¸ÕÀú ¾Ë·Áµå¸®°í ±ä±Þ Á¶Ä¡±îÁö Áö¿øÇÕ´Ï´Ù.</p>
+	          <p class="main">ì¿¨ë¦¬ë‹‰ ADS ì„œë¹„ìŠ¤ë¡œ<br>ì§ì ‘ í™•ì¸í•˜ì„¸ìš”.<br><br></p>
+	          <p class="sub">ìƒ(ì–¼ìŒ)ì˜ ì—¬ë¶€ë¥¼ ëª¨ë‹ˆí„°ë§í•˜ì—¬<br>ì¸ê³µì§€ëŠ¥ ì œìƒ ìž‘ì—…ì„ í†µí•´ ì§ì ‘ ì œì–´í•©ë‹ˆë‹¤.<br><br>
+	          	<span class="moreBtn_sv">ë” ë³´ëŸ¬ ê°€ê¸° +</span>
+	          </p>
 	        </div>
 	      </div>
+	     </a>
 	    </div>
 	  </section>
 	  <section id="sec02">
 	    <div class="cont_box">
 	      <div>
 	        <!--<h2>VINGO <span class="vingo_color">LIVE</span></h2>-->
-	        <h2><img src="/assert/images/VINGO_LIVE_LOGO.png" alt="ºù°í ¶óÀÌºê ·Î°í"></h2>
-	        <p>¾ðÁ¦ ¾îµð¼­³ª ³» ¼Õ ¾ÈÀÇ ºù°í¶óÀÌºê·Î ¿Âµµ¸¦ È®ÀÎÇÏ¼¼¿ä.<br>ºù°í¶óÀÌºê´Â ½Ç½Ã°£ ¿Âµµ¿Í °íÀå ¾Ë¶÷À» Á¦°øÇÕ´Ï´Ù.</p>
+	        <h2><img src="/assert/images/VINGO_LIVE_LOGO.png" alt="ë¹™ê³  ë¼ì´ë¸Œ ë¡œê³ "></h2>
+	        <p>ì´ˆê¸°ë¹„ìš©ì— ëŒ€í•œ ë¶€ë‹´ì„ í™• ì¤„ì—¬ë“œë¦½ë‹ˆë‹¤.<br>ì¿¨ë¦¬ë‹‰ ë Œíƒˆì€ RMS, AS ê¸°ìˆ ë ¥ ê¸°ë°˜ìœ¼ë¡œ ì¼€ì–´ ì„œë¹„ìŠ¤ í•©ë‹ˆë‹¤.</p>
 	        <div class="moreBtnBox">
-	          <p class="moreBtn"><a href="/vingolive">´õ º¸·¯ °¡±â +</a></p>
+	          <p class="moreBtn"><a href="/vingolive">ë” ë³´ëŸ¬ ê°€ê¸° +</a></p>
 	        </div>
 	      </div>
-	      <img src="/assert/images/vingo_live.png" alt="ºù°í ¸ð´ÏÅÍ¸µ À¥, ºù°í ¸ð¹ÙÀÏ ¾Û ÀÌ¹ÌÁö" class="slide-bottom" style="opacity: 1;"> 
+	      <img src="/assert/images/vingo_live.png" alt="ë¹™ê³  ëª¨ë‹ˆí„°ë§ ì›¹, ë¹™ê³  ëª¨ë°”ì¼ ì•± ì´ë¯¸ì§€" class="slide-bottom" style="opacity: 1;"> 
 	    </div>
 	  </section>
 	  <section id="sec03">
 	    <div class="cont_box">
 	      <div class="tab_content_box">
-	        <h2 class="sec_tit">ºù°í ÄÁÅ×ÀÌ³Ê´Â</h2>
-	        <p class="sec_sub">ÄÁÅ×ÀÌ³Ê º° »çÀÌÁî ¹× ±âÅ¸ Á¤º¸µéÀ» Á¤È®ÇÏ°Ô È®ÀÎÇØÁÖ¼¼¿ä.</p>
+	        <h2 class="sec_tit">ì¿¨ë¦¬ë‹‰ ë Œíƒˆì€</h2>
+	        <p class="sec_sub">ì‚¬ì´ì¦ˆ ë° ê¸°íƒ€ ì •ë³´ë“¤ì„ ì •í™•í•˜ê²Œ í™•ì¸í•´ì£¼ì„¸ìš”.</p>
 	        <ul id="tab_btn_box">
 	          <li id="tab_btn01" class="tab_btn on_tab">
 	          	<span>Standard</span><br>
-	          	20ft
+	          	ëƒ‰ìž¥
 	          </li>
 	          <li id="tab_btn02" class="tab_btn">
 	          	<span>Standard</span><br>
-	          	40ft
+	          	ëƒ‰ë™
 	          </li>
 	          <li id="tab_btn03" class="tab_btn">
-	          	<span>Eco</span><br>
-	          	20ft
+	          	<span>Standard</span><br>
+	          	ëƒ‰í’ê±´ì¡°ê¸°
 	          </li>
 	        </ul>
-	        <div id="tab_cont01" class="tab_cont">
-	          <table class="container_size">
-	            <th></th>
-	            <th>³»ºÎ<span class="unit">(m)</span></th>
-	            <th>¿ÜºÎ<span class="unit">(m)</span></th>
-	            <th>°³±¸ºÎ<span class="unit">(m)</span></th>
+	        
+	        <!-- Table í‘œ.1 -->
+	        <div id="tab_cont01" class="tab_cont ">
+	          <table id="tb01" class="scrolltable container_size">
+	           <thead>
+		            <th>í‰ìˆ˜</th>
+		            <th>ì‚¬ì´ì¦ˆ<span class="unit">(mm)</span></th>
+		            <th>ì›” ë Œíƒˆê°€</th>
+		            <th>ê°„íŽ¸ ê²¬ì </th>
+	            </thead>
+	            <tbody>
 	            <tr>
-	              <td>±æÀÌ</td>
-	              <td>5.5</td>
-	              <td>6.1</td>
-	              <td>-</td>
+	              <td class="psSize">2í‰</td>
+	              <td class="whlSize">3000 x 2200 x 2400</td>
+	              <td class="monthPrice">165,000ì›</td>
+	              <td><button>ì‹ ì²­í•˜ê¸°</button></td>
 	            </tr>
 	            <tr>
-	              <td>Æø</td>
-	              <td>2.3</td>
-	              <td>2.4</td>
-	              <td>2.4</td>
+	              <td class="psSize">3í‰</td>
+	              <td class="whlSize">4300 x 2300 x 2400</td>
+	              <td class="monthPrice">188,900ì›</td>
+	              <!-- <td><a href="#" class="btn-gradient green mini">ì‹ ì²­</a></td> -->
+	              <td><button>ì‹ ì²­í•˜ê¸°</button></td>
 	            </tr>
 	            <tr>
-	              <td>³ôÀÌ</td>
+	              <td class="psSize">4í‰</td>
+	              <td class="whlSize">5000 x 2600 x 2400</td>
+	              <td class="monthPrice">203,500ì›</td>
+	              <td><button>ì‹ ì²­í•˜ê¸°</button></td>
+	            </tr>
+	            <tr>
+	              <td class="psSize">5í‰</td>
+	              <td class="whlSize">5500 x 3000 x 2400</td>
+	              <td class="monthPrice">232,800ì›</td>
+	              <td><button>ì‹ ì²­í•˜ê¸°</button></td>
+	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
 	              <td>2.3</td>
 	              <td>2.6</td>
 	              <td>2.6</td>
 	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
+	              <td>2.3</td>
+	              <td>2.6</td>
+	              <td>2.6</td>
+	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
+	              <td>2.3</td>
+	              <td>2.6</td>
+	              <td>2.6</td>
+	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
+	              <td>2.3</td>
+	              <td>2.6</td>
+	              <td>2.6</td>
+	            </tr>
+	           </tbody>
 	          </table>
 	          <table class="container_etc">
-	            <th>°ø±Þ¿Âµµ<span class="unit">(¡É)</span></th>
-	            <th>Áß·®<span class="unit">(§¸)</span></th>
-	            <th>¿¬¸éÀû<span class="unit">(§©)</span></th>
+	            <th>ê³µê¸‰ì˜¨ë„<span class="unit">(â„ƒ)</span></th>
+	            <th>ì¤‘ëŸ‰<span class="unit">(ãŽ)</span></th>
+	            <th>ì—°ë©´ì <span class="unit">(ãŽ¥)</span></th>
 	            <tr>
 	              <td>- 30 ~ + 30</td>
 	              <td>27,480</td>
-	              <td>14.7<span class="unit">(¾à 4.5Æò)</span></td>
+	              <td>14.7<span class="unit">(ì•½ 4.5í‰)</span></td>
 	            </tr>
 	            <tr>
-	              <td colspan="3">¾Æ½Ã¾Æ Ç¥ÁØÆÄ·¿Æ® »çÀÌÁî ±âÁØ<span class="unit">(1.1m X 1.1m)</span> 8EA ÀûÀç °¡´É</td>
+	              <td colspan="3">ì•„ì‹œì•„ í‘œì¤€íŒŒë ›íŠ¸ ì‚¬ì´ì¦ˆ ê¸°ì¤€<span class="unit">(1.1m X 1.1m)</span> 8EA ì ìž¬ ê°€ëŠ¥</td>
 	            </tr>
 	          </table>
 	        </div>
+	        
+	        <!-- Table í‘œ.2 -->
 	        <div id="tab_cont02" class="tab_cont">
-	          <table class="container_size">
-	            <th></th>
-	            <th>³»ºÎ<span class="unit">(m)</span></th>
-	            <th>¿ÜºÎ<span class="unit">(m)</span></th>
-	            <th>°³±¸ºÎ<span class="unit">(m)</span></th>
+	          <table class="scrolltable container_size">
+	          <thead>
+	            <th>í‰ìˆ˜</th>
+	            <th>ì‚¬ì´ì¦ˆ<span class="unit">(m)</span></th>
+	            <th>ê¸ˆì•¡<br>(ì¼ì‹œê¸ˆ)</th>
+	            <th>ìƒì„¸ë³´ê¸°</th>
+	          </thead>
+	          <tbody>
 	            <tr>
-	              <td>±æÀÌ</td>   
+	              <td>ê¸¸ì´</td>   
 	              <td>11.6</td>
 	              <td>12.2</td>
 	              <td>-</td>
 	            </tr>
 	            <tr>
-	              <td>Æø</td>
+	              <td>í­</td>
 	              <td>2.3</td>
 	              <td>2.4</td>
 	              <td>2.3</td>
 	            </tr>
 	            <tr>
-	              <td>³ôÀÌ</td>
+	              <td>ë†’ì´</td>
 	              <td>2.5</td>
 	              <td>2.9</td>
 	              <td>2.6</td>
 	            </tr>
+	            <tr>
+	              <td>í­</td>
+	              <td>2.3</td>
+	              <td>2.4</td>
+	              <td>2.4</td>
+	            </tr>
+	            <tr>
+	              <td>í­</td>
+	              <td>2.3</td>
+	              <td>2.4</td>
+	              <td>2.4</td>
+	            </tr>
+	           </tbody>
 	          </table>
 	          <table class="container_etc">
-	            <th>°ø±Þ¿Âµµ<span class="unit">(¡É)</span></th>
-	            <th>Áß·®<span class="unit">(§¸)</span></th>
-	            <th>¿¬¸éÀû<span class="unit">(§©)</span></th>
+	            <th>ê³µê¸‰ì˜¨ë„<span class="unit">(â„ƒ)</span></th>
+	            <th>ì¤‘ëŸ‰<span class="unit">(ãŽ)</span></th>
+	            <th>ì—°ë©´ì <span class="unit">(ãŽ¥)</span></th>
 	            <tr>
 	              <td>- 30 ~ + 30</td>
 	              <td>29,580</td>
-	              <td>26.62<span class="unit">(¾à 9Æò)</span></td>
+	              <td>26.62<span class="unit">(ì•½ 9í‰)</span></td>
 	            </tr>
 	            <tr>
-	              <td colspan="3">¾Æ½Ã¾Æ Ç¥ÁØÆÄ·¿Æ® »çÀÌÁî ±âÁØ<span class="unit">(1.1m X 1.1m)</span> 16EA ÀûÀç °¡´É</td>
+	              <td colspan="3">ì•„ì‹œì•„ í‘œì¤€íŒŒë ›íŠ¸ ì‚¬ì´ì¦ˆ ê¸°ì¤€<span class="unit">(1.1m X 1.1m)</span> 16EA ì ìž¬ ê°€ëŠ¥</td>
 	            </tr>
 	          </table>
 	        </div>
+	        
+	        <!-- Table í‘œ.3 -->
 	        <div id="tab_cont03" class="tab_cont">
-	          <table class="container_size">
-	            <th></th>
-	            <th>³»ºÎ<span class="unit">(m)</span></th>
-	            <th>¿ÜºÎ<span class="unit">(m)</span></th>
-	            <th>°³±¸ºÎ<span class="unit">(m)</span></th>
+	          <table class="scrolltable container_size">
+	          <thead>
+	            <th>í‰ìˆ˜</th>
+	            <th>ì‚¬ì´ì¦ˆ<span class="unit">(m)</span></th>
+	            <th>ê¸ˆì•¡<br>(ì¼ì‹œê¸ˆ)</th>
+	            <th>ìƒì„¸ë³´ê¸°</th>
+	          </thead>
+	          <tbody>
 	            <tr>
-	              <td>±æÀÌ</td>   
+	              <td>ê¸¸ì´</td>   
 	              <td>5.5</td>
 	              <td>6.7</td>
 	              <td>-</td>
 	            </tr>
 	            <tr>
-	              <td>Æø</td>
+	              <td>í­</td>
 	              <td>2.3</td>
 	              <td>2.4</td>
 	              <td>2.4</td>
 	            </tr>
 	            <tr>
-	              <td>³ôÀÌ</td>
+	              <td>í­</td>
+	              <td>2.3</td>
+	              <td>2.4</td>
+	              <td>2.4</td>
+	            </tr>
+	            <tr>
+	              <td>í­</td>
+	              <td>2.3</td>
+	              <td>2.4</td>
+	              <td>2.4</td>
+	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
 	              <td>2.3</td>
 	              <td>2.6</td>
 	              <td>2.6</td>
 	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
+	              <td>2.3</td>
+	              <td>2.6</td>
+	              <td>2.6</td>
+	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
+	              <td>2.3</td>
+	              <td>2.6</td>
+	              <td>2.6</td>
+	            </tr>
+	            <tr>
+	              <td>ë†’ì´</td>
+	              <td>2.3</td>
+	              <td>2.6</td>
+	              <td>2.6</td>
+	            </tr>
+               </tbody>
 	          </table>
 	          <table class="container_etc">
-	            <th>°ø±Þ¿Âµµ<span class="unit">(¡É)</span></th>
-	            <th>Áß·®<span class="unit">(§¸)</span></th>
-	            <th>¿¬¸éÀû<span class="unit">(§©)</span></th>
+	            <th>ê³µê¸‰ì˜¨ë„<span class="unit">(â„ƒ)</span></th>
+	            <th>ì¤‘ëŸ‰<span class="unit">(ãŽ)</span></th>
+	            <th>ì—°ë©´ì <span class="unit">(ãŽ¥)</span></th>
 	            <tr>
 	              <td>- 20 ~ + 20</td>
 	              <td>27,480</td>
-	              <td>14.7<span class="unit">(¾à 4.5Æò)</span></td>
+	              <td>14.7<span class="unit">(ì•½ 4.5í‰)</span></td>
 	            </tr>
 	            <tr>
-	              <td colspan="3">¾Æ½Ã¾Æ Ç¥ÁØÆÄ·¿Æ® »çÀÌÁî ±âÁØ<span class="unit">(1.1m X 1.1m)</span> 8EA ÀûÀç °¡´É</td>
+	              <td colspan="3">ì•„ì‹œì•„ í‘œì¤€íŒŒë ›íŠ¸ ì‚¬ì´ì¦ˆ ê¸°ì¤€<span class="unit">(1.1m X 1.1m)</span> 8EA ì ìž¬ ê°€ëŠ¥</td>
 	            </tr>
 	          </table>
 	        </div>
 	      </div>
+	      
 	      <div class="tab_img_box">
 	        <div id="tab_img01" class="tab_img">
-	          <img src="/assert/images/size_vs_20.png" alt="vingo standard 20ft ºù°í ÄÁÅ×ÀÌ³Ê ÀÌ¹ÌÁö">
+	          <img src="/assert/images/size_vs_20.png" alt="vingo standard 20ft ë¹™ê³  ì»¨í…Œì´ë„ˆ ì´ë¯¸ì§€">
 	        </div>
 	        <div id="tab_img02" class="tab_img">
-	          <img src="/assert/images/size_vs_40.png" alt="vingo standard 40ft ºù°í ÄÁÅ×ÀÌ³Ê ÀÌ¹ÌÁö">
+	          <img src="/assert/images/size_vs_40.png" alt="vingo standard 40ft ë¹™ê³  ì»¨í…Œì´ë„ˆ ì´ë¯¸ì§€">
 	        </div>
 	        <div id="tab_img03" class="tab_img">
-	          <img src="/assert/images/size_ve_20.png" alt="vingo eco 20ft ºù°í ÄÁÅ×ÀÌ³Ê ÀÌ¹ÌÁö">
+	          <img src="/assert/images/size_ve_20.png" alt="vingo eco 20ft ë¹™ê³  ì»¨í…Œì´ë„ˆ ì´ë¯¸ì§€">
 	        </div> 
 	      </div>
 	    </div>
@@ -281,207 +422,207 @@
 	      <div class="item_box01">
 	        <div class="item slide-bottom" id="item01">
 	          <div>
-	            <img src="/assert/images/how_to_01.png" alt="ºù°í ¼³Ä¡ Á¶°Ç È®ÀÎ ¾ÆÀÌÄÜ">
+	            <img src="/assert/images/how_to_01.png" alt="ë¹™ê³  ì„¤ì¹˜ ì¡°ê±´ í™•ì¸ ì•„ì´ì½˜">
 	          </div>
-	          <h3><span>1.</span>¼³Ä¡ Á¶°Ç È®ÀÎ</h3>
-	          <p>¼³Ä¡ È¯°æ¿¡ µû¶ó ºù°í ÀÌ¿ëÀÌ Á¦ÇÑµÉ ¼ö ÀÖ½À´Ï´Ù.<br>¼³Ä¡ Àü ÇÊ¼ö È®ÀÎ»çÇ×À» ²À È®ÀÎÇØÁÖ¼¼¿ä!</p>
+	          <h3><span>1.</span>ì„¤ì¹˜ ì¡°ê±´ í™•ì¸</h3>
+	          <p>ì„¤ì¹˜ í™˜ê²½ì— ë”°ë¼ ë¹™ê³  ì´ìš©ì´ ì œí•œë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.<br>ì„¤ì¹˜ ì „ í•„ìˆ˜ í™•ì¸ì‚¬í•­ì„ ê¼­ í™•ì¸í•´ì£¼ì„¸ìš”!</p>
 	        </div>
 	        <div class="arr_box slide-bottom" id="arr_box01">
-	          <img src="/assert/images/arr.png" alt="È­»ìÇ¥ ¾ÆÀÌÄÜ">
+	          <img src="/assert/images/arr.png" alt="í™”ì‚´í‘œ ì•„ì´ì½˜">
 	        </div>
 	        <div class="item slide-bottom" id="item02">
 	          <div>
-	            <img src="/assert/images/how_to_02.png" alt="°ßÀû ³»±â ¾ÆÀÌÄÜ">
+	            <img src="/assert/images/how_to_02.png" alt="ê²¬ì  ë‚´ê¸° ì•„ì´ì½˜">
 	          </div>
-	          <h3><span>2.</span>¿Â¶óÀÎ °ßÀû</h3>
-	          <p>°í°´´Ô²²¼­ ¿øÇÏ½Ã´Â ºù°í ¼­ºñ½º¸¦<br>°£ÆíÇÏ°í ºü¸£°Ô °ßÀû ¹Þ¾ÆÁÖ¼¼¿ä.</p>
+	          <h3><span>2.</span>ì˜¨ë¼ì¸ ê²¬ì </h3>
+	          <p>ê³ ê°ë‹˜ê»˜ì„œ ì›í•˜ì‹œëŠ” ë¹™ê³  ì„œë¹„ìŠ¤ë¥¼<br>ê°„íŽ¸í•˜ê³  ë¹ ë¥´ê²Œ ê²¬ì  ë°›ì•„ì£¼ì„¸ìš”.</p>
 	        </div>
 	        <div class="arr_box slide-bottom" id="arr_box01">
-	          <img src="/assert/images/arr.png" alt="È­»ìÇ¥ ¾ÆÀÌÄÜ"> 
+	          <img src="/assert/images/arr.png" alt="í™”ì‚´í‘œ ì•„ì´ì½˜"> 
 	        </div>
 	        <div class="item slide-bottom" id="item03">
 	          <div>
-	            <img src="/assert/images/how_to_03.png" alt="À¯¼± »ó´ã ¾ÆÀÌÄÜ">
+	            <img src="/assert/images/how_to_03.png" alt="ìœ ì„  ìƒë‹´ ì•„ì´ì½˜">
 	          </div>
-	          <h3><span>3.</span>°è¾à »ó´ã</h3>
-	          <p>°í°´´Ô²²¼­ ÀÛ¼ºÇØÁÖ½Å °ßÀûÀ¸·Î<br>»ó´ãºÎÅÍ °è¾à±îÁö Ä£ÀýÇÏ°Ô ¾È³»ÇØµå¸³´Ï´Ù.</p>
+	          <h3><span>3.</span>ê³„ì•½ ìƒë‹´</h3>
+	          <p>ê³ ê°ë‹˜ê»˜ì„œ ìž‘ì„±í•´ì£¼ì‹  ê²¬ì ìœ¼ë¡œ<br>ìƒë‹´ë¶€í„° ê³„ì•½ê¹Œì§€ ì¹œì ˆí•˜ê²Œ ì•ˆë‚´í•´ë“œë¦½ë‹ˆë‹¤.</p>
 	        </div>
 	        <div class="arr_box slide-bottom" id="arr_box01">
-	          <img src="/assert/images/arr.png" alt="È­»ìÇ¥ ¾ÆÀÌÄÜ">
+	          <img src="/assert/images/arr.png" alt="í™”ì‚´í‘œ ì•„ì´ì½˜">
 	        </div>
 	        <div class="item slide-bottom" id="item04">
 	          <div>
-	            <img src="/assert/images/how_to_04.png" alt="¿Â¶óÀÎ °è¾à ¾ÆÀÌÄÜ">
+	            <img src="/assert/images/how_to_04.png" alt="ì˜¨ë¼ì¸ ê³„ì•½ ì•„ì´ì½˜">
 	          </div>
-	          <h3><span>4.</span>¿Â¶óÀÎ °è¾à</h3>
-	          <p>¸ðµÎ»çÀÎÀ» ÅëÇØ ½±°í °£ÆíÇÏ°Ô<br>°è¾àÀ» ÁøÇàÇÕ´Ï´Ù.</p>
+	          <h3><span>4.</span>ì˜¨ë¼ì¸ ê³„ì•½</h3>
+	          <p>ëª¨ë‘ì‚¬ì¸ì„ í†µí•´ ì‰½ê³  ê°„íŽ¸í•˜ê²Œ<br>ê³„ì•½ì„ ì§„í–‰í•©ë‹ˆë‹¤.</p>
 	        </div>      
 	      </div>
 	      <div class="item_box02">
-	        <h3>¼³Ä¡ Àü, <span><span>²À!</span> È®ÀÎÇØÁÖ¼¼¿ä.</span></h3>
+	        <h3>ì„¤ì¹˜ ì „, <span><span>ê¼­!</span> í™•ì¸í•´ì£¼ì„¸ìš”.</span></h3>
 	        <ul>
-	          <li>3»ó 380V Àü±â°ø±Þ ¶Ç´Â ¼³Ä¡°¡ °¡´ÉÇÑÁö È®ÀÎÇØÁÖ¼¼¿ä.</li>
-	          <li>°¢ ½Ã±¸±ºÃ» °ÇÃà¹Î¿ø°ú¸¦ ÅëÇØ ÄÁÅ×ÀÌ³Ê ¼³Ä¡ °¡´É ÅäÁö È®ÀÎÀ» ÇØÁÖ¼¼¿ä.</li>
-	          <li>ÄÁÅ×ÀÌ³Ê°¡ ¼³Ä¡µÉ ¼ö ÀÖ´Â ¸éÀûÀ» È®º¸ÇØÁÖ¼¼¿ä.</li>
-	          <li>20ftÀÇ °æ¿ì 5Åæ Æ®·°, 40ftÀÇ °æ¿ì ÄÁÅ×ÀÌ³Ê Æ®·¹ÀÏ·¯ ÁøÀÔÀÌ °¡´ÉÇÑÁö È®ÀÎÇØÁÖ¼¼¿ä.</li>
-	          <li>7Åæ Áö°ÔÂ÷°¡ ÁøÀÔÀÌ °¡´ÉÇÏ°í, ¿î¿ëÇÒ ¼ö ÀÖ´ÂÁö È®ÀÎÇØÁÖ¼¼¿ä.</li>
+	          <li>3ìƒ 380V ì „ê¸°ê³µê¸‰ ë˜ëŠ” ì„¤ì¹˜ê°€ ê°€ëŠ¥í•œì§€ í™•ì¸í•´ì£¼ì„¸ìš”.</li>
+	          <li>ê° ì‹œêµ¬êµ°ì²­ ê±´ì¶•ë¯¼ì›ê³¼ë¥¼ í†µí•´ ì»¨í…Œì´ë„ˆ ì„¤ì¹˜ ê°€ëŠ¥ í† ì§€ í™•ì¸ì„ í•´ì£¼ì„¸ìš”.</li>
+	          <li>ì»¨í…Œì´ë„ˆê°€ ì„¤ì¹˜ë  ìˆ˜ ìžˆëŠ” ë©´ì ì„ í™•ë³´í•´ì£¼ì„¸ìš”.</li>
+	          <li>20ftì˜ ê²½ìš° 5í†¤ íŠ¸ëŸ­, 40ftì˜ ê²½ìš° ì»¨í…Œì´ë„ˆ íŠ¸ë ˆì¼ëŸ¬ ì§„ìž…ì´ ê°€ëŠ¥í•œì§€ í™•ì¸í•´ì£¼ì„¸ìš”.</li>
+	          <li>7í†¤ ì§€ê²Œì°¨ê°€ ì§„ìž…ì´ ê°€ëŠ¥í•˜ê³ , ìš´ìš©í•  ìˆ˜ ìžˆëŠ”ì§€ í™•ì¸í•´ì£¼ì„¸ìš”.</li>
 	        </ul>
 	      </div>
 	    </div>
 	  </section>
 	  <section id="sec05">
 	    <div class="cont_box">
-	      <h3 class="sec_tit"><span>VINGO's</span> Client</h3>
-	      <p class="sec_sub">½º¸¶Æ®ÇÑ ºù°í¿Í ÇÔ²²ÇÏ°í ÀÖ½À´Ï´Ù.<br>±âÁ¸ ÄÝµå½ºÅä¸®Áö¿Í ºñ±³ÇÒ ¼ö ¾ø´Â IT±â¹ÝÀÇ ¼­ºñ½º¸¦ ¸¸³ªº¸¼¼¿ä.</p>
+	      <h3 class="sec_tit"><span>COOLINIC's</span> Client</h3>
+	      <p class="sec_sub">ìŠ¤ë§ˆíŠ¸í•œ ë¹™ê³ ì™€ í•¨ê»˜í•˜ê³  ìžˆìŠµë‹ˆë‹¤.<br>ê¸°ì¡´ ì½œë“œìŠ¤í† ë¦¬ì§€ì™€ ë¹„êµí•  ìˆ˜ ì—†ëŠ” ITê¸°ë°˜ì˜ ì„œë¹„ìŠ¤ë¥¼ ë§Œë‚˜ë³´ì„¸ìš”.</p>
 	      <ul>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ¹ÙÀÌ¿ÀÀÏ·¹ºì ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç Á¶±¤ÆäÀÎÆ® ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç Á¶¼±´ëÇÐ±³º´¿ø ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç CJ·ÎÁöÆ½½º ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ÄíÅ·½ºÅä¸® ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ÀÌ¿£¿¡ÇÁÅ×Å©³î¸®Áö ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ÀÍ½ºÆ®¶õ½º±Û·Î¹ú ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ÇÁ·¹½¬¸àÅä ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ¿Õ»õ¿ì°¡·æ¼ö»ê ·Î°í"></li>
-			<li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ÇÑ»ì¸² ·Î°í"></li>
-			<li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ÇÑÇ° ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç È¨ÇÃ·¯½º ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç È­¿ä ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ¾ÆÀÌ½ºÆÑÅä¸® ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ÀÌ»èÅä½ºÆ® ·Î°í"></li>	
-	        <li><img src=/assert/images/client_bioeleven.png alt="ºù°í °í°´»ç ¸¶¿ÕÁ·¹ß ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ³ó°¡»ì¸®±â ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç »ï¼ºÀü±â ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç »ï¼ºÀ£½ºÅä¸® ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç SK³Ø½Ç¸®½º ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ¿¡½º·¦ ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ½ºÀ§Æ®º£³× ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç À§Äî ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ¿ë¸¶·ÎÁö½º ·Î°í"></li>
-	        <li><img src="/assert/images/client_bioeleven.png" alt="ºù°í °í°´»ç ¿¬¼¼¿ìÀ¯ ·Î°í"></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ë°”ì´ì˜¤ì¼ë ˆë¸ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì¡°ê´‘íŽ˜ì¸íŠ¸ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì¡°ì„ ëŒ€í•™êµë³‘ì› ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ CJë¡œì§€í‹±ìŠ¤ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì¿ í‚¹ìŠ¤í† ë¦¬ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì´ì—”ì—í”„í…Œí¬ë†€ë¦¬ì§€ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ìµìŠ¤íŠ¸ëž€ìŠ¤ê¸€ë¡œë²Œ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ í”„ë ˆì‰¬ë©˜í†  ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì™•ìƒˆìš°ê°€ë£¡ìˆ˜ì‚° ë¡œê³ "></li>
+			<li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ í•œì‚´ë¦¼ ë¡œê³ "></li>
+			<li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ í•œí’ˆ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ í™ˆí”ŒëŸ¬ìŠ¤ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ í™”ìš” ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì•„ì´ìŠ¤íŒ©í† ë¦¬ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì´ì‚­í† ìŠ¤íŠ¸ ë¡œê³ "></li>	
+	        <li><img src=/assert/images/client_bioeleven.png alt="ë¹™ê³  ê³ ê°ì‚¬ ë§ˆì™•ì¡±ë°œ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ë†ê°€ì‚´ë¦¬ê¸° ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì‚¼ì„±ì „ê¸° ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì‚¼ì„±ì›°ìŠ¤í† ë¦¬ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ SKë„¥ì‹¤ë¦¬ìŠ¤ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì—ìŠ¤ëž© ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ìŠ¤ìœ„íŠ¸ë² ë„¤ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ìœ„ì¿¡ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ìš©ë§ˆë¡œì§€ìŠ¤ ë¡œê³ "></li>
+	        <li><img src="/assert/images/client_bioeleven.png" alt="ë¹™ê³  ê³ ê°ì‚¬ ì—°ì„¸ìš°ìœ  ë¡œê³ "></li>
 	      </ul>
 	    </div>
 	  </section>
 	  <section id="sec06">
-	    <h3 class="sec_tit">ÀÚÁÖ ¹¯´Â Áú¹®</h3>
+	    <h3 class="sec_tit">ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸</h3>
 	    <div class="cont_box">
 	      <div class="qa_box slide-bottom" id="qa01">
 	        <div class="question_box">
-	          <p class="question">Q. ÁÖ¹® ÈÄ ¹è¼Û±îÁö ¾ó¸¶³ª ¼Ò¿äµÉ±î¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ì£¼ë¬¸ í›„ ë°°ì†¡ê¹Œì§€ ì–¼ë§ˆë‚˜ ì†Œìš”ë ê¹Œìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">°è¾à ÈÄ 7ÀÏ ÀüÈÄ·Î ¹è¼ÛÀÌ ¿Ï·áµË´Ï´Ù.<br><span>(Ãß°¡ Á¦ÀÛÀÇ·Ú ¹× ±â»ó»óÈ²¿¡ µû¶ó Áö¿¬µÉ ¼ö ÀÖÀ¸¸ç, Á¦ÁÖµµ µî µµ¼­ Áö¿ªÀº ÇØ»ó¿îµ¿ ½ºÄÉÁÙ¿¡ µû¸§.)</span></p>
+	            <p class="answer">ê³„ì•½ í›„ 7ì¼ ì „í›„ë¡œ ë°°ì†¡ì´ ì™„ë£Œë©ë‹ˆë‹¤.<br><span>(ì¶”ê°€ ì œìž‘ì˜ë¢° ë° ê¸°ìƒìƒí™©ì— ë”°ë¼ ì§€ì—°ë  ìˆ˜ ìžˆìœ¼ë©°, ì œì£¼ë„ ë“± ë„ì„œ ì§€ì—­ì€ í•´ìƒìš´ë™ ìŠ¤ì¼€ì¤„ì— ë”°ë¦„.)</span></p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa02">
 	        <div class="question_box">
-	          <p class="question">Q. ºù°í ÄÁÅ×ÀÌ³Ê »ç¿ë ½Ã ÇÊ¿äÇÑ Àü±â¿Í ¿ë·®Àº ¾î¶»°Ô µÇ³ª¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ë¹™ê³  ì»¨í…Œì´ë„ˆ ì‚¬ìš© ì‹œ í•„ìš”í•œ ì „ê¸°ì™€ ìš©ëŸ‰ì€ ì–´ë–»ê²Œ ë˜ë‚˜ìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ºù°í ÄÁÅ×ÀÌ³Ê´Â 3»ó 380V Àü±â, ¾à 8~10§Ò/h¸¦ ÇÊ¿ä·Î ÇÏ¸ç, ºù°í¿¡¼­´Â º°µµÀÇ Àü±â°ø»ç¸¦ µû·Î ÇØµå¸®Áö ¾Ê±â ¶§¹®¿¡ ºù°í ¼³Ä¡ ÀÌÀü¿¡ ÁÖº¯ Àü±â°ø»ç Àü¹®¾÷Ã¼¸¦ ÅëÇØ ¼³Ä¡¸¦ Èñ¸ÁÇÏ½Ã´Â °÷±îÁö Àü¿ø¹è¼± °ø»ç ¹× »ê¾÷¿ë ´©ÀüÂ÷´Ü±â/¹æ¼öÇÔÃ¼ ¼³Ä¡¸¦ ¹Ì¸® ¿Ï·áÇØ ÁÖ¼Å¾ß ÇÕ´Ï´Ù.</p>
+	            <p class="answer">ë¹™ê³  ì»¨í…Œì´ë„ˆëŠ” 3ìƒ 380V ì „ê¸°, ì•½ 8~10ãŽ¾/hë¥¼ í•„ìš”ë¡œ í•˜ë©°, ë¹™ê³ ì—ì„œëŠ” ë³„ë„ì˜ ì „ê¸°ê³µì‚¬ë¥¼ ë”°ë¡œ í•´ë“œë¦¬ì§€ ì•Šê¸° ë•Œë¬¸ì— ë¹™ê³  ì„¤ì¹˜ ì´ì „ì— ì£¼ë³€ ì „ê¸°ê³µì‚¬ ì „ë¬¸ì—…ì²´ë¥¼ í†µí•´ ì„¤ì¹˜ë¥¼ í¬ë§í•˜ì‹œëŠ” ê³³ê¹Œì§€ ì „ì›ë°°ì„  ê³µì‚¬ ë° ì‚°ì—…ìš© ëˆ„ì „ì°¨ë‹¨ê¸°/ë°©ìˆ˜í•¨ì²´ ì„¤ì¹˜ë¥¼ ë¯¸ë¦¬ ì™„ë£Œí•´ ì£¼ì…”ì•¼ í•©ë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa03">
 	        <div class="question_box">
-	          <p class="question">Q. ºù°í ÄÁÅ×ÀÌ³Ê ¼³Ä¡ °¡´É ¿©ºÎ¸¦ È®ÀÎÇÏ·Á¸é ¾î¶² °ÍÀ» È®ÀÎÇØ¾ßÇÏ³ª¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ë¹™ê³  ì»¨í…Œì´ë„ˆ ì„¤ì¹˜ ê°€ëŠ¥ ì—¬ë¶€ë¥¼ í™•ì¸í•˜ë ¤ë©´ ì–´ë–¤ ê²ƒì„ í™•ì¸í•´ì•¼í•˜ë‚˜ìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ºù°í ÄÁÅ×ÀÌ³Ê´Â Àü±â°ø±ÞÀÌ ÇÊ¿äÇÑ ³Ãµ¿ ÄÁÅ×ÀÌ³Ê¸¦ ±â¹ÝÀ¸·Î ÇÏ±â ¶§¹®¿¡ 3»ó 380V Àü±â°ø±Þ ¶Ç´Â ¼³Ä¡°¡´É ¿©ºÎ, 5Åæ ÀÌ»ó Æ®·° ÁøÀÔ °¡´É¿©ºÎ, ÄÁÅ×ÀÌ³Ê ¼³Ä¡¸¦ À§ÇÑ ¸éÀû, 7Åæ Áö°ÔÂ÷ ÁøÀÔ ¿©ºÎ µîÀ» È®ÀÎÇØÁÖ¼Å¾ß ÇÕ´Ï´Ù.</p>
+	            <p class="answer">ë¹™ê³  ì»¨í…Œì´ë„ˆëŠ” ì „ê¸°ê³µê¸‰ì´ í•„ìš”í•œ ëƒ‰ë™ ì»¨í…Œì´ë„ˆë¥¼ ê¸°ë°˜ìœ¼ë¡œ í•˜ê¸° ë•Œë¬¸ì— 3ìƒ 380V ì „ê¸°ê³µê¸‰ ë˜ëŠ” ì„¤ì¹˜ê°€ëŠ¥ ì—¬ë¶€, 5í†¤ ì´ìƒ íŠ¸ëŸ­ ì§„ìž… ê°€ëŠ¥ì—¬ë¶€, ì»¨í…Œì´ë„ˆ ì„¤ì¹˜ë¥¼ ìœ„í•œ ë©´ì , 7í†¤ ì§€ê²Œì°¨ ì§„ìž… ì—¬ë¶€ ë“±ì„ í™•ì¸í•´ì£¼ì…”ì•¼ í•©ë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa04">
 	        <div class="question_box">
-	          <p class="question">Q. ÀÓ´ë·á ¹× ±¸¸Åºñ¿ëÀÇ º°µµÀÇ ºÎ´ëºñ¿ëÀº ¾î¶² °ÍÀÌ ÀÖ³ª¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ìž„ëŒ€ë£Œ ë° êµ¬ë§¤ë¹„ìš©ì˜ ë³„ë„ì˜ ë¶€ëŒ€ë¹„ìš©ì€ ì–´ë–¤ ê²ƒì´ ìžˆë‚˜ìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ºù°í ÄÁÅ×ÀÌ³Ê ¼³Ä¡ ½Ã ºÎ´ëºñ¿ëÀ¸·Î´Â ÇöÀå¼³Ä¡¸¦ À§ÇÑ Áö°ÔÂ÷ ÀÓ´ë·á ¹× ÄÁÅ×ÀÌ³Ê ¿î¼Û·á<span>(Æíµµ)</span>°¡ ÃÖÃÊ 1È¸ Ã»±¸µË´Ï´Ù.<br><span>(ÀÓ´ëÀÇ °æ¿ì ¹Ý³³ ½Ã ¼³Ä¡ ±Ý¾×¸¸Å­ÀÇ ¹Ý³³·á(Áö°ÔÂ÷, ÄÁÅ×ÀÌ³Ê¿î¼Û·á)°¡ Ãß°¡ Ã»±¸µË´Ï´Ù.)</span></p>
+	            <p class="answer">ë¹™ê³  ì»¨í…Œì´ë„ˆ ì„¤ì¹˜ ì‹œ ë¶€ëŒ€ë¹„ìš©ìœ¼ë¡œëŠ” í˜„ìž¥ì„¤ì¹˜ë¥¼ ìœ„í•œ ì§€ê²Œì°¨ ìž„ëŒ€ë£Œ ë° ì»¨í…Œì´ë„ˆ ìš´ì†¡ë£Œ<span>(íŽ¸ë„)</span>ê°€ ìµœì´ˆ 1íšŒ ì²­êµ¬ë©ë‹ˆë‹¤.<br><span>(ìž„ëŒ€ì˜ ê²½ìš° ë°˜ë‚© ì‹œ ì„¤ì¹˜ ê¸ˆì•¡ë§Œí¼ì˜ ë°˜ë‚©ë£Œ(ì§€ê²Œì°¨, ì»¨í…Œì´ë„ˆìš´ì†¡ë£Œ)ê°€ ì¶”ê°€ ì²­êµ¬ë©ë‹ˆë‹¤.)</span></p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa05">
 	        <div class="question_box">
-	          <p class="question">Q. ºù°í ÄÁÅ×ÀÌ³Ê ÀÓ´ë ½Ã º¸Áõ±ÝÀº ¾ø³ª¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ë¹™ê³  ì»¨í…Œì´ë„ˆ ìž„ëŒ€ ì‹œ ë³´ì¦ê¸ˆì€ ì—†ë‚˜ìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ºù°í ¼­ºñ½º´Â ÀÓ´ë·á ¼± °áÁ¦¸¦ ¿øÄ¢À¸·Î ÇÏµÇ, Å¸ °ø±Þ»ç¿Í´Â ´Ù¸£°Ô º¸Áõ±ÝÀº º°µµ·Î Ã»±¸ÇÏÁö ¾Ê¾Æ, ÃÊ±â ºñ¿ëºÎ´ãÀÌ Àû½À´Ï´Ù.</p>
+	            <p class="answer">ë¹™ê³  ì„œë¹„ìŠ¤ëŠ” ìž„ëŒ€ë£Œ ì„  ê²°ì œë¥¼ ì›ì¹™ìœ¼ë¡œ í•˜ë˜, íƒ€ ê³µê¸‰ì‚¬ì™€ëŠ” ë‹¤ë¥´ê²Œ ë³´ì¦ê¸ˆì€ ë³„ë„ë¡œ ì²­êµ¬í•˜ì§€ ì•Šì•„, ì´ˆê¸° ë¹„ìš©ë¶€ë‹´ì´ ì ìŠµë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa06">
 	        <div class="question_box">
-	          <p class="question">Q. ÀÓ´ë±â°£°ú ÀÓ´ë±â°£¿¡ µû¸¥ ÇÒÀÎ·üÀÌ ÀÖ³ª¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ìž„ëŒ€ê¸°ê°„ê³¼ ìž„ëŒ€ê¸°ê°„ì— ë”°ë¥¸ í• ì¸ë¥ ì´ ìžˆë‚˜ìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ºù°í ÄÁÅ×ÀÌ³Ê´Â ÃÖ¼Ò 1´ÞºÎÅÍ ÀÓ´ë°¡ °¡´ÉÇÏ¸ç, ÀÓ´ë °³¿ù ¼ö¿¡ µû¶ó 3°³¿ù/5%, 6°³¿ù/7%, 12°³¿ù/10%ÀÇ ÇÒÀÎ·üÀÌ Àû¿ëµË´Ï´Ù.</p>
+	            <p class="answer">ë¹™ê³  ì»¨í…Œì´ë„ˆëŠ” ìµœì†Œ 1ë‹¬ë¶€í„° ìž„ëŒ€ê°€ ê°€ëŠ¥í•˜ë©°, ìž„ëŒ€ ê°œì›” ìˆ˜ì— ë”°ë¼ 3ê°œì›”/5%, 6ê°œì›”/7%, 12ê°œì›”/10%ì˜ í• ì¸ë¥ ì´ ì ìš©ë©ë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa07">
 	        <div class="question_box">
-	          <p class="question">Q. ¼³Ä¡ ÈÄ È¯ºÒÁ¤Ã¥Àº ¾î¶»°Ô µÇ³ª¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ì„¤ì¹˜ í›„ í™˜ë¶ˆì •ì±…ì€ ì–´ë–»ê²Œ ë˜ë‚˜ìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">¼³Ä¡ ÈÄ º¯½É¿¡ ÀÇÇÑ È¯ºÒÀ» °áÁ¤ÇÏ½Ã°ÔµÇ¸é ÃÖÃÊ ¼³Ä¡·ÎºÎÅÍ 2ÁÖ ÀÌ³»¿¡´Â 100% È¯ºÒÀÌ °¡´ÉÇÏ¸ç, ¹ÝÈ¯¿¡ ÇÊ¿äÇÑ ºÎ´ëºñ¿ëÀº °í°´´ÔÀÇ ºÎ´ãÀÔ´Ï´Ù.</p>
+	            <p class="answer">ì„¤ì¹˜ í›„ ë³€ì‹¬ì— ì˜í•œ í™˜ë¶ˆì„ ê²°ì •í•˜ì‹œê²Œë˜ë©´ ìµœì´ˆ ì„¤ì¹˜ë¡œë¶€í„° 2ì£¼ ì´ë‚´ì—ëŠ” 100% í™˜ë¶ˆì´ ê°€ëŠ¥í•˜ë©°, ë°˜í™˜ì— í•„ìš”í•œ ë¶€ëŒ€ë¹„ìš©ì€ ê³ ê°ë‹˜ì˜ ë¶€ë‹´ìž…ë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa08">
 	        <div class="question_box">
-	          <p class="question">Q. »ç¿ëÇÏ´ø ºù°í¸¦ ÄÁÅ×ÀÌ³Ê¸¦ µÇÆÈ°í ½Í½À´Ï´Ù.</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ì‚¬ìš©í•˜ë˜ ë¹™ê³ ë¥¼ ì»¨í…Œì´ë„ˆë¥¼ ë˜íŒ”ê³  ì‹¶ìŠµë‹ˆë‹¤.</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ºù°í ÄÁÅ×ÀÌ³ÊÀÇ »óÅÂ¿¡ µû¶ó¼­ ±¸¸Å°¡°ÝÀÇ ÃÖ´ë 70% ¼öÁØÀ¸·Î ºù°í¿¡¼­ Àç¸ÅÀÔ ÇØµå¸³´Ï´Ù.<br>ÀÌ¶§ Ãß°¡·Î ¹ß»ýÇÏ´Â ºÎ´ëºñ¿ëÀº ¾ø½À´Ï´Ù.</p>
+	            <p class="answer">ë¹™ê³  ì»¨í…Œì´ë„ˆì˜ ìƒíƒœì— ë”°ë¼ì„œ êµ¬ë§¤ê°€ê²©ì˜ ìµœëŒ€ 70% ìˆ˜ì¤€ìœ¼ë¡œ ë¹™ê³ ì—ì„œ ìž¬ë§¤ìž… í•´ë“œë¦½ë‹ˆë‹¤.<br>ì´ë•Œ ì¶”ê°€ë¡œ ë°œìƒí•˜ëŠ” ë¶€ëŒ€ë¹„ìš©ì€ ì—†ìŠµë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa09">
 	        <div class="question_box">
-	          <p class="question">Q. A/S Á¤Ã¥ÀÌ ±Ã±ÝÇÕ´Ï´Ù.</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. A/S ì •ì±…ì´ ê¶ê¸ˆí•©ë‹ˆë‹¤.</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ÀÓ´ëÀÇ °æ¿ì ÀÓ´ë ±â°£ µ¿¾È ¹«»ó A/S°¡ Á¦°øµÇ¸ç, ¸Å¸ÅÀÇ °æ¿ì 1³âµ¿¾È ¹«»ó A/S°¡ Á¦°øµË´Ï´Ù.</p>
+	            <p class="answer">ìž„ëŒ€ì˜ ê²½ìš° ìž„ëŒ€ ê¸°ê°„ ë™ì•ˆ ë¬´ìƒ A/Sê°€ ì œê³µë˜ë©°, ë§¤ë§¤ì˜ ê²½ìš° 1ë…„ë™ì•ˆ ë¬´ìƒ A/Sê°€ ì œê³µë©ë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
 	      <div class="qa_box slide-bottom" id="qa10">
 	        <div class="question_box">
-	          <p class="question">Q. ÄÁÅ×ÀÌ³Ê ³»ºÎ¿¡¼­ Áö°ÔÂ÷¸¦ ¿î¿ëÇÒ ¼ö ÀÖ³ª¿ä?</p>
-	          <img src="/assert/images/slide_arr_off.png" alt="ÀÚÁÖ ¹¯´Â Áú¹® ½½¶óÀÌµå ¹öÆ°">
+	          <p class="question">Q. ì»¨í…Œì´ë„ˆ ë‚´ë¶€ì—ì„œ ì§€ê²Œì°¨ë¥¼ ìš´ìš©í•  ìˆ˜ ìžˆë‚˜ìš”?</p>
+	          <img src="/assert/images/slide_arr_off.png" alt="ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ìŠ¬ë¼ì´ë“œ ë²„íŠ¼">
 	        </div>
 	        <div class="answer_back">
 	          <div class="answer_box">
 	            <p class="answer_tit">A.</p>
-	            <p class="answer">ÄÁÅ×ÀÌ³Ê °³±¸ºÎ¿Í Áö¸éÀÇ ³ôÀÌÂ÷°¡ ÀÖ±â ¶§¹®¿¡ Áö°ÔÂ÷ ¹ßÆÇÀ» ÇÊ¿ä·Î ÇÏ¸ç, 1Åæ Áö°ÔÂ÷±îÁö ¿î¿ëÀÌ °¡´ÉÇÕ´Ï´Ù.</p>
+	            <p class="answer">ì»¨í…Œì´ë„ˆ ê°œêµ¬ë¶€ì™€ ì§€ë©´ì˜ ë†’ì´ì°¨ê°€ ìžˆê¸° ë•Œë¬¸ì— ì§€ê²Œì°¨ ë°œíŒì„ í•„ìš”ë¡œ í•˜ë©°, 1í†¤ ì§€ê²Œì°¨ê¹Œì§€ ìš´ìš©ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.</p>
 	          </div>
 	        </div>
 	      </div>
@@ -491,9 +632,9 @@
 	    <div class="cont_box">
 	      <div class="inquiry_btn">
 	        <span></span>
-	        <p><a id="contact_open" href="javascript:void(0);">¼­ºñ½º ¹®ÀÇ</a></p>
+	        <p><a id="contact_open" href="javascript:void(0);">ì„œë¹„ìŠ¤ ë¬¸ì˜</a></p>
 	      </div>
-	      <p class="sec_sub">±âÅ¸ ¹®ÀÇ»çÇ×À» ¸»¾¸ÇØÁÖ¼¼¿ä!<br>ºù°í ¼­ºñ½ºÆÀ¿¡¼­ °í°´´ÔÀÇ ¼Ò¸®¿¡ ±Í±â¿ïÀÌ°Ú½À´Ï´Ù :)</p>
+	      <p class="sec_sub">ê¸°íƒ€ ë¬¸ì˜ì‚¬í•­ì„ ë§ì”€í•´ì£¼ì„¸ìš”!<br>ë¹™ê³  ì„œë¹„ìŠ¤íŒ€ì—ì„œ ê³ ê°ë‹˜ì˜ ì†Œë¦¬ì— ê·€ê¸°ìš¸ì´ê² ìŠµë‹ˆë‹¤ :)</p>
 	    </div>
 	  </section>
 	 
@@ -505,46 +646,46 @@
   <div class="cont_box">
     <div class="info_box">
       <div class="info">
-      	<p><a href="/terms" target="_blank">ÀÌ¿ë¾à°ü</a><span></span><a href="/personal" target="_blank">°³ÀÎÁ¤º¸Ã³¸®¹æÄ§</a></p>
-        <p>»óÈ£ : ¢ß½ºÆäÀÌ½ºÆ÷Æ®<span></span>´ëÇ¥ÀÚ : ±èÂù¿ì</p>
-        <p>»ç¾÷ÀÚ µî·Ï¹øÈ£ : 330-81-01777<span></span>Åë½ÅÆÇ¸Å¾÷½Å°í¹øÈ£ : Á¦ 2020-ºÎ»ê³²±¸-0489È£</p>
-        <p>ÀüÈ­ : 070-7113-7679<span></span>ÆÑ½º : 0504-449-7679<span></span>ÀÌ¸ÞÀÏ : help@vingo.co.kr</p>
-        <p>¼­¿ïÁöÁ¡ : ¼­¿ïÆ¯º°½Ã °­³²±¸ °­³²´ë·Î 364 ¹Ì¿Õºôµù, ÆÐ½ºÆ®ÆÄÀÌºê °­³² 2È£Á¡ 17F</p>
-        <p>ºÎ»êÁöÁ¡ : ºÎ»ê±¤¿ª½Ã ³²±¸ ÀüÆ÷´ë·Î 133, WeWork BIFC 13F</p>
+      	<p><a href="/terms" target="_blank">ì´ìš©ì•½ê´€</a><span></span><a href="/personal" target="_blank">ê°œì¸ì •ë³´ì²˜ë¦¬ë°©ì¹¨</a></p>
+        <p>ìƒí˜¸ : ãˆœìŠ¤íŽ˜ì´ìŠ¤í¬íŠ¸<span></span>ëŒ€í‘œìž : ê¹€ì°¬ìš°</p>
+        <p>ì‚¬ì—…ìž ë“±ë¡ë²ˆí˜¸ : 330-81-01777<span></span>í†µì‹ íŒë§¤ì—…ì‹ ê³ ë²ˆí˜¸ : ì œ 2020-ë¶€ì‚°ë‚¨êµ¬-0489í˜¸</p>
+        <p>ì „í™” : 070-7113-7679<span></span>íŒ©ìŠ¤ : 0504-449-7679<span></span>ì´ë©”ì¼ : help@vingo.co.kr</p>
+        <p>ì„œìš¸ì§€ì  : ì„œìš¸íŠ¹ë³„ì‹œ ê°•ë‚¨êµ¬ ê°•ë‚¨ëŒ€ë¡œ 364 ë¯¸ì™•ë¹Œë”©, íŒ¨ìŠ¤íŠ¸íŒŒì´ë¸Œ ê°•ë‚¨ 2í˜¸ì  17F</p>
+        <p>ë¶€ì‚°ì§€ì  : ë¶€ì‚°ê´‘ì—­ì‹œ ë‚¨êµ¬ ì „í¬ëŒ€ë¡œ 133, WeWork BIFC 13F</p>
       </div>
       <div class="footer_icon">
         <ul>
-          <li><a href="http://pf.kakao.com/_dPxmxjK" target="_blank"><img src="/assert/images/footer_kakao_icon.png" alt="Ä«Ä«¿ÀÅå ¾ÆÀÌÄÜ"></a></li>
-          <li><a href="https://blog.naver.com/vingoservice" target="_blank"><img src="/assert/images/footer_naver_blog_icon.png" alt="³×ÀÌ¹ö ºí·Î±× ¾ÆÀÌÄÜ"></a></li>
-          <li><a href="https://smartstore.naver.com/vingo"><img src="/assert/images/footer_naver_shopping_icon.png" alt="³×ÀÌ¹ö ¼îÇÎ ¾ÆÀÌÄÜ" target="_blank"></a></li>
+          <li><a href="http://pf.kakao.com/_dPxmxjK" target="_blank"><img src="/assert/images/footer_kakao_icon.png" alt="ì¹´ì¹´ì˜¤í†¡ ì•„ì´ì½˜"></a></li>
+          <li><a href="https://blog.naver.com/vingoservice" target="_blank"><img src="/assert/images/footer_naver_blog_icon.png" alt="ë„¤ì´ë²„ ë¸”ë¡œê·¸ ì•„ì´ì½˜"></a></li>
+          <li><a href="https://smartstore.naver.com/vingo"><img src="/assert/images/footer_naver_shopping_icon.png" alt="ë„¤ì´ë²„ ì‡¼í•‘ ì•„ì´ì½˜" target="_blank"></a></li>
         </ul>
       </div>
       <div class="copyright">
-        <p>Copyright ¨Ï VINGO. ALL rights reserved</p>
+        <p>Copyright â“’ VINGO. ALL rights reserved</p>
       </div>
     </div>
     <div class="cs_box">
       <div class="cs" id="cs_tel">
         <a href="tel:07071137679">
           <div>
-            <img src="/assert/images/cs_tel.png" alt="ÀüÈ­¾ÆÀÌÄÜ">
+            <img src="/assert/images/cs_tel.png" alt="ì „í™”ì•„ì´ì½˜">
           </div>
           <div>
-            <p class="cs_tit">°í°´¼¾ÅÍ ÀüÈ­¹øÈ£</p>
+            <p class="cs_tit">ê³ ê°ì„¼í„° ì „í™”ë²ˆí˜¸</p>
             <p class="cs_main">070 - 7113 - 7679</p>
-            <p class="cs_sub">°í°´¼¾ÅÍ ¿î¿µ½Ã°£<br>09:00 ~ 18:00 (ÁÖ¸», °øÈÞÀÏ Á¦¿Ü)</p>
+            <p class="cs_sub">ê³ ê°ì„¼í„° ìš´ì˜ì‹œê°„<br>09:00 ~ 18:00 (ì£¼ë§, ê³µíœ´ì¼ ì œì™¸)</p>
           </div>
         </a>
       </div>
       <div class="cs" id="cs_kakao">
         <a href="http://pf.kakao.com/_dPxmxjK/chat">
           <div>
-            <img src="/assert/images/kakao_qr.png" alt="ºù°í Ä«Ä«¿ÀÅå QR ÀÌ¹ÌÁö">
+            <img src="/assert/images/kakao_qr.png" alt="ë¹™ê³  ì¹´ì¹´ì˜¤í†¡ QR ì´ë¯¸ì§€">
           </div>
           <div>
-            <p class="cs_tit">Ä«Ä«¿ÀÅå</p>
-            <p class="cs_main">1:1 Ã¤ÆÃ»ó´ã</p>
-            <p class="cs_sub">Ä«Ä«¿ÀÅå Ã¤ÆÃ»ó´ã ¿î¿µ½Ã°£<br>09:00 ~ 18:00 (ÁÖ¸», °øÈÞÀÏ Á¦¿Ü)</p>
+            <p class="cs_tit">ì¹´ì¹´ì˜¤í†¡</p>
+            <p class="cs_main">1:1 ì±„íŒ…ìƒë‹´</p>
+            <p class="cs_sub">ì¹´ì¹´ì˜¤í†¡ ì±„íŒ…ìƒë‹´ ìš´ì˜ì‹œê°„<br>09:00 ~ 18:00 (ì£¼ë§, ê³µíœ´ì¼ ì œì™¸)</p>
           </div>
         </a>
       </div>
@@ -559,14 +700,15 @@
 	  <div id="popup_btn_box"> 
 	    <div id="popup_btn">
 	      <span></span>
-	      <p><a href="https://www.vingo.co.kr/estimate/index" target="_blank">°£Æí°ßÀû</a></p>
+	      <p><a href="https://www.vingo.co.kr/estimate/index" target="_blank">A/Sì‹ ì²­</a></p>
 	    </div>
 	  </div>
 	</div>
 	
 	
 	<script type="text/javascript">
-
+	
+    
 		$(function() {
 
 		if (document.location.protocol == 'http:') {
@@ -578,18 +720,18 @@
 		$("#contact_open").click(function() {
 			
 			
-			// µð¹ÙÀÌ½º Á¾·ù ¼³Á¤
+			// ë””ë°”ì´ìŠ¤ ì¢…ë¥˜ ì„¤ì •
 		    var pc_device = "win16|win32|win64|mac|macintel";
 			
-			//È­¸é Å©±â ÆÇº°
+			//í™”ë©´ í¬ê¸° íŒë³„
 			var w = 800;
 			var h = 650;
 			
-			var xPos = (document.body.offsetWidth/2) - (w/2); // °¡¿îµ¥ Á¤·Ä
-			xPos += window.screenLeft; // µà¾ó ¸ð´ÏÅÍÀÏ ¶§
+			var xPos = (document.body.offsetWidth/2) - (w/2); // ê°€ìš´ë° ì •ë ¬
+			xPos += window.screenLeft; // ë“€ì–¼ ëª¨ë‹ˆí„°ì¼ ë•Œ
 			var yPos = (document.body.offsetHeight/2) - (h/2);
 		 
-		    // Á¢¼ÓÇÑ µð¹ÙÀÌ½º È¯°æ
+		    // ì ‘ì†í•œ ë””ë°”ì´ìŠ¤ í™˜ê²½
 		    var this_device = navigator.platform;
 		 
 		    if (this_device) {
@@ -643,12 +785,11 @@
 		      //img.attr('src',srcOn);
 		      //$('.answer_back').stop().slideUp(300);
 		      //$(ABox).stop().slideDown(300);
-		    });//ÀÚÁÖ¹¯´ÂÁú¹® ¾ÆÄÚµð¾ð
-		  });//ÀÚÁÖ¹¯´ÂÁú¹® ³¡
+		    });//ìžì£¼ë¬»ëŠ”ì§ˆë¬¸ ì•„ì½”ë””ì–¸
+		  });//ìžì£¼ë¬»ëŠ”ì§ˆë¬¸ ë
 	
 	</script>
-	
-		
+
 	
 <!-- vingo -->	
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
@@ -660,7 +801,7 @@ wcs_do();
 }
 </script>
 
-<!-- ³×ÀÌ¹ö±¤°í -->
+<!-- ë„¤ì´ë²„ê´‘ê³  -->
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script> 
 <script type="text/javascript"> 
 if (!wcs_add) var wcs_add={};
