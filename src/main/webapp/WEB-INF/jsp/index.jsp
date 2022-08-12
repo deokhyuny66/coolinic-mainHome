@@ -71,6 +71,24 @@
 	  border-radius: 5px;
 	}
 	</style>
+	<script>
+	function showPopup(hasFilter) {
+		const popup = document.querySelector('#popup');
+	  
+		if (hasFilter) {
+			popup.classList.add('has-filter');
+		} else {
+			popup.classList.remove('has-filter');
+		}
+		
+		popup.classList.remove('hide');
+	}
+
+	function closePopup() {
+		const popup = document.querySelector('#popup');
+	  	popup.classList.add('hide');
+	}
+	</script>
 </head>
 <body>
 	<div id="wrap">
@@ -167,7 +185,7 @@
 	      <div>
 	        <!--<h2>VINGO <span class="vingo_color">LIVE</span></h2>-->
 	        <h2><img src="/assert/images/VINGO_LIVE_LOGO.png" alt="빙고 라이브 로고"></h2>
-	        <p>초기비용에 대한 부담을 확 줄여드립니다.<br>쿨리닉 렌탈은 RMS, AS 기술력 기반으로 케어 서비스 합니다.</p>
+	        <p>초기비용에 대한 부담을 확 줄여드립니다.<br>쿨리닉 렌탈은 RMS, A/S 기술력 기반으로 케어 서비스 합니다.</p>
 	        <div class="moreBtnBox">
 	          <p class="moreBtn"><a href="/vingolive">더 보러 가기 +</a></p>
 	        </div>
@@ -194,7 +212,7 @@
 	          	냉풍건조기
 	          </li>
 	        </ul>
-	        
+			
 	        <!-- Table 표.1 -->
 	        <div id="tab_cont01" class="tab_cont ">
 	          <table id="tb01" class="scrolltable container_size">
@@ -209,7 +227,7 @@
 	              <td class="psSize">2평</td>
 	              <td class="whlSize">3000 x 2200 x 2400</td>
 	              <td class="monthPrice">165,000원</td>
-	              <td><button>신청하기</button></td>
+	              <td><button onclick="showPopup(false);">신청하기</button></td>
 	            </tr>
 	            <tr>
 	              <td class="psSize">3평</td>
@@ -638,10 +656,27 @@
 	    </div>
 	  </section>
 	 
-
-
-
-
+		<div id="popup" class="hide">
+		
+		  <div class="content">
+		 	 <div>
+		 	 <div class="popup-top"><h4>상담신청</h4></div>
+		 	 	<div class="form-box">
+					<div class="inputT">
+						<label for="userName2">이름</label>
+						<input type="text" id="userName2" name="userName2" placeholder="이름을 입력해주세요">
+					</div>
+					<div class="inputT">
+						<label for="phoneNum2">휴대전화</label>
+						<input type="tel" id="phoneNum2" name="phoneNum2" placeholder="“-“ 없이 입력하세요" min="0" maxlength="11" oninput="maxLengthCheck(this)">
+					</div>
+				</div>
+				
+		    </div>
+		    <button onclick="closePopup()" type="button" class="layer-popup-close" data-layer="layerCounsel">닫기 버튼</button>
+		  </div>
+		</div>
+		
 <footer id="footer">
   <div class="cont_box">
     <div class="info_box">

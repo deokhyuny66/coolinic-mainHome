@@ -981,6 +981,145 @@ input, textarea{
 }
 /* footer 끝 */
 
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong, em, img, sub, sup, address, cite, pre, code, del, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* 입력 창 */
+.form-box .inputT {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+.inputT {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+.inputT>input {
+    border: 1px solid #EBEBEB;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    height: 60px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.form-box label {
+    width: 25%;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'NotoB';
+}
+
+/* popup 시작 */
+#popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  z-index: 1;
+}
+
+#popup.hide {
+  display: none;
+}
+
+#popup.has-filter {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+#popup .content {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+#popup .popup-top {
+    position: relative;
+    z-index: 1;
+}
+#popup .popup-top>h4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 26px;
+    font-family: "ManropeB", "NotoB", serif;
+    font-weight: normal;
+    height: 100px;
+}
+
+/* 팝업 닫기 버튼 */
+#popup .layer-popup-close {
+    cursor: pointer;
+    font: 0/0 a;
+    background-repeat: no-repeat;
+    background-image: url(/assert/images/ico-close.png);
+    background-position: center center;
+    -webkit-background-size: auto auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    position: absolute;
+    top: 70px;
+    right: 740px;
+    width: 54px;
+    height: 54px;
+    background-color: #2B2B2B;
+    border: 1px solid #2B2B2B;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 1px 15px rgb(96 97 112 / 50%);
+    -moz-box-shadow: 0 1px 15px rgba(96,97,112,0.5);
+    box-shadow: 0 1px 15pxrgba(96,97,112,0.5);
+    z-index: 2;
+}
+
+/* popup 끝 */
+
 button {
 	cursor: pointer;
     color: #444444;

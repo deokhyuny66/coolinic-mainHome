@@ -40,4 +40,9 @@ public class CoolinicController {
 		return "/rental";
 	}
 	
+	@RequestMapping("calc")
+	public String autoCalc() throws Exception{
+		return "/calc";
+	}
+	
 }
