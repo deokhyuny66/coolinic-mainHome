@@ -7,7 +7,7 @@
     stopAutoOnclick:true,
   });
 }); 슬라이드 */
-
+``
 $(function(){
     $(window).scroll(function(){
       if($(document).scrollTop()<= 1700){
@@ -44,8 +44,8 @@ $(function(){
 
 
   $('#sec02 img').fadeThis({speed: 1000, offset: -400});
-  $('#sec04 .item').fadeThis({speed: 500, offset: -400});
-  $('#sec04 .arr_box').fadeThis({speed: 500, offset: -200});
+/*  $('#sec04 .item').fadeThis({speed: 100, offset: -400});
+  $('#sec04 .arr_box').fadeThis({speed: 100, offset: -200});*/
   $('#qa01').fadeThis({speed: 50, offset: -100});
   $('#qa02').fadeThis({speed: 100, offset: -100});
   $('#qa03').fadeThis({speed: 150, offset: -100});

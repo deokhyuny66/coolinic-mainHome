@@ -76,14 +76,12 @@ promotionToggleBtn.addEventListener('click', function () {
   // 슬라이드 영역 숨김 여부를 반댓값으로 할당!
   
   isHidePromotion = !isHidePromotion
-  // 요소를 숨겨야 하면,
   if (isHidePromotion) {
     promotionEl.classList.add('hide')
-    $("#sec03").hide();
-  // 요소가 보여야 하면,
+    sec03El.classList.add('hide')
   } else {
     promotionEl.classList.remove('hide')
-    $("#sec03").show();
+    sec03El.classList.remove('hide')
   }
 })
 

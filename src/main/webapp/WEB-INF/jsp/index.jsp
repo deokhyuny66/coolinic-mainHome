@@ -30,31 +30,40 @@
 	<link rel="apple-touch-icon" href="/assert/images/logo_zhf_icon.ico">
 	<link rel="shortcut icon" href="/assert/images/logo_zhf_icon.ico">
 	<style>
-	@media (max-width: 767px){
-	
-	}
-	
-	@media (min-width: 768px) and (max-width: 991px) {
-	    
-	}
-	
-	@media (min-width: 992px) and (max-width: 1199px) {
-	    
-	}
-	
-	@media (min-width: 1200px) {
-	    
-	}
-	
-	
-	/* 스크롤바 없애기 */
-	body{ -ms-overflow-style: none; } 
+	body{ -ms-overflow-style: none;} 
 	::-webkit-scrollbar { display: none; }
-	.scrolltable{ -ms-overflow-style: none; } 
-	.scrolltable::-webkit-scrollbar{ display:none; }
-	
+	.tab_cont .scrolltable{ -ms-overflow-style: none; } 
+	.tab_cont .scrolltable::-webkit-scrollbar{ display:none; }
+	#tempDiv ::-webkit-scrollbar {
+ 		width: 5px;
+	}
+	.tab_cont .scrolltable{
+	    table-layout: fixed;
+	    border-collapse: collapse;
+	   /*  border: 1px solid #888; */
+	}
+	.tab_cont .scrolltable thead {
+	    color:#fff;
+	    display:block;
+	}
+	.tab_cont .scrolltable tbody{
+	    display:block;
+	    overflow:auto;
+	    height:300px;
+	    width:100%;
+	}
 	/* 행 장식 */
-
+	.tab_cont .scrolltable th, .scrolltable td {
+	  padding: 10px;
+	  text-align: left;
+	  width: 130px;
+	  text-align: center;
+	  /* font-size: 0.875em; */
+	}
+	.tab_cont .scrolltable tbody tr:nth-child(2n+1){
+	    background-color: #f0f0f0;
+	}
+	
 	</style>
 	
 	<script>
@@ -221,7 +230,6 @@
       </div>
     </div>
 
-   	
 	    <div class="promotion">
 	   	   <h2 class="sec_tit">쿨리닉 렌탈의</h2>
 	       <p class="sec_sub">사이즈 및 기타 정보들을 정확하게 확인해주세요.</p>
@@ -258,13 +266,13 @@
 	      <div class="tab_content_box">
 	      
 	        <!-- Table 표.1 -->
-	        <div id="tab_cont01" class="tab_cont ">
+	        <div id="tab_cont01" class="tab_cont">
 	          <table id="tb01" class="scrolltable container_size">
 	           <thead>
 		            <th>평수</th>
 		            <th>사이즈<span class="unit">(mm)</span></th>
 		            <th>월 렌탈가</th>
-		            <th>간편 견적</th>
+		            <th>간편견적</th>
 	            </thead>
 	            <tbody>
 	            <tr>
@@ -293,29 +301,30 @@
 	              <td><button>신청하기</button></td>
 	            </tr>
 	            <tr>
-	              <td>높이</td>
-	              <td>2.3</td>
-	              <td>2.6</td>
-	              <td>2.6</td>
+	              <td class="psSize">5평</td>
+	              <td class="whlSize">5500 x 3000 x 2400</td>
+	              <td class="monthPrice">232,800원</td>
+	              <td><button>신청하기</button></td>
 	            </tr>
 	            <tr>
-	              <td>높이</td>
-	              <td>2.3</td>
-	              <td>2.6</td>
-	              <td>2.6</td>
+	              <td class="psSize">5평</td>
+	              <td class="whlSize">5500 x 3000 x 2400</td>
+	              <td class="monthPrice">232,800원</td>
+	              <td><button>신청하기</button></td>
 	            </tr>
 	            <tr>
-	              <td>높이</td>
-	              <td>2.3</td>
-	              <td>2.6</td>
-	              <td>2.6</td>
+	              <td class="psSize">5평</td>
+	              <td class="whlSize">5500 x 3000 x 2400</td>
+	              <td class="monthPrice">232,800원</td>
+	              <td><button>신청하기</button></td>
 	            </tr>
 	            <tr>
-	              <td>높이</td>
-	              <td>2.3</td>
-	              <td>2.6</td>
-	              <td>2.6</td>
+	              <td class="psSize">5평</td>
+	              <td class="whlSize">5500 x 3000 x 2400</td>
+	              <td class="monthPrice">232,800원</td>
+	              <td><button>신청하기</button></td>
 	            </tr>
+	            
 	           </tbody>
 	          </table>
 	        </div>

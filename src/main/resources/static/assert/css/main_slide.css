@@ -60,6 +60,7 @@
 	  align-items: center;
 	  background-color: #F9FAFB;
 	  justify-content: center;
+	  box-shadow: 5px 5px 10px #999;
 	}
 	.notice .notice-line .inner__right h2 {
 	  font-size: 17px;
@@ -86,8 +87,9 @@
 	  overflow: hidden;
 	  transition: height .4s;
 	}
-	.notice .promotion.hide {
-	  height: 0;
+	.notice .promotion.hide,
+	.sec03c.hide {
+	  height: 0 !important;
 	}
 	.notice .promotion .swiper-container {
 	  height: 580px;
@@ -194,6 +196,7 @@
 	  position: absolute;
 	  top: 0;
 	  right: 0;
+	  box-shadow: 5px 5px 10px #999;
 	}
 	.notice .notice-line .inner {
 	  height: 62px;
@@ -246,6 +249,7 @@
 	  align-items: center;
 	  justify-content: center;
 	  background-color: #F9FAFB;
+	 
 	}
 	.notice .notice-line .inner__right h2 {
 	  font-size: 17px;
@@ -275,6 +279,9 @@
 	}
 	.notice .promotion.hide {
 	  height: 0;
+	}
+	.sec03c.hide {
+		height: 0;
 	}
 	.notice .promotion .swiper-container {
 	  height: 580px;
