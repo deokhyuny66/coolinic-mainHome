@@ -59,26 +59,26 @@ $(function(){
 
 
 
-  $('#tab_btn01').click(function(){
-    $('.tab_btn').removeClass('on_tab');
-    $('#tab_btn01').addClass('on_tab');
+  $('#sec10 #tab_btn01').click(function(){
+    $('#sec10 .tab_btn').removeClass('on_tab');
+    $('#sec10 #tab_btn01').addClass('on_tab');
     $('.tab_cont').hide();
     $('#tab_cont01').fadeIn(800);
     $('.tab_img').hide();
     $('#tab_img01').fadeIn(800);
   });
   
-  $('#tab_btn02').click(function(){
-    $('.tab_btn').removeClass('on_tab');
-    $('#tab_btn02').addClass('on_tab');
+  $('#sec10 #tab_btn02').click(function(){
+    $('#sec10 .tab_btn').removeClass('on_tab');
+    $('#sec10 #tab_btn02').addClass('on_tab');
     $('.tab_cont').hide();
     $('#tab_cont02').fadeIn(800);
     $('.tab_img').hide();
     $('#tab_img02').fadeIn(800);
   });
-  $('#tab_btn03').click(function(){
-    $('.tab_btn').removeClass('on_tab');
-    $('#tab_btn03').addClass('on_tab');
+  $('#sec10 #tab_btn03').click(function(){
+    $('#sec10 .tab_btn').removeClass('on_tab');
+    $('#sec10 #tab_btn03').addClass('on_tab');
     $('.tab_cont').hide();
     $('#tab_cont03').fadeIn(800);
     $('.tab_img').hide();

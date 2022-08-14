@@ -15,7 +15,14 @@
 	<meta name="naver-site-verification" content="" />
 	<meta name="google-site-verification" content="" />
 	<link href="/assert/css/commonn.css" rel="stylesheet">
-	<link href="/assert/css/jquery.bxslider.css" rel="stylesheet">	
+	<link href="/assert/css/jquery.bxslider.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/assert/css/common_slide.css">
+    <link rel="stylesheet" href="/assert/css/main_slide.css">
+    <script defer src="/assert/js/common_slide.js"></script>
+    <script defer src="/assert/js/main_slide.js"></script>
 	<script src="/assert/js/jquery-3.1.1.min.js"></script>
 	<script src="/assert/js/jquery.fadethis.js"></script>
 	<script src="/assert/js/jquery.bxslider.js"></script>
@@ -23,20 +30,22 @@
 	<link rel="apple-touch-icon" href="/assert/images/logo_zhf_icon.ico">
 	<link rel="shortcut icon" href="/assert/images/logo_zhf_icon.ico">
 	<style>
-	.scrolltable {
-	    table-layout: fixed;
-	    border-collapse: collapse;
+	@media (max-width: 767px){
+	
 	}
-	.scrolltable thead {
-	   	display:block;
-	    color:#fff;
+	
+	@media (min-width: 768px) and (max-width: 991px) {
+	    
 	}
-	.scrolltable tbody {
-	    display:block;
-	    overflow-y:auto;
-	    height:180px;
-	    width:100%;
+	
+	@media (min-width: 992px) and (max-width: 1199px) {
+	    
 	}
+	
+	@media (min-width: 1200px) {
+	    
+	}
+	
 	
 	/* 스크롤바 없애기 */
 	body{ -ms-overflow-style: none; } 
@@ -45,32 +54,9 @@
 	.scrolltable::-webkit-scrollbar{ display:none; }
 	
 	/* 행 장식 */
-	.scrolltable th, .scrolltable td {
-	  padding: 10px;
-	  text-align: left;
-	  width: 130px;
-	  text-align: center;
-	  /* font-size: 0.875em; */
-	} 
-	.scrolltable tbody tr:nth-child(2n+1) {
-	    background-color: #f0f0f0;
-	}
-	
-	#tempDiv ::-webkit-scrollbar {
- 		width: 5px;
-	}
-	
-	/* Track */
-	#tempDiv ::-webkit-scrollbar-track {
-	  border-radius: 5px;
-	}
-	 
-	/* Handle */
-	#tempDiv ::-webkit-scrollbar-thumb {
-	  background: #000; 
-	  border-radius: 5px;
-	}
+
 	</style>
+	
 	<script>
 	function showPopup(hasFilter) {
 		const popup = document.querySelector('#popup');
@@ -193,26 +179,84 @@
 	      <img src="/assert/images/vingo_live.png" alt="빙고 모니터링 웹, 빙고 모바일 앱 이미지" class="slide-bottom" style="opacity: 1;"> 
 	    </div>
 	  </section>
-	  <section id="sec03">
+  
+  	<section id="sec10" class="notice">
+
+	    <!--NOTICE LINE-->
+	    <div class="notice-line">
+	      <div class="bg-left"></div>
+	      <div class="bg-right"></div>
+	      
+	      <div class="inner">
+	     <div class="inner__left">
+          <h2>공지사항</h2>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">크리스마스 & 연말연시 스타벅스 매장 영업시간 변경 안내</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">[당첨자 발표] 2021 스타벅스 플래너 영수증 이벤트</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">스타벅스커피 코리아 애플리케이션 버전 업데이트 안내</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">[당첨자 발표] 뉴이어 전자영수증 이벤트</a>
+              </div>
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="notice-line__more">
+            <span class="material-icons">notifications_active</span>
+          </a>
+        </div>
+        
+		<div class="inner__right">
+          <h2>쿨리닉 렌탈 프로모션</h2>
+          <div class="toggle-promotion open">
+            <div class="material-icons">upload</div>
+          </div>
+        </div>
+	
+      </div>
+    </div>
+
+   	
+	    <div class="promotion">
+	   	   <h2 class="sec_tit">쿨리닉 렌탈의</h2>
+	       <p class="sec_sub">사이즈 및 기타 정보들을 정확하게 확인해주세요.</p>
+	
+	       <div class="swiper-container" id="tab_btn_box"> 
+	        <div class="swiper-wrapper">
+	          <div class="swiper-slide on_tab" id="tab_btn01" >
+	            <img src="/assert/images/promotion_slide1.jpg" alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!" />
+	            <a href="javascript:void(0)" class="btn">자세히 보기</a>
+	          </div>
+	          <div class="swiper-slide" id="tab_btn02">
+	            <img src="/assert/images/promotion_slide2.jpg" alt="기간 내 스타벅스 카드 e-Gift를 3만원 이상 선물 시, 아메리카노 e-쿠폰을 드립니다." />
+	            <a href="javascript:void(0)" class="btn">자세히 보기</a>
+	          </div>
+	          <div class="swiper-slide" id="tab_btn03">
+	            <img src="/assert/images/promotion_slide3.jpg" alt="뉴이어 푸드와 제조 음료를 세트로 구매 시, 뉴이어 음료 BOGO(1+1) 쿠폰을 드립니다." />
+	            <a href="javascript:void(0)" class="btn">자세히 보기</a>
+	          </div>
+	        </div>
+	       </div>
+	
+	      <div class="swiper-prev">
+	        <span class="material-icons">arrow_back</span>
+	      </div>
+	      <div class="swiper-next">
+	        <span class="material-icons">arrow_forward</span>
+	      </div>
+	
+	    </div>
+	  </section>
+	  
+	  <section class="sec03c" id="sec03">
 	    <div class="cont_box">
 	      <div class="tab_content_box">
-	        <h2 class="sec_tit">쿨리닉 렌탈은</h2>
-	        <p class="sec_sub">사이즈 및 기타 정보들을 정확하게 확인해주세요.</p>
-	        <ul id="tab_btn_box">
-	          <li id="tab_btn01" class="tab_btn on_tab">
-	          	<span>Standard</span><br>
-	          	냉장
-	          </li>
-	          <li id="tab_btn02" class="tab_btn">
-	          	<span>Standard</span><br>
-	          	냉동
-	          </li>
-	          <li id="tab_btn03" class="tab_btn">
-	          	<span>Standard</span><br>
-	          	냉풍건조기
-	          </li>
-	        </ul>
-			
+	      
 	        <!-- Table 표.1 -->
 	        <div id="tab_cont01" class="tab_cont ">
 	          <table id="tb01" class="scrolltable container_size">
@@ -274,19 +318,6 @@
 	            </tr>
 	           </tbody>
 	          </table>
-	          <table class="container_etc">
-	            <th>공급온도<span class="unit">(℃)</span></th>
-	            <th>중량<span class="unit">(㎏)</span></th>
-	            <th>연면적<span class="unit">(㎥)</span></th>
-	            <tr>
-	              <td>- 30 ~ + 30</td>
-	              <td>27,480</td>
-	              <td>14.7<span class="unit">(약 4.5평)</span></td>
-	            </tr>
-	            <tr>
-	              <td colspan="3">아시아 표준파렛트 사이즈 기준<span class="unit">(1.1m X 1.1m)</span> 8EA 적재 가능</td>
-	            </tr>
-	          </table>
 	        </div>
 	        
 	        <!-- Table 표.2 -->
@@ -331,19 +362,7 @@
 	            </tr>
 	           </tbody>
 	          </table>
-	          <table class="container_etc">
-	            <th>공급온도<span class="unit">(℃)</span></th>
-	            <th>중량<span class="unit">(㎏)</span></th>
-	            <th>연면적<span class="unit">(㎥)</span></th>
-	            <tr>
-	              <td>- 30 ~ + 30</td>
-	              <td>29,580</td>
-	              <td>26.62<span class="unit">(약 9평)</span></td>
-	            </tr>
-	            <tr>
-	              <td colspan="3">아시아 표준파렛트 사이즈 기준<span class="unit">(1.1m X 1.1m)</span> 16EA 적재 가능</td>
-	            </tr>
-	          </table>
+	         
 	        </div>
 	        
 	        <!-- Table 표.3 -->
@@ -406,35 +425,11 @@
 	            </tr>
                </tbody>
 	          </table>
-	          <table class="container_etc">
-	            <th>공급온도<span class="unit">(℃)</span></th>
-	            <th>중량<span class="unit">(㎏)</span></th>
-	            <th>연면적<span class="unit">(㎥)</span></th>
-	            <tr>
-	              <td>- 20 ~ + 20</td>
-	              <td>27,480</td>
-	              <td>14.7<span class="unit">(약 4.5평)</span></td>
-	            </tr>
-	            <tr>
-	              <td colspan="3">아시아 표준파렛트 사이즈 기준<span class="unit">(1.1m X 1.1m)</span> 8EA 적재 가능</td>
-	            </tr>
-	          </table>
 	        </div>
-	      </div>
-	      
-	      <div class="tab_img_box">
-	        <div id="tab_img01" class="tab_img">
-	          <img src="/assert/images/size_vs_20.png" alt="vingo standard 20ft 빙고 컨테이너 이미지">
-	        </div>
-	        <div id="tab_img02" class="tab_img">
-	          <img src="/assert/images/size_vs_40.png" alt="vingo standard 40ft 빙고 컨테이너 이미지">
-	        </div>
-	        <div id="tab_img03" class="tab_img">
-	          <img src="/assert/images/size_ve_20.png" alt="vingo eco 20ft 빙고 컨테이너 이미지">
-	        </div> 
 	      </div>
 	    </div>
 	  </section>
+	  
 	  <section id="sec04">
 	    <div class="cont_box">
 	      <div class="item_box01">
@@ -443,7 +438,7 @@
 	            <img src="/assert/images/how_to_01.png" alt="빙고 설치 조건 확인 아이콘">
 	          </div>
 	          <h3><span>1.</span>설치 조건 확인</h3>
-	          <p>설치 환경에 따라 빙고 이용이 제한될 수 있습니다.<br>설치 전 필수 확인사항을 꼭 확인해주세요!</p>
+	          <p>설치 환경에 따라 이용이 제한될 수 있습니다.<br>설치 전 필수 확인사항을 꼭 확인해주세요!</p>
 	        </div>
 	        <div class="arr_box slide-bottom" id="arr_box01">
 	          <img src="/assert/images/arr.png" alt="화살표 아이콘">
