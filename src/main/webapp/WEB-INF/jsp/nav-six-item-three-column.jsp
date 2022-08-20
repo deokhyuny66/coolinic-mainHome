@@ -299,14 +299,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -500,14 +500,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -624,14 +624,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                     <!--  <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -730,14 +730,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -834,14 +834,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -988,14 +988,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>

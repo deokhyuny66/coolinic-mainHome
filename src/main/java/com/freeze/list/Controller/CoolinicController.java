@@ -32,6 +32,11 @@ public class CoolinicController {
 	
 	@RequestMapping("/")
 	public String view() throws Exception{
-		return "/nav-six-item-three-column";
+		return "/nav-eight-item-four-column";
+	}
+	
+	@RequestMapping("/NewFile")
+	public String newFile() throws Exception{
+		return "/NewFile";
 	}
 }

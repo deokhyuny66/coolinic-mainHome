@@ -33,8 +33,6 @@
     <!-- ===============================================-->
     <link href="/assets/lib/prismjs/prism.css" rel="stylesheet">
     <link href="/assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="/assets/lib/remodal/remodal.css" rel="stylesheet">
     <link href="/assets/lib/remodal/remodal-default-theme.css" rel="stylesheet">
     <link href="/assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
@@ -42,7 +40,13 @@
     <link href="/assets/lib/semantic-ui-accordion/accordion.min.css" rel="stylesheet">
     <link href="/assets/lib/semantic-ui-transition/transition.min.css" rel="stylesheet">
     <link href="/assets/css/theme.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="/assets/css/about/templatemo-hexashop.css">
 
+	<link rel="stylesheet" href="/assets/css/about1/styles.css">
+	<link rel="stylesheet" href="/assets/css/about1/fontawesome-all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
   </head>
 
 
@@ -70,13 +74,15 @@
         <div class="container-fluid p-0 minh-100vh">
           <div class="position-relative px-3 w-lg-50 position-lg-absolute" id="baseContent">
             <div class="row align-items-center minh-50vh justify-content-center py-5 minh-lg-100vh">
-              <div class="bg-holder overlay overlay-1" style="background-image:url(/assets/img/home-blur.jpg);">
+              <!-- <div class="bg-holder overlay overlay-1" style="background-image:url(/assets/img/home-blur.jpg);"> -->
+              <div class="bg-holder overlay overlay-1">
+              	<video src="/assets/video/coolinic.mp4" style="min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100;background-size: contain;" autoplay muted loop controls></video>
               </div>
               <!--/.bg-holder-->
 
               <div class="col-10 col-sm-8 col-md-9 z-index-1">
-                <h1 class="text-white fs-2 fs-sm-4 fs-xl-5 display-4">We believe in simplicity and excellence</h1>
-                <h5 class="fs-0 fs-sm-1 mt-3 mt-md-5 text-white">welcome to boots'4</h5>
+                <h1 class="text-white fs-2 fs-sm-4 fs-xl-5 display-4">저온 설비가 필요할 때,<br/>AI 자동 견적</h1>
+                <h5 class="fs-0 fs-sm-1 mt-3 mt-md-5 text-white"></h5>
               </div>
             </div>
           </div>
@@ -89,7 +95,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/favorites.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">About Us</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">회사소개</h2>
                 </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="service">
@@ -99,7 +105,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/suitcase.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">Services</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">AI 자동 견적</h2>
                 </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="portfolio">
@@ -109,7 +115,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/heart.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">Portfolio</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">3년의 워런티</h2>
                 </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="gallery">
@@ -119,7 +125,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/image.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">Gallery</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">A/S 요청</h2>
                 </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="faq">
@@ -129,7 +135,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/computer.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">Faq</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">이력추적 RMS</h2>
                 </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="contact">
@@ -139,7 +145,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/placeholder.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">Contact</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">스마트 제상 ADS</h2>
                 </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="starter">
@@ -149,7 +155,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/key.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">Starter</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">통합관리솔루션</h2>
                 </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="docs">
@@ -159,7 +165,7 @@
 
                 <div class="sidebar-item">
                   <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/edit.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">Docs</h2>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">문의하기</h2>
                 </div>
               </div>
             </div>
@@ -175,6 +181,206 @@
       <div class="page position-absolute t-0 w-100" id="about">
         <div class="row no-gutters minh-100vh">
           <div class="col-lg-9 order-1 order-lg-0 page-content pt-6 pt-lg-0">
+
+	<div class="header">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h1 class="h1-large">Gemdev is a free HTML template designed for your web products</h1>
+                        <p class="p-large">Use Gemdev to create awesome websites for your products, services and ideas in a short amount of time</p>
+                        <a class="btn-solid-lg page-scroll" href="#statement">Discover</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="/assets/img/about1//header-gem.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of header -->
+    
+    
+    <!-- Statement -->
+    <div id="statement" class="basic-1 lightbox-basic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h3>The framework is a solid foundation for websites</h3>
+                        <p class="p-large">“I've designed this framwork based on my experience with building websites for many types of industries. What's great about Gemdev is that it can be used by anyone from absolute beginners to skilled web developers from around the world”</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+
+
+			<!-- Details 1 -->
+    <div id="details" class="basic-2 lightbox-basic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="/assets/img/about1//details-1.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2>Easy to download</h2>
+                        <p>It takes no more than 10 minutes to download the framework, set it up and start working on your project. You'll see impressive results in a couple of hours</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>For startups</strong> which have less data and operations</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>For big companies</strong> with a lot of data and daily inputs</div>
+                            </li>
+                        </ul> 
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox">Lightbox</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+
+    <!-- Details 2 -->
+    <div class="basic-3 lightbox-basic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2>Simple to setup</h2>
+                        <p>Gemdev is a well structured package and very easy to setup via parameters. You can get it up and running with basic coding skills. Don't hesitate to give it a try today</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>For designers</strong> which have less data and operations</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>For developers</strong> with a lot of data and daily inputs</div>
+                            </li>
+                        </ul> 
+                        <a class="btn-solid-reg" href="#your-link">Details</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="/assets/img/about1//details-2.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of details 2 -->
+
+
+    <!-- Features -->
+    <div id="features" class="basic-4 lightbox-basic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <h4>Web framework</h4>
+                        <p>Gemdev is a young and popular web framework designed to hel</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <h4>Unlimited com</h4>
+                        <p>Browse the enormous component collection and find the right pa</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <h4>Easy to download</h4>
+                        <p>It's very easy to download Gemdev just login with your creden</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <h4>Simple to setup</h4>
+                        <p>With basic coding skills you can configure Gemdev down to</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <h4>Simple licensing</h4>
+                        <p>We hear your pain and we're offering Gemdev under the</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-box bg-gray">
+                        <h4>Great results</h4>
+                        <p>A lot of users have sent us positive feedback about the framework.</p>
+                    </div> <!-- end of text-box -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of features -->
+    
+    <!-- About -->
+    <div id="about" class="basic-5 lightbox-basic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <h2>Award wining framework</h2>
+                        <p>Gemdev has been used in thousand of popular web projects. The feedback has been great so we decided to keep working.</p>
+                        <p>Naturally we can't please everyone because it's not our objective to fit all styles. Our style is based on speed and performance.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="image-container">
+                        <img class="img-fluid" src="/assets/img/about1//about.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <div class="text-container">
+                        <h2>Reasons to download</h2>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>1. Very easy to download with minimum number of clicks and no registration required</li>
+                            <li>2. Large pool of components for any part of the project from sliders to tabbed content</li>
+                            <li>3. Simple licensing for any type and any number of projects. Free MIT download</li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-5 -->
+    <!-- end of about -->
+   
+    <!-- Invitation -->
+    <div class="basic-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container bg-gray">
+                        <h4>Gemdev is a well established web development framework dedicated to creatives and makers</h4>
+                        <a class="btn-solid-lg" href="#your-link">Details</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-6 -->
+    <!-- end of invitation -->
+    
+    
+    
+
 
 
             <!-- ============================================-->
@@ -317,14 +523,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -518,14 +724,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -642,14 +848,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -748,14 +954,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -852,14 +1058,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -1006,14 +1212,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -1048,9 +1254,10 @@
                       <hr class="hr-ornate" />
                     </div>
                     <div class="row justify-content-center">
-                      <div class="col-10 col-lg-9 col-xl-6">
-                        <p class="lead">It is a sample page of Boots4 where you can place any text, image, components or any other content.</p>
-                        <a class="btn btn-primary mt-3" href="#docs">Documentation</a>
+                      <div class="col-10 col-lg-9 col-xl-6" style="max-width: none;flex: none;">
+                        <!-- <p class="lead">It is a sample page of Boots4 where you can place any text, image, components or any other content.</p>
+                        <a class="btn btn-primary mt-3" href="#docs">Documentation</a> -->
+ 
                       </div>
                     </div>
                   </div>
@@ -1071,14 +1278,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -1789,14 +1996,14 @@ js/</code></pre>
               <div class="row justify-content-center">
                 <div class="col-lg-10">
                   <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-left">
+                    <!-- <div class="col-lg-6 text-lg-left">
                       <p class="fs--1 text-uppercase ls font-weight-bold mb-0">
                         Copyright &copy; 2018 Boots4&trade; inc.</p>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 text-lg-right mt-2 mt-lg-0">
-                      <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
+                      <!-- <p class="fs--1 text-uppercase ls font-weight-bold mb-0">Made with<span class="fas fa-heart mx-1"></span>by
                         <a class="text-light" href="https://themewagon.com/">Themewagon</a>
-                      </p>
+                      </p> -->
                     </div>
                   </div>
                 </div>
@@ -1818,8 +2025,6 @@ js/</code></pre>
     <!-- ===============================================-->
     <!--    End of Main Content-->
     <!-- ===============================================-->
-
-
 
 
     <!-- ===============================================-->
@@ -1847,7 +2052,6 @@ js/</code></pre>
     <script src="/assets/lib/sticky-kit/sticky-kit.min.js"></script>
     <script src="/assets/js/theme.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&callback=initMap" async></script>
-
   </body>
 
 </html>
