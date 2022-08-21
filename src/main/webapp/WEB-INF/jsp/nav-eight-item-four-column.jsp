@@ -64,6 +64,11 @@
     <!-- RMS -->
     <link rel="stylesheet" href="/assets/fonts/rms/icomoon/style.css">
   	<link rel="stylesheet" href="/assets/css/rms/style-rms.css">
+  	
+  	<!-- CALC -->
+	<link href="/assets/css/calc/commons.css" rel="stylesheet" type="text/css">
+	<link href="/assets/css/calc/est.css" rel="stylesheet" type="text/css">
+  	
   	</head>
 
 
@@ -107,83 +112,43 @@
             <div class="row h-lg-100vh">
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="about">
                 <div class="bg-holder" style="background-image:url(/assets/img/navigation/about.jpg);">
-                </div>
+                </div><!-- 회사소개 -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/favorites.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">회사소개</h2>
-                </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="service">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/service.jpg);">
-                </div>
+                <div class="bg-holder" style="background-image:url(/assets/img/navigation/ai.jpg);">
+                </div><!-- AI 자동견적 -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/suitcase.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">AI 자동 견적</h2>
-                </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="portfolio">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/portfolio.jpg);">
-                </div>
+                <div class="bg-holder" style="background-image:url(/assets/img/navigation/3years.jpg);">
+                </div><!-- 3년의 워런티 -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/heart.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">3년의 워런티</h2>
-                </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="gallery">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/gallery.jpg);">
-                </div>
+                <div class="bg-holder" style="background-image:url(/assets/img/navigation/as.jpg);">
+                </div><!-- A/S요청 -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/image.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">A/S 요청</h2>
-                </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="faq">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/faq.jpg);">
-                </div>
+                <div class="bg-holder" style="background-image:url(/assets/img/navigation/rms.jpg);">
+                </div><!-- RMS 이력추적 -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/computer.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">이력추적 RMS</h2>
-                </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="contact">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/contact.jpg);">
-                </div>
+                <div class="bg-holder" style="background-image:url(/assets/img/navigation/ads.jpg);">
+                </div><!-- ADS  -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/placeholder.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">스마트 제상 ADS</h2>
-                </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="starter">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/starter.jpg);">
-                </div>
+                <div class="bg-holder" style="background-image:url(/assets/img/navigation/integration.jpg);">
+                </div><!-- 통합관리솔루션 -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/key.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">통합관리솔루션</h2>
-                </div>
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="docs">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/docs.jpg);">
-                </div>
+                <div class="bg-holder" style="background-image:url(/assets/img/navigation/contact.jpg);">
+                </div><!-- 문의하기 -->
                 <!--/.bg-holder-->
-
-                <div class="sidebar-item">
-                  <img class="mb-2 mb-md-3 nav-icon" src="/assets/img/lineicons/edit.svg" alt="">
-                  <h2 class="font-weight-light text-white fs-1 fs-xl-2 fs-xxl-3">문의하기</h2>
-                </div>
               </div>
             </div>
           </div>
@@ -432,49 +397,402 @@
         <div class="row no-gutters minh-100vh">
           <div class="col-lg-9 order-1 order-lg-0 page-content pt-6 pt-lg-0">
 
+          <!-- ============================================-->
+          <!-- <section> begin ============================-->
+	      <section>
+	      <div id="wrapsv">
+			<header id="headersv" class="row_flex">
+    			<h1 id="logo"><img src="/assets/img/calc/logo.png" alt="빙고로고이미지"></h1>
+    			<h2>총 임대 예상비용 계산기</h2>
+  			</header>
+				
+		  	<section id="sectionsv">
+   			<form name="rentalForm" id="rentalForm" method="post" onsubmit="return false;">
+   			<input type="hidden" name="estType" id="estType" value="RENTAL">
+   			<input type="hidden" name="pSize" id="pSize" value="">
+   			<input type="hidden" name="pOption" id="pOption" value="">
+   			<input type="hidden" name="pPeriod" id="pPeriod" value="">
+   			<input type="hidden" name="pModelYear" id="pModelYear" value="">
+   			<input type="hidden" name="pArea" id="pArea" value="">
+   			<input type="hidden" name="pQty" id="pQty" value="">
+			<input type="hidden" name="pOptionConcentric220" id="pOptionConcentric220" value="">
+   			<input type="hidden" name="pOptionAirCurtain" id="pOptionAirCurtain" value="">
+   			<input type="hidden" name="pOptionConcentric380" id="pOptionConcentric380" value="">
+   			<input type="hidden" name="pOptionLogo" id="pOptionLogo" value="">
+   			
+   			<input type="hidden" name="pSizePay" id="pSizePay" value="0">
+   			<input type="hidden" name="pOptionPay" id="pOptionPay" value="0">
+   			<input type="hidden" name="pOptionConcentric220Pay" id="pOptionConcentric220Pay" value="0">
+   			<input type="hidden" name="pOptionAirCurtainPay" id="pOptionAirCurtainPay" value="0">
+   			<input type="hidden" name="pOptionConcentric380Pay" id="pOptionConcentric380Pay" value="0">
+   			<input type="hidden" name="pOptionLogoPay" id="pOptionLogoPay" value="0">
+   			<input type="hidden" name="pPeriodPay" id="pPeriodPay" value="0">
+   			<input type="hidden" name="pAreaPay" id="pAreaPay" value="0">
+   			<input type="hidden" name="pModelYearPay" id="pModelYearPay" value="0">
+   			<input type="hidden" name="pFastPay" id="pFastPay" value="0">
+   			<input type="hidden" name="pTotalPay" id="pTotalPay" value="0">
+   			<input type="hidden" name="pMonthPay" id="pMonthPay" value="0">
+   			
+   			<!-- container_content -->
+   			<div class="container_content">
+     			<div class="row_flex">
+       				<!-- product_info -->
+       				<div class="product_info">
+         				<!-- product_size -->
+         				<div class="product_size product_info_item">
+           					<h3>컨테이너 사이즈</h3>
+           					<p><img src="/assets/img/calc/size_img.png" alt="빙고 컨테이너 이미지"></p>
+           					<table id="20ftMasterList">
+             					<th class="br_l"></th>
+			            <th>내부<span>(m)</span></th>
+			            <th>외부<span>(m)</span></th>
+			            <th class="br_r">개구부<span>(m)</span></th>
+             					<tr>
+			               	<td>길이</td>
+			               	<td>5.5</td>
+			               	<td>6.1</td>
+			               	<td>-</td>
+			            </tr>
+			            <tr>
+			            	<td>폭</td>
+			                <td>2.3</td>
+			                <td>2.4</td>
+			                <td>2.4</td>
+			            </tr>
+			            <tr>
+			                <td>높이</td>
+			                <td>2.3</td>
+			                <td>2.6</td>
+			                <td>2.6</td>
+			            </tr>
+           					</table>
+           					<table class="lastes_item" id="20ftDetailList">
+			        	<th class="br_l">공급온도<span>(℃)</span></th>
+			            <th>중량<span>(톤)</span></th>
+			            <th class="br_r">연면적<span>(㎥)</span></th>
+			            <tr>
+			               	<td>-30 ~ + 30</td>
+			               	<td>27</td>
+			               	<td>14.7<span>(약 4.5평)</span></td>
+			            </tr>
+			            <tr>
+			               	<td colspan="3">아시아 표준파레트 사이즈 기준<span>(1.1m X 1.1m)</span> 8EA 적재 가능</td>
+			            </tr>
+           					</table>
+           					
+           					<table id="40ftMasterList">
+             					<th class="br_l"></th>
+			            <th>내부<span>(m)</span></th>
+			            <th>외부<span>(m)</span></th>
+			            <th class="br_r">개구부<span>(m)</span></th>
+             					<tr>
+			               	<td>길이</td>
+			               	<td>11.6</td>
+			               	<td>12.2</td>
+			               	<td>-</td>
+			            </tr>
+			            <tr>
+			            	<td>폭</td>
+			                <td>2.3</td>
+			                <td>2.4</td>
+			                <td>2.3</td>
+			            </tr>
+			            <tr>
+			                <td>높이</td>
+			                <td>2.5</td>
+			                <td>2.9</td>
+			                <td>2.6</td>
+			            </tr>
+           					</table>
+           					<table class="lastes_item" id="40ftDetailList">
+			        	<th class="br_l">공급온도<span>(℃)</span></th>
+			            <th>중량<span>(톤)</span></th>
+			            <th class="br_r">연면적<span>(㎥)</span></th>
+			            <tr>
+			               	<td>-30 ~ + 30</td>
+			               	<td>30</td>
+			               	<td>26.2<span>(약 9평)</span></td>
+			            </tr>
+			            <tr>
+			               	<td colspan="3">아시아 표준파레트 사이즈 기준<span>(1.1m X 1.1m)</span> 8EA 적재 가능</td>
+			            </tr>
+           					</table>
+         				</div>
+         				<!-- product_size end -->
 
-            <!-- ============================================-->
-            <!-- <section> begin ============================-->
-            <section class="pt-5 pt-xl-7 pt-xxl-8">
-                    <div class="text-center mb-5 mb-lg-6">
-                      <h2 class="fs-2 fs-sm-3"> <span class="font-weight-medium">What We </span> Do best</h2>
-                      <hr class="hr-ornate" />
-                    </div>
-					 <div class="container">
-					      <div>
-					        <div class="col-xl-4 col-lg-5 col-md-7 mx-auto">
-					          <div class="card z-index-0">
-					            <div class="card-header text-center pt-4">
-					              <h5>Register with</h5>
-					            </div>
-					            
-					            <div class="card-body">
-					              <form role="form text-left">
-					                <div class="mb-3">
-					                  <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="email-addon">
-					                </div>
-					                <div class="mb-3">
-					                  <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
-					                </div>
-					                <div class="mb-3">
-					                  <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon">
-					                </div>
-					                <div class="form-check form-check-info text-left">
-					                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked="">
-					                  <label class="form-check-label" for="flexCheckDefault">
-					                    I agree the <a href="javascript:;" class="text-dark font-weight-bolder">Terms and Conditions</a>
-					                  </label>
-					                </div>
-					                <div class="text-center">
-					                  <button type="button" class="btn bg-gradient-dark w-100 my-4 mb-2">Sign up</button>
-					                </div>
-					                <p class="text-sm mt-3 mb-0">Already have an account? <a href="javascript:;" class="text-dark font-weight-bolder">Sign in</a></p>
-					              </form>
-					            </div>
-					          </div>
-					        </div>
-					      </div>
-				    </div>
+         				<!-- option -->
+         				<div class="option product_info_item">
+           					<h3>추가옵션</h3>
+           					<p class="column_flex">
+             					<img src="/assets/img/calc/option01.png" alt="1200x1800사이드도어 부착 컨테이너 이미지">
+           					</p>
+         				</div>
+         				<!-- option end -->
+       				</div>
+       				<!-- product_info end -->
+
+       				<!-- addition -->
+       				<div class="addition">
+         				<!--cont_box-->
+         				<div class="cont_box tab_common_cont">
+           					<h3>컨테이너 종류</h3>
+           					<div class="item">
+             					<input type="radio" name="size" value="20" id="20ft">
+             					<label for="20ft" class="row_flex">
+               						<p>VINGO Standard 20ft<br><span class="add_info">(약 4.5평)</span></p>
+               						<p>+ <span>385,000</span></p>
+             					</label>
+           					</div>
+           					<div class="item">
+             					<input type="radio" name="size" value="40" id="40ft">
+             					<label for="40ft" class="row_flex">
+               						<p>VINGO Standard 40ft<br><span class="add_info">(약 9평)</span></p>
+               						<p>+ <span>495,000</span></p>
+             					</label>
+           					</div>
+         				</div>
+         				<!--cont_box end-->
+
+         				<!-- product_size -->
+         				<div class="product_size product_info_item product_info_item_mobile">
+           					<h3>컨테이너 사이즈</h3>
+           					<p><img src="/assets/img/calc/size_img.png" alt="빙고 컨테이너 이미지"></p>
+           					<table id="20ftMasterList_M">
+             					<th class="br_l"></th>
+			            <th>내부<span>(m)</span></th>
+			            <th>외부<span>(m)</span></th>
+			            <th class="br_r">개구부<span>(m)</span></th>
+             					<tr>
+			               	<td>길이</td>
+			               	<td>5.5</td>
+			               	<td>6.1</td>
+			               	<td>-</td>
+			            </tr>
+			            <tr>
+			            	<td>폭</td>
+			                <td>2.3</td>
+			                <td>2.4</td>
+			                <td>2.4</td>
+			            </tr>
+			            <tr>
+			                <td>높이</td>
+			                <td>2.3</td>
+			                <td>2.6</td>
+			                <td>2.6</td>
+			            </tr>
+           					</table>
+           					<table class="lastes_item" id="20ftDetailList_M">
+			        	<th class="br_l">공급온도<span>(℃)</span></th>
+			            <th>중량<span>(톤)</span></th>
+			            <th class="br_r">연면적<span>(㎥)</span></th>
+			            <tr>
+			               	<td>-30 ~ + 30</td>
+			               	<td>27</td>
+			               	<td>14.7<span>(약 4.5평)</span></td>
+			            </tr>
+			            <tr>
+			               	<td colspan="3">아시아 표준파레트 사이즈 기준<span>(1.1m X 1.1m)</span> 8EA 적재 가능</td>
+			            </tr>
+           					</table>
+           					<table id="40ftMasterList_M">
+             					<th class="br_l"></th>
+			            <th>내부<span>(m)</span></th>
+			            <th>외부<span>(m)</span></th>
+			            <th class="br_r">개구부<span>(m)</span></th>
+             					<tr>
+			               	<td>길이</td>
+			               	<td>11.6</td>
+			               	<td>12.2</td>
+			               	<td>-</td>
+			            </tr>
+			            <tr>
+			            	<td>폭</td>
+			                <td>2.3</td>
+			                <td>2.4</td>
+			                <td>2.3</td>
+			            </tr>
+			            <tr>
+			                <td>높이</td>
+			                <td>2.5</td>
+			                <td>2.9</td>
+			                <td>2.6</td>
+			            </tr>
+           					</table>
+           					<table class="lastes_item" id="40ftDetailList_M">
+			        	<th class="br_l">공급온도<span>(℃)</span></th>
+			            <th>중량<span>(톤)</span></th>
+			            <th class="br_r">연면적<span>(㎥)</span></th>
+			            <tr>
+			               	<td>-30 ~ + 30</td>
+			               	<td>30</td>
+			               	<td>26.2<span>(약 9평)</span></td>
+			            </tr>
+			            <tr>
+			               	<td colspan="3">아시아 표준파레트 사이즈 기준<span>(1.1m X 1.1m)</span> 16EA 적재 가능</td>
+			            </tr>
+           					</table>
+         				</div>
+         				<!-- product_size end -->
+
+         				<!--cont_box-->
+         				<div class="cont_box tab_common_cont">
+           					<h3>추가옵션</h3>
+           					<div class="item">
+             					<input type="radio" name="addOption" value="OPTION01" id="option01">
+             					<label for="option01" class="row_flex">
+               						<p>선택없음</p>
+               						<p>+ <span id="option01Amt"></span></p>
+             					</label>
+           					</div>
+           					<div class="item" id="sideDoor1">
+             					<input type="radio" name="addOption" value="OPTION02" id="option02">
+             					<label for="option02" class="row_flex">
+               						<p>사이드도어<br><span class="add_info">(1200 X 1800 개구부 기준 왼쪽면)</span></p>
+               						<p>+ <span id="option02Amt"></span></p>
+             					</label>
+           					</div>
+           					<div class="item" id="sideDoor2">
+              				<input type="radio" name="addOption" value="OPTION03" id="option03">
+             					<label for="option03" class="row_flex">
+               						<p>사이드도어<br><span class="add_info">(1200 X 1800 개구부 기준 오른쪽면)</span></p>
+               						<p>+ <span id="option03Amt"></span></p>
+             					</label>
+           					</div>
+           					<div class="item">
+             					<input type="radio" name="addOption" value="OPTION04" id="option04">
+             					<label for="option04" class="row_flex">
+               						<p>사이드도어<br><span class="add_info">(1500 X 1800 개구부 기준 왼쪽면)</span></p>
+               						<p>+ <span id="option04Amt"></span></p>
+             					</label>
+           					</div>
+		            <div class="item">
+		                <input type="radio" name="addOption" value="OPTION05" id="option05">
+		                <label for="option05" class="row_flex">
+		                	<p>사이드도어<br><span class="add_info">(1500 X 1800 개구부 기준 오른쪽면)</span></p>
+		                  	<p>+ <span id="option05Amt"></span></p>
+		                </label>
+	                </div>
+	              	<div class="item">
+	                	<input type="checkbox" name="addOptionMulti" class="cssAddOptionMulti" value="OPTION06" id="option06">
+	                	<label for="option06" class="row_flex">
+	                  		<p>비닐커튼</p>
+	                  		<p>+ <span id="option06Amt"></span></p>
+	                	</label>
+	              	</div>
+         				</div>
+         				<!--cont_box end-->
+
+         				<!-- option -->
+         				<div class="option product_info_item product_info_item_mobile">
+           					<h3>추가옵션</h3>
+           					<p class="column_flex">
+             					<img src="/assets/img/calc/option01.png" alt="1200x1800사이드도어 부착 컨테이너 이미지">
+             					<img src="/assets/img/calc/option02.png" alt="1500x1800사이드도어 부착 컨테이너 이미지">
+           					</p>
+         				</div>
+         				<!-- option end -->
+
+         				<!--cont_box-->
+         				<div class="cont_box tab_rental_cont">
+           					<h3>임대기간</h3>
+           					<div class="item">
+             					<input type="radio" name="period" value="1" id="period1m">
+             					<label for="period1m" class="row_flex">
+               						<p>1개월<br><span class="add_info">(할인없음)</span></p>
+               						<p><span></span></p>
+             					</label>
+           					</div>
+           					<div class="item">
+		            	<input type="radio" name="period" value="3" id="period3m">
+		                <label for="period3m" class="row_flex">
+		                	<p>3개월<br><span class="add_info">(5% 할인)</span></p>
+		                  	<p><span></span></p>
+		                </label>
+           					</div>
+	              	<div class="item">
+	                	<input type="radio" name="period" value="6" id="period6m">
+	                	<label for="period6m" class="row_flex">
+	                  		<p>6개월<br><span class="add_info">(7% 할인)</span></p>
+	                  		<p><span></span></p>
+	                	</label>
+	              </div>
+	              <div class="item">
+                  	  <input type="radio" name="period" value="12" id="period12m">
+	                  <label for="period12m" class="row_flex">
+	                      <p>12개월<br><span class="add_info">(10% 할인)</span></p>
+	                      <p><span></span></p>
+	                  </label>
+	              </div>
+           				  <div class="item">
+             			      <input type="radio" name="period" value="0" id="period_txt">
+             				  <label id="period_txt" for="period_txt" class="row_flex">
+               				      <p>직접입력</p>
+               					  <p><input type="text" name="periodText" id="periodText" value="" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');">개월</p>
+               					  <p><span></span></p>
+             				  </label>
+           				  </div> 
+         		      </div>
+         			  <!--cont_box end-->
+
+          			  <!--cont_box-->
+          			  <div class="cont_box tab_common_cont">
+            			      <h3>배송지역 <span class="tab_rental_item">(왕복운송비 + 지게차이용료)</span></h3>
+            				  <div class="item">
+              			      <input type="radio" name="area" value="SEOUL" id="areaSeoul">
+              				  <label for="areaSeoul" class="row_flex">
+			                  <p>서울 / 경기 / 인천</p>
+			                  <p>+ <span id="areaSeoulAmt"></span></p>
+              				  </label>
+            			 	  </div>
+          			  </div>
+          			  <!--cont_box end-->
+
+          			  <!--cont_box-->
+          			  <div class="cont_box tab_common_cont">
+            			      <h3>수량선택</h3>
+            				  <div class="item row_flex" id="quantity">
+              			      <p id="decreaseQuantity"><span></span></p>
+              				  <p id="numberUpDown">1</p>
+              				  <p id="increaseQuantity"><span></span><span></span></p>
+            				  </div>
+          			  </div>
+          			  <!--cont_box end-->
+        		      </div>
+        			  <!-- addition end -->
+                </div>
+            </div>	
+   		  <!-- container_content end -->
+    		  
+      		  <footer class="footer" id="individually_footer">
+        	      <div class="footer_cont">
+    
+          		      <!-- detail_price_btn -->
+          		  	  
+          			  <!-- detail_price_btn end -->
+    
+          			  <!--calculator_box -->
+          			  <div class="calculator_box">
+            		      <div class="calculator_cont row_flex">
+              			      
+              				<!--calculator_cont01-->
+              				<div class="calculator_cont02 row_flex">
+                				<button type="button" id="btnSave"><a href="#a">견적서 요청</a></button>
+              				</div>
+              				<!--calculator_cont02-->
+            			</div>
+            			<!--calculator_cont end-->
+    
+            			<div class="notice">
+              				<p>다음 금액은 부가세를 포함한 금액이며, 설치현장 환경에 따라 추가 비용(크레인, 지게차 등)이 발생할 수 있습니다.</p>
+            			</div>
+            			<!--notice-->
+          			</div>
+          			<!--calculator_box-->
+        		</div>
+      		</footer>
+	    	</form>
+		    </section>
+			</div>
             </section>
 
             <footer class="page-footer">
@@ -580,11 +898,6 @@
 		            </div>
 		        </div>
     		</section>
-            
-            
-            <!-- <section> close ============================-->
-            <!-- ============================================-->
-
 
             <footer class="page-footer">
               <div class="bg-holder" style="background-image:url(/assets/img/sidebars/portfolio.jpg);background-position: 0 27%; transform: scale(1.1);">
@@ -1852,14 +2165,7 @@
         </div>
       </div>
     </main>
-    <!-- ===============================================-->
-    <!--    End of Main Content-->
-    <!-- ===============================================-->
 
-
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/bootstrap.js"></script>
@@ -1883,11 +2189,9 @@
     <script src="/assets/js/theme.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&callback=initMap" async></script>
     
-  <script src="/assets/js/integration/owl-carousel.js"></script>
-  <script src="/assets/js/integration/animation.js"></script>
-  <script src="/assets/js/integration/custom.js"></script>
-    
-    
+	<script src="/assets/js/integration/owl-carousel.js"></script>
+	<script src="/assets/js/integration/animation.js"></script>
+	<script src="/assets/js/integration/custom.js"></script>
   </body>
 
 </html>

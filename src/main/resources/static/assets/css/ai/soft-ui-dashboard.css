@@ -1556,7 +1556,7 @@
 }
 
 .pt-5 {
-  padding-top: 3rem !important;
+  /* padding-top: 3rem !important; */
 }
 
 .pt-6 {
@@ -8735,7 +8735,7 @@
   }
 
   .pt-xl-7 {
-    padding-top: 6rem !important;
+    /* padding-top: 6rem !important; */
   }
 
   .pt-xl-8 {
@@ -10391,7 +10391,7 @@
   }
 
   .pt-xxl-8 {
-    padding-top: 8rem !important;
+    /* padding-top: 8rem !important; */
   }
 
   .pt-xxl-9 {
@@ -15062,16 +15062,6 @@ hr.horizontal.gray-light {
 .bs-tooltip-auto[x-placement^=left] .tooltip-arrow,
 .bs-tooltip-left .tooltip-arrow {
   right: 1px;
-}
-
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-weight: 400;
-  line-height: 1.6;
 }
 
 h1,
