@@ -14749,7 +14749,7 @@ p.lead {
 }
 
 .bg-holder.overlay-1:before {
-  background: rgba(0, 0, 0, 0.55);
+  /* background: rgba(0, 0, 0, 0.55); */
 }
 
 .bg-holder.overlay-2:before {

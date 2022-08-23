@@ -35,6 +35,38 @@ reset
 --------------------------------------------- 
 */
 
+#gridNav #bg-holder-about:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/about-h.jpg) !important;
+}
+#gridNav #bg-holder-ai:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/ai-h.jpg) !important;
+}
+#gridNav #bg-holder-3years:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/3years-h.jpg) !important;
+}
+#gridNav #bg-holder-as:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/as-h.jpg) !important;
+}
+#gridNav #bg-holder-rms:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/rms-h.jpg) !important;
+}
+#gridNav #bg-holder-ads:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/ads-h.jpg) !important;
+}
+#gridNav #bg-holder-integration:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/integration-h.jpg) !important;
+}
+#gridNav #bg-holder-contact:hover {
+	transition: 0.5s linear;
+	background-image:url(/assets/img/navigation/contact-h.jpg) !important;
+}
 .clearfix:after {
   content: ".";
   display: block;

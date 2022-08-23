@@ -68,11 +68,16 @@
   	<!-- CALC -->
 	<link href="/assets/css/calc/commons.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/calc/est.css" rel="stylesheet" type="text/css">
-  	
+	
+	
+	<link href="/assets/css/main/slides.css?41331" rel="stylesheet" type="text/css"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="/assets/js/main/slides.min.js?41331" type="text/javascript"></script> 
+	
   	</head>
 
 
-  <body>
+  <body class="slides chain simplifiedMobile animated">
 
     <!-- ===============================================-->
     <!--    Main Content-->
@@ -111,42 +116,42 @@
           <div class="position-relative w-lg-50 position-lg-fixed undefined" id="gridNav">
             <div class="row h-lg-100vh">
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="about">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/about.jpg);">
+                <div class="bg-holder" id="bg-holder-about" style="background-image:url(/assets/img/navigation/about.jpg);">
                 </div><!-- 회사소개 -->
                 <!--/.bg-holder-->
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="service">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/ai.jpg);">
+                <div class="bg-holder" id="bg-holder-ai" style="background-image:url(/assets/img/navigation/ai.jpg);">
                 </div><!-- AI 자동견적 -->
                 <!--/.bg-holder-->
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="portfolio">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/3years.jpg);">
+                <div class="bg-holder" id="bg-holder-3years" style="background-image:url(/assets/img/navigation/3years.jpg);">
                 </div><!-- 3년의 워런티 -->
                 <!--/.bg-holder-->
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="gallery">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/as.jpg);">
+                <div class="bg-holder" id="bg-holder-as" style="background-image:url(/assets/img/navigation/as.jpg);">
                 </div><!-- A/S요청 -->
                 <!--/.bg-holder-->
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="faq">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/rms.jpg);">
+                <div class="bg-holder" id="bg-holder-rms" style="background-image:url(/assets/img/navigation/rms.jpg);">
                 </div><!-- RMS 이력추적 -->
                 <!--/.bg-holder-->
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="contact">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/ads.jpg);">
+                <div class="bg-holder" id="bg-holder-ads" style="background-image:url(/assets/img/navigation/ads.jpg);">
                 </div><!-- ADS  -->
                 <!--/.bg-holder-->
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="starter">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/integration.jpg);">
+                <div class="bg-holder" id="bg-holder-integration" style="background-image:url(/assets/img/navigation/integration.jpg);">
                 </div><!-- 통합관리솔루션 -->
                 <!--/.bg-holder-->
               </div>
               <div class="col-6 col-sm-3 minh-25vh h-lg-50vh sidebar-item-wrapper py-5" data-content="docs">
-                <div class="bg-holder" style="background-image:url(/assets/img/navigation/contact.jpg);">
+                <div class="bg-holder" id="bg-holder-contact" style="background-image:url(/assets/img/navigation/contact.jpg);">
                 </div><!-- 문의하기 -->
                 <!--/.bg-holder-->
               </div>
@@ -2032,7 +2037,179 @@
               <div class="container-fluid">
                 <div class="row justify-content-center">
                   <div class="col-lg-10">
-                    <div class="text-center mb-5 mb-lg-6">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+ <nav class="side pole">
+  <div class="navigation">
+    <ul></ul>
+  </div>
+</nav>
+
+<!-- Slide 1 (#10) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-7-12">
+          <h1 class="ae-1">Messes Make Memories</h1>
+          <p class="ae-2"><span class="opacity-8">Some people find it hard to find the right perfume. This may smell good when this is sprayed into the air but this changes when this reacts with the skin.</span></p>
+        </div>  
+        
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(/assets/img/main/background/img-10.jpg)"></div>
+</section>
+
+<!-- Slide 2 (#75) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-10-12 toCenter">
+          <h1 class="ae-1">Smoke & Mirrors</h1>
+          <p class="ae-2"><span class="opacity-8">Design is a form of com­pet­it­ive advant­age. People tend to think of design as good art, good visual lan­guage, which it abso­lutely has to be.</span></p>
+        </div>
+        <div class="fix-12-12">
+          <ul class="grid grid-75 masonry fixedSpaces ae-3 controller popupTrigger" data-popup-id="75-1" data-slider-id="75-1">
+            <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-6 fadeIn">
+              <img src="/assets/img/main/gallery-75-7.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+            </li>
+            <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-3 fadeIn">
+              <img src="/assets/img/main/gallery-75-6.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+            </li>
+            <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-2 fadeIn">
+              <img src="/assets/img/main/gallery-75-5.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+            </li>
+            <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-7 fadeIn">
+              <img src="/assets/img/main/gallery-75-1.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+            </li>
+            <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-9 fadeIn">
+              <img src="/assets/img/main/gallery-75-3.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+            </li>
+            <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-5 fadeIn">
+              <img src="/assets/img/main/gallery-75-4.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+            </li>
+            <li class="col-3-12 col-tablet-1-3 col-phablet-1-2 col-phone-1-1 ae-4 fadeIn">
+              <img src="/assets/img/main/gallery-75-2.jpg" class="wide rounded margin-bottom-1" alt="Image"/>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(/assets/img/main/background/img-75.jpg)"></div>
+</section>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                    <!-- <div class="text-center mb-5 mb-lg-6">
                       <h2 class="fs-2 fs-sm-3"> <span class="font-weight-medium">Get In </span> Touch</h2>
                       <hr class="hr-ornate" />
                     </div>
@@ -2119,7 +2296,7 @@
                           <button class="btn btn-block btn-warning mt-4" type="submit">Submit</button>
                         </form>
                       </div>
-                    </div>
+                    </div> -->
                     
                   </div>
                 </div>
@@ -2166,7 +2343,7 @@
       </div>
     </main>
 
-    <script src="/assets/js/jquery.min.js"></script>
+    <!-- <script src="/assets/js/jquery.min.js"></script> -->
     <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/bootstrap.js"></script>
     <script src="/assets/js/plugins.js"></script>
@@ -2174,7 +2351,7 @@
     <script src="/assets/lib/loaders.css/loaders.css.js"></script>
     <script src="/assets/js/stickyfill.min.js"></script>
     <script src="/assets/lib/remodal/remodal.js"></script>
-    <script src="/assets/lib/jtap/jquery.tap.js"></script>
+    <!-- <script src="/assets/lib/jtap/jquery.tap.js"></script> -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL"></script>
     <script src="/assets/lib/owl.carousel/owl.carousel.js"></script>
