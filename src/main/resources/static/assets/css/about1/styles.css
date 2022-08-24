@@ -30,7 +30,7 @@ Colors:
 - Body text - dark gray #6b747b
 ******************************************/
 
-h1 {
+/* h1 {
 	color: #333333;
 	font: 600 2.5rem/3.25rem "Poppins", sans-serif;
 }
@@ -59,7 +59,7 @@ h6 {
 	color: #333333;
 	font: 600 1rem/1.5rem "Poppins", sans-serif;
 }
-
+ */
 .p-large {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
