@@ -73,13 +73,6 @@
 	transition: top .2s;
 }
 
-#cont_box .omrs-input-filled > svg {
-	position: absolute;
-	top: 0.9375rem;
-	right: 1.5rem;
-	fill: var(--omrs-color-ink-medium-contrast);
-}
-
 #cont_box .omrs-input-filled > .omrs-input-helper {
 	font-size: 14px;
 	color: var(--omrs-color-ink-medium-contrast);
@@ -106,9 +99,4 @@
 #cont_box .omrs-input-filled:not(.omrs-input-danger) > input:focus {
 	border-color: var(--omrs-color-interaction);
 }
-
-#cont_box .omrs-input-filled:not(.omrs-input-danger) > input:focus ~ svg {
-	fill: var(--omrs-color-ink-high-contrast);
-}
-
 

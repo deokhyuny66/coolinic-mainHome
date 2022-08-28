@@ -159,7 +159,7 @@
 
 
 			<!-- 회사소개 -->
-			<nav class="panel top">
+			<!-- <nav class="panel top">
 			  <div class="sections desktop">
 			    <div class="left"><a href="https://designmodo.com/?u=3165" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
 			    <div class="center">
@@ -178,7 +178,7 @@
 			  </div>
 			</nav>
 			
-			<!-- Sidebar -->
+			Sidebar
 			<nav class="sidebar" data-sidebar-id="1">
 			  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
 			  <div class="content">
@@ -206,7 +206,7 @@
 			  </div>
 			</nav>
 			
-			<!-- Slide 1 (#34) -->
+			Slide 1 (#34)
 			<section class="slide fade-6 kenBurns">
 			  <div class="content">
 			    <div class="container">
@@ -217,7 +217,6 @@
 			            <li class="col-6-12 left middle">
 			              <h1 class="ae-1 fromLeft">Designers are meant to be loved, not to be understood.</h1>
 			              <p class="ae-2 fromLeft"><span class="opacity-8">The sudden hunch, the creative leap of mind that “sees” in a flash how to solve a problem in a simple way, is something quite&nbsp;different.</span></p>
-			              <a class="button blue gradient ae-3 fromCenter cropLeft">Get Started</a><a class="button white ae-4 fromCenter">Learn more</a>
 			            </li>
 			            <li class="col-6-12">
 			              <img class="ae-4" width="605" src="/assets/img/main2/img/iphones-34.png" alt="iPhones Thumbnail" data-action="zoom"/>
@@ -231,7 +230,7 @@
 			  <div class="background" style="background-image:url(/assets/img/main2/img/background/img-34.jpg)"></div>
 			</section>
 			
-			<!-- Slide 2 (#60) -->
+			Slide 2 (#60)
 			<section class="slide fade-6 kenBurns">
 			  <div class="content">
 			    <div class="container">
@@ -277,7 +276,7 @@
 			</section>
 			
 			
-			<!-- Popup Video -->
+			Popup Video
 			<div class="popup autoplay" data-popup-id="60-1">
 			  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
 			  <div class="content">
@@ -294,7 +293,7 @@
 			</div>
 			
 			
-			<!-- Popup Video -->
+			Popup Video
 			<div class="popup autoplay" data-popup-id="60-2">
 			  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
 			  <div class="content">
@@ -311,7 +310,7 @@
 			</div>
 			
 			
-			<!-- Popup Video -->
+			Popup Video
 			<div class="popup autoplay" data-popup-id="60-3">
 			  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
 			  <div class="content">
@@ -328,7 +327,7 @@
 			</div>
 			
 			
-			<!-- Slide 3 (#27) -->
+			Slide 3 (#27)
 			<section class="slide fade-6 kenBurns">
 			  <div class="content">
 			    <div class="container">
@@ -376,7 +375,7 @@
 			  <div class="background" style="background-image:url(/assets/img/main2/img/background/img-27.jpg)"></div>
 			</section>
 			
-			<!-- Slide 4 (#26) -->
+			Slide 4 (#26)
 			<section class="slide fade-6 kenBurns">
 			  <div class="content">
 			    <div class="container">
@@ -424,7 +423,7 @@
 			  <div class="background" style="background-image:url(/assets/img/main2/img/background/img-26.jpg)"></div>
 			</section>
 			
-			<!-- Slide 5 (#91) -->
+			Slide 5 (#91)
 			<section class="slide fade-6 kenBurns">
 			  <div class="content">
 			    <div class="container">
@@ -462,7 +461,7 @@
 			  <div class="background" style="background-image:url(/assets/img/main2/img/background/img-91.jpg)"></div>
 			</section>
 			
-			<!-- Slide 6 (#83) -->
+			Slide 6 (#83)
 			<section class="slide fade-6 kenBurns">
 			  <div class="content">
 			    <div class="container">
@@ -484,7 +483,7 @@
 			                  <li class="opacity-7">24/7 Customer Support</li>
 			                </ul>
 			              </div>
-			              <a href="#" class="button blue gradient wide cropSides cropBottom ae-7">Try Free</a>
+			              
 			            </li>
 			            <li class="col-4-12 ae-4">
 			              <h3>Planet</h3>
@@ -501,7 +500,7 @@
 			                  <li class="opacity-8">24/7 Customer Support</li>
 			                </ul>
 			              </div>
-			              <a href="#" class="button green gradient wide cropSides cropBottom ae-8">Purchase</a>
+			              
 			            </li>
 			            <li class="col-4-12 ae-5">
 			              <h3>Galaxy</h3>
@@ -519,7 +518,7 @@
 			                  <li class="opacity-8">24/7 Customer Support</li>
 			                </ul>
 			              </div>
-			              <a href="#" class="button green gradient wide cropSides cropBottom ae-9">Purchase</a>
+			              
 			            </li>
 			          </ul>
 			        </div> 
@@ -530,7 +529,7 @@
 			  <div class="background" style="background-image:url(/assets/img/main2/img/background/img-83.jpg)"></div>
 			</section>
 			
-			<!-- Slide 7 (#95) -->
+			Slide 7 (#95)
 			<section class="slide fade-6 kenBurns">
 			  <div class="content">
 			    <div class="container">
@@ -554,21 +553,21 @@
 			  <div class="background" style="background-image:url(/assets/img/main2/img/background/img-95.jpg)"></div>
 			</section>
 			
-			<!-- Panel Bottom #01 -->
+			Panel Bottom #01
 			<nav class="panel bottom forceMobileView">
 			  <div class="sections desktop">
 			    <div class="left"><a href="#" class="opacity-8" style="color:#fff;">Available <svg style="height:21px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#apple"></use></svg> iPhone</a></div>
 			    <div class="left"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
-			    <div class="left"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
+			    <div class="left"><span data-dropdown-id="2"></span></div>
 			  </div>
 			  <div class="sections compact hidden">
 			    <div class="right">
-			      <span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span>
+			      <span data-dropdown-id="2" class="button actionButton dropdownTrigger"></span>
 			    </div>
 			  </div>
 			</nav>
 			
-			<!-- Share Window -->
+			Share Window
 			<div class="dropdown share bottom right" data-dropdown-id="2" data-text="Take a look at this" data-url="https://designmodo.com" data-pinterest-image="https://designmodo.com/wp-content/uploads/2015/10/Presentation.jpg">
 			  <div class="center padding-2">
 			    <div class="title">Share</div>
@@ -583,8 +582,406 @@
 			  </ul>
 			</div>
 			
-			<!-- Loading Progress Bar -->
-			<div class="progress-bar blue"></div>
+			Loading Progress Bar
+			<div class="progress-bar blue"></div> -->
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+
+      <!-- ============================================-->
+      <!-- Preloader ==================================-->
+      
+      <!-- <section> begin ============================-->
+      <section class="py-0 overflow-hidden" id="digital-header">
+        <div class="bg-holder overlay digital-header overlay-1" style="background-image:url(/assets/img/detail//headers/header-digital.jpg);" data-zanim-xs='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll"></div>
+        <!--/.bg-holder-->
+        <div class="container">
+          <div class="row min-vh-100 align-items-center py-8 justify-content-center text-center">
+            <div class="col-lg-8 col-xl-7" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <h1 class="fs-3 fs-sm-4 fs-md-5 text-white parallax display-4" data-rellax-speed="4"><span class="overflow-hidden d-block"><span class="d-inline-block font-weight-black" data-zanim-xs='{"delay":0.1}'>we have built</span></span><span class="overflow-hidden d-block"><span class="d-inline-block text-uppercase d-block py-1" data-zanim-xs='{"delay":0.2}'>3250+ websites</span></span><span class="overflow-hidden d-block"><span class="d-inline-block font-weight-black text-underline mb-1" data-zanim-xs='{"delay":0.3}'>that get results</span></span></h1>
+              <div class="overflow-hidden parallax" data-rellax-speed="3">
+                <h3 class="mt-3 mt-sm-4 mt-md-5 mb-4 text-300 font-weight-normal" data-zanim-xs='{"delay":0.4}'>award-winning digital marketing<br class="d-none d-sm-block" />agency in Singapore</h3>
+              </div>
+            </div>
+          </div><a class="indicator indicator-down" data-zanim-timeline='{"delay":1}' data-zanim-trigger="scroll" href="#target-down" data-fancyscroll="data-fancyscroll" data-offset="60"><span class="indicator-arrow indicator-arrow-one" data-zanim-xs='{"from":{"opacity":0,"y":15},"to":{"opacity":1,"y":-5,"scale":1},"ease":"Back.easeOut","duration":0.4,"delay":0.25}'></span><span class="indicator-arrow indicator-arrow-two" data-zanim-xs='{"from":{"opacity":0,"y":15},"to":{"opacity":1,"y":-5,"scale":1},"ease":"Back.easeOut","duration":0.4,"delay":0.5}'></span></a>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+      <div id="target-down"></div>
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="py-0" id="digital-features">
+        <div class="container-fluid">
+          <div class="row align-items-center py-6 py-md-8 py-lg-0">
+            <div class="col-lg-4 px-lg-5">
+              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.1}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail//icons/icon-startup.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                <div class="media-body">
+                  <div class="overflow-hidden">
+                    <h4 data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>organic search optimization</h4>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p class="mb-0" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>If you’re not in the first page of organic search results, your potential customers won’t even know that you exist. Let us fix that for you.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 px-lg-5 border-lg-left border-lg-right border-300 py-4 py-md-7">
+              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.2}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail//icons/icon-target.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                <div class="media-body">
+                  <div class="overflow-hidden">
+                    <h4 data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>conversion rate optimization</h4>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p class="mb-0" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Turn your visitors into customers with our team of experts. We'll analyze your website and develop a suitable conversion strategy.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 px-lg-5">
+              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail//icons/icon-teamwork.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                <div class="media-body">
+                  <div class="overflow-hidden">
+                    <h4 data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>advanced website analytics</h4>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p class="mb-0" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>We help you measure what's working and what isn't, and improve the performance of your website to meet your business objectives.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="border-top border-bottom border-300 bg-light" id="digital-about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4"><img class="img-fluid" src="/assets/img/detail//illustration/digital-01.svg" alt="" /></div>
+            <div class="col-md-7 ml-auto">
+              <h3 class="mb-3">appear on the first page of google!</h3>
+              <p class="text-sans-serif">We offer professional SEO services that help websites rise in rank on Google and other search engines — even when it comes to<span class="font-weight-extra-bold"> highly competitive keywords.</span> A sound search engine marketing plan that includes SEO is essential to increasing your website’s visibility.</p>
+              <div class="row mt-4">
+                <div class="col-lg-4">
+                  <div class="media align-items-center mt-3"><span class="fas fa-puzzle-piece mr-3 fs-2 text-warning"></span>
+                    <div class="media-body">
+                      <h5 class="mb-0 font-weight-bold text-900">Connect with target customers</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="media align-items-center mt-3"><span class="far fa-clock mr-3 fs-2 text-success"></span>
+                    <div class="media-body">
+                      <h5 class="mb-0 font-weight-bold text-900">Time-efficient and cost-effective</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="media align-items-center mt-3"><span class="far fa-grin-tears mr-3 fs-2 text-info"></span>
+                    <div class="media-body">
+                      <h5 class="mb-0 font-weight-bold text-900">Rely on an experienced team</h5>
+                    </div>
+                  </div>
+                </div>
+              </div><a class="btn btn-outline-danger mt-6" href="#">&xrarr; learn more about us</a>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="text-center text-sans-serif" id="digital-features-1" style="padding-top:7.5rem;pdding-bottom:7.5rem;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <h2>complete digital marketing solution</h2>
+              <p class="lead mb-0">Search engine optimization (SEO) and social media marketing (SMM) experts</p>
+            </div>
+          </div>
+          <div class="row mt-6 inner">
+            <div class="col-sm-6 col-lg-3 mb-4">
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-02.svg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+                <h5 class="py-3 mb-0 bg-light">Social media marketing</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-4">
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-03.svg" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+                <h5 class="py-3 mb-0 bg-light">Organic Long-Term SEO</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-4">
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-04.svg" alt="" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+                <h5 class="py-3 mb-0 bg-light">Advanced Web Analytics</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-4">
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-05.svg" alt="" data-zanim-xs='{"delay":0.4,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+                <h5 class="py-3 mb-0 bg-light">Pay Per Click Management</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-7 text-left inner">
+            <div class="col-sm-6 col-lg-4 pr-sm-5" data-zanim-timeline='{"delay":0}' data-zanim-trigger="scroll">
+              <div class="media text-sans-serif"><span class="mr-3 fs-3 far fa-share-square" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'></span>
+                <div class="media-body overflow-hidden">
+                  <h6 class="ls text-uppercase" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Local Search Strategy</h6>
+                  <p data-zanim-xs='{"delay":0.3,"animation":"slide-right"}'>Maximize your presence on search engine results pages on a local scale.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 pr-sm-5 mt-4 mt-sm-0" data-zanim-timeline='{"delay":0.1}' data-zanim-trigger="scroll">
+              <div class="media text-sans-serif"><span class="mr-3 fs-3 far fa-map" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'></span>
+                <div class="media-body overflow-hidden">
+                  <h6 class="ls text-uppercase" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Maps Listing Optimization</h6>
+                  <p data-zanim-xs='{"delay":0.3,"animation":"slide-right"}'>Google Maps Optimization is the centerpiece of an effective local marketing strategy.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 pr-sm-5 mt-4 mt-lg-0" data-zanim-timeline='{"delay":0.2}' data-zanim-trigger="scroll">
+              <div class="media text-sans-serif"><span class="mr-3 fs-3 far fa-check-square" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'></span>
+                <div class="media-body overflow-hidden">
+                  <h6 class="ls text-uppercase" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Link Building &amp; Content</h6>
+                  <p data-zanim-xs='{"delay":0.3,"animation":"slide-right"}'>Link building is and will continue to be a tremendously important component of Search Engine Optimization (SEO).</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 pr-sm-5 mt-4" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll">
+              <div class="media text-sans-serif"><span class="mr-3 fs-3 far fa-chart-bar" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'></span>
+                <div class="media-body overflow-hidden">
+                  <h6 class="ls text-uppercase" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Paid Search Advertising</h6>
+                  <p data-zanim-xs='{"delay":0.3,"animation":"slide-right"}'>Paid listings on Google AdWords and Bing Ads can help you reach new customers and grow your business.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 pr-sm-5 mt-4" data-zanim-timeline='{"delay":0.4}' data-zanim-trigger="scroll">
+              <div class="media text-sans-serif"><span class="mr-3 fs-3 far fa-object-ungroup" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'></span>
+                <div class="media-body overflow-hidden">
+                  <h6 class="ls text-uppercase" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Custom Website Design</h6>
+                  <p data-zanim-xs='{"delay":0.3,"animation":"slide-right"}'>Our team specializes in affordable web design and e-commerce solutions.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 pr-sm-5 mt-4" data-zanim-timeline='{"delay":0.5}' data-zanim-trigger="scroll">
+              <div class="media text-sans-serif"><span class="mr-3 fs-3 far fa-envelope-open" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'></span>
+                <div class="media-body overflow-hidden">
+                  <h6 class="ls text-uppercase" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Creative Email Newsletters</h6>
+                  <p data-zanim-xs='{"delay":0.3,"animation":"slide-right"}'>Email templates designed and written specifically for your customers' needs and interests.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-center mt-6"><a class="btn btn-danger" href="#"><span class="fas fa-paper-plane mr-3" data-fa-transform="grow-8"></span>Request a free quote</a></div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="py-0 overflow-hidden" id="digital-we-do">
+        <div class="container-fluid px-lg-0" style="padding-top:7.5rem;padding-bottom:7.5rem;">
+          <div class="row align-items-center">
+            <div class="col-lg-6 align-self-stretch py-11">
+              <div class="bg-holder" style="background-image:url(/assets/img/detail//digital-strategy.jpg);"></div>
+              <!--/.bg-holder-->
+            </div>
+            <div class="col-lg-6 px-sm-6 px-md-8 px-lg-6 px-xl-8 py-6 py-md-8 align-self-stretch bg-light">
+              <div class="owl-carousel owl-theme owl-nav-outer owl-theme-white px-4" data-options='{"items":1,"autoplay":true,"dots":false,"loop":true,"nav":true,"mouseDrag":true,"autoplayHoverPause":true}'>
+                <div class="text-sans-serif">
+                  <div class="border text-danger border-danger font-weight-bold px-1 fs--1 rounded d-inline-block mb-2">NEW</div>
+                  <h3 class="mb-2 font-weight-normal">Web <span class='font-weight-black'>Craft</span></h3>
+                  <h6 class="ls text-uppercase font-weight-bold mb-4">Stories that get your brand the love it deserves</h6>
+                  <p class="mb-0">A surefire way to your target audience’s hearts is through compelling and engaging storytelling. Adding our personal touch of awe-inspiration, we aim to make them fall in love with your brand. These elements come together to form the basis for our multi-platform websites and applications that also work well on, yes, Internet Explorer.</p>
+                </div>
+                <div class="text-sans-serif">
+                  <h3 class="mb-2 font-weight-normal">We <span class='font-weight-black'>Strategise</span></h3>
+                  <h6 class="ls text-uppercase font-weight-bold mb-4">Campaigns that exceed your KPIs</h6>
+                  <p class="mb-0">Let’s face it — nobody wants to head into the battlefield unprepared. That’s where we come in. With Sparrow, you are on one big team. We tailor-cut to your needs by crafting strategies that will engage your audience and build a loyal following. Expand your digital empire with us.</p><a class="btn btn-link text-danger font-weight-bold pl-0 mt-4" href="#">Learn more &xrarr;</a>
+                </div>
+                <div class="text-sans-serif">
+                  <h3 class="mb-2 font-weight-normal">Web <span class='font-weight-black'>Build</span></h3>
+                  <h6 class="ls text-uppercase font-weight-bold mb-4">Multi-platform and responsive websites</h6>
+                  <p class="mb-0">Sparrow firmly believes in doing things 'User First', and the key to that is keeping responsive web design in mind. We also acknowledge that your target audience’s User Experience is King in the Realm of the Web and ought to be treated like royalty.</p><a class="btn btn-link text-danger font-weight-bold pl-0 mt-4" href="#">Hire us &xrarr;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="text-center text-sans-serif" id="digital-partners">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              <h3 class="mb-2">proud to be working with</h3>
+              <p>Since 2009, we have forged close relationships with over 100 brands allowing us to gain a wide experience marketing vastly different product types and services from various industries, locally, regionally and globally.</p>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-6 inner">
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/23.png" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/22.png" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4 mt-md-0">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/24.png" alt="" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4 mt-lg-0">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/26.png" alt="" data-zanim-xs='{"delay":0.4,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/13.png" alt="" data-zanim-xs='{"delay":0.5,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/04.png" alt="" data-zanim-xs='{"delay":0.6,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/27.png" alt="" data-zanim-xs='{"delay":0.7,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/14.png" alt="" data-zanim-xs='{"delay":0.8,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+            </div>
+          </div>
+          <div class="row mt-6 text-center">
+            <div class="col"><a class="btn btn-danger" href="#">Let's work</a></div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="text-center bg-black text-sans-serif inner" id="digital-contact" style="padding-top:7.5rem;pdding-bottom:7.5rem;margin-top:7.5rem;">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              <h2 class="text-white">speak to us!</h2>
+              <p class="text-500">The digital landscape is constantly evolving; just when you think you’ve gotten the hang of it, you realise that things are a-changing once again. And we are here to help.</p>
+            </div>
+          </div>
+          <form class="zform text-left mt-6">
+            <div class="row justify-content-center" style="padding-bottom:7.5rem;">
+              <div class="col-lg-5"><input type="hidden" name="to" value="username@domain.extension" />
+                <div class="form-group mb-4"><label class="text-400 font-weight-bold ls fs--1">Your Name</label><input class="fs-0 form-control border-800 bg-transparent" type="text" required="required" /></div>
+                <div class="form-group mb-4"><label class="text-400 font-weight-bold ls fs--1">Your Email</label><input class="fs-0 form-control border-800 bg-transparent" type="email" required="required" /></div>
+                <div class="form-group mb-4"><label class="text-400 font-weight-bold ls fs--1">Your Phone</label><input class="fs-0 form-control border-800 bg-transparent" type="text" required="required" /></div>
+                <div class="form-group mb-4"><label class="text-400 font-weight-bold ls fs--1">How did you find us?</label><select class="fs-0 custom-select border-800 bg-transparent">
+                    <option selected="">Select one</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select></div>
+              </div>
+              <div class="col-lg-5">
+                <div class="form-group mb-4"><label class="text-400 font-weight-bold ls fs--1">Your Organisation</label><input class="fs-0 form-control border-800 bg-transparent" type="text" required="required" /></div>
+                <div class="form-group mb-4"><label class="text-400 font-weight-bold ls fs--1">Your Message</label><textarea class="fs-0 form-control border-800 bg-transparent" rows="11" required="required"></textarea></div>
+              </div>
+              <div class="col-lg-10 text-center">
+                <div class="zform-feedback my-2"></div><input class="btn btn-danger" type="submit" value="send" />
+              </div>
+            </div>
+          </form>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="text-sans-serif inner" id="digital-socials" style="padding-top:7.5rem;padding-bottom:7.5rem;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 pr-lg-5">
+              <h3 class="mb-3">we are sparrow</h3>
+              <p>A digital agency that delivers awe-inspiring experiences. Our passion is all about making your brand shine.</p>
+            </div>
+            <div class="col-md-6 col-lg-4 pr-lg-6 ml-lg-auto mt-6 mt-lg-0">
+              <h4 class="mb-3">Clogs</h4>
+              <p class="mb-0">Design Inspiration for Summer. Describe the moment you discovered you could be creative. Transform your Ideas from Good to Great</p>
+              <h4 class="mb-3 mt-4">Socials</h4><a class="btn btn-dark btn-sm mr-2" href="#"><span class="fab fa-twitter"></span></a><a class="btn btn-dark btn-sm mr-2" href="#"><span class="fab fa-facebook-f"></span></a><a class="btn btn-dark btn-sm mr-2" href="#"><span class="fab fa-google-plus-g"></span></a><a class="btn btn-dark btn-sm" href="#"><span class="fab fa-linkedin-in"></span></a>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-6 mt-lg-0">
+              <h4 class="mb-3">Get in touch</h4>
+              <p class="mb-0"><span class="text-black">Tel:</span><a class="text-700" href="tel:+6562934373">+65 6293 4373</a></p>
+              <p class="mb-0"><span class="text-black">Drop us an email at:</span><a class="text-700" href="mailto:info@sparrow.com">info@sparrow.com</a></p>
+              <h4 class="mb-3 mt-4">Find us</h4>
+              <address>Sparrow Interactive Pte. Ltd.<br />50 Ubi Avenue 3, #04-05 Frontier ePark@Ubi<br />Singapore 408866</address>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+    <!--===============================================-->
+    <!--    Modal for language selection-->
+    <!--===============================================-->
+    <!-- Modal-->
+    <div class="modal fade fade-in" id="languageModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xs mx-auto" role="document">
+        <div class="modal-content bg-black">
+          <div class="modal-body text-center p-0"><button class="close text-white position-absolute t-0 r-0 times-icon mt-2 mr-2 p-2" type="button" data-dismiss="modal" aria-label="Close"></button>
+            <ul class="list-unstyled pl-0 my-0 py-4 text-sans-serif">
+              <li><a class="text-white font-weight-bold pt-1 d-block" href="home-default.html">English</a></li>
+              <li><a class="pt-1 d-block text-500" href="#">Français</a></li>
+              <li><a class="text-500 pt-1 d-block" href="page-rtl.html">عربى</a></li>
+              <li><a class="pt-1 d-block text-500" href="#">Deutsche</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -634,7 +1031,7 @@
 	      <section>
 	      <div id="wrapsv">
 			<header id="headersv" class="row_flex">
-    			<h2>총 예상비용 계산기</h2>
+    			<h2>AI 자동견적 계산기</h2>
   			</header>
 				
 		  	<section id="sectionsv">
@@ -740,7 +1137,6 @@
 								  <input required>
 								  <span class="omrs-input-label">가로</span>
 								  <span class="omrs-input-helper">(저온창고의 가로 SIZE)</span>
-								  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 								</label>
 							</div> 
            					<div class="omrs-input-group">
@@ -748,7 +1144,6 @@
 								  <input required>
 								  <span class="omrs-input-label">세로</span>
 									<span class="omrs-input-helper">(저온창고의 세로 SIZE)</span>
-								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 								</label>
 							</div>  
 	              			<div class="omrs-input-group">
@@ -756,7 +1151,6 @@
 								  <input required>
 								  <span class="omrs-input-label">높이</span>
 									<span class="omrs-input-helper">(저온창고의 높이 SIZE)</span>
-								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 								</label>
 							</div> 
 							<div class="omrs-input-group">
@@ -770,7 +1164,6 @@
 							      <option value="mobi">mobi</option>
 							   </select>
 							   <span class="omrs-input-helper">(저장품목 내용)</span>
-							   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 						   </label>
 						   </div>
 							<div class="omrs-input-group">
@@ -784,7 +1177,6 @@
 							      <option value="mobi">mobi</option>
 							   </select>
 							   <span class="omrs-input-helper">(저온창고 희망온도)</span>
-							   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 						   </label>
 						   </div>
 							<div class="omrs-input-group">
@@ -798,7 +1190,6 @@
 							      <option value="mobi">mobi</option>
 							   </select>
 							   <span class="omrs-input-helper">(저온창고 출입구 형태)</span>
-							   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 						   </label>
 						   </div>
 						   <div class="omrs-input-group">
@@ -812,7 +1203,6 @@
 							      <option value="mobi">mobi</option>
 							   </select>
 							   <span class="omrs-input-helper">(저온창고 출입구 SIZE)</span>
-							   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 						   </label>
 						   </div>
 						   <div class="omrs-input-group">
@@ -826,7 +1216,6 @@
 							      <option value="mobi">mobi</option>
 							   </select>
 							   <span class="omrs-input-helper">(저온창고 구매형태)</span>
-							   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"/></svg>
 						   </label>
 						   </div>
          		      </div>
@@ -855,7 +1244,7 @@
               			      
               				<!--calculator_cont01-->
               				<div class="calculator_cont02 row_flex">
-                				<button type="button" id="btnSave"><a href="#a">견적서 요청</a></button>
+                				<button type="button" id="btnSave"><a href="#a">예상 견적서 확인</a></button>
               				</div>
               				<!--calculator_cont02-->
             			</div>
@@ -2565,6 +2954,7 @@
     <script src="/assets/js/detail/comm_detail.js"></script>
     <script src="/assets/js/theme.js"></script>
 	<script src="/assets/js/main/slides.min.js" type="text/javascript"></script>
+	<script src="/assets/js/main/swiper.min.js" type="text/javascript"></script>
   </body>
 
 </html>
