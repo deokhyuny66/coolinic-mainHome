@@ -16,7 +16,7 @@ https://designmodo.com/slides/
 
 */
 /* CSS RESET */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
   vertical-align: baseline;
   margin: 0;
@@ -25,7 +25,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, bl
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
-}
+} */
 
 ol, ul, li {
   list-style: none;
@@ -106,13 +106,13 @@ img.rounded {
 }
 
 .slides {
-  color: #fff;
+  /* color: #fff; */
   fill: #fff;
   font-family: "Roboto", sans-serif;
   -webkit-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
-  background: #111;
+  /* background: #111; */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1288,6 +1288,50 @@ p.uppercase, .p.uppercase,
   background: #fff;
 }
 
+@media screen and (max-width:2000px) { 
+	.content {
+	  overflow: hidden;
+	  position: absolute;
+	  -webkit-backface-visibility: hidden;
+	          backface-visibility: hidden;
+	  top: 0;
+	  left: 0;
+	  width: 75%;
+	  height: 100%;
+	  z-index: 100;
+	  -webkit-overflow-scrolling: touch;
+	}
+}
+@media screen and (max-width:768px) { 
+	.content {
+	  overflow: hidden;
+	  position: absolute;
+	  -webkit-backface-visibility: hidden;
+	          backface-visibility: hidden;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  z-index: 100;
+	  -webkit-overflow-scrolling: touch;
+	}	
+
+}
+@media screen and (max-width:480px) { 
+	.content {
+	  overflow: hidden;
+	  position: absolute;
+	  -webkit-backface-visibility: hidden;
+	          backface-visibility: hidden;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  z-index: 100;
+	  -webkit-overflow-scrolling: touch;
+	}
+}
+/* 
 .content {
   overflow: hidden;
   position: absolute;
@@ -1299,7 +1343,7 @@ p.uppercase, .p.uppercase,
   height: 100%;
   z-index: 100;
   -webkit-overflow-scrolling: touch;
-}
+} */
 .content.scrollBar {
   overflow-y: auto;
 }
@@ -12302,7 +12346,9 @@ p.remind-43 {
 .cover {
   background-size: cover !important;
 }
-
+.abc {
+	
+}
 .noSelect, .noSelect *, .disableSelect, .disableSelect * {
   -webkit-touch-callout: none !important;
   -webkit-user-select: none !important;
@@ -12326,3 +12372,8 @@ p.remind-43 {
 }
 
 /*# sourceMappingURL=slides.css.map */
+
+
+
+
+

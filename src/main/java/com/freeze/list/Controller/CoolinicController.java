@@ -34,9 +34,5 @@ public class CoolinicController {
 	public String view() throws Exception{
 		return "/nav-eight-item-four-column";
 	}
-	
-	@RequestMapping("/NewFile")
-	public String newFile() throws Exception{
-		return "/NewFile";
-	}
+
 }

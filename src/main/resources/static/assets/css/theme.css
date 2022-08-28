@@ -60,7 +60,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.45;
-  color: #666666;
+  /* color: #666666; */
   text-align: left;
   background-color: #fff;
 }
@@ -155,14 +155,14 @@ sup {
 }
 
 a {
-  color: #045bc1;
+  /* color: #045bc1; */
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #023876;
-  text-decoration: underline;
+  /* color: #023876; */
+  /* text-decoration: underline !important; */
 }
 
 a:not([href]) {
