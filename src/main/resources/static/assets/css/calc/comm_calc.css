@@ -1,11 +1,6 @@
 @charset "EUC-KR";
 
 /** BEGIN: Non Openmrs CSS **/
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-* {
-	font-family: "Roboto";
-}
-
 :root {
 	--omrs-color-ink-lowest-contrast: rgba(47, 60, 85, 0.18);
 	--omrs-color-ink-low-contrast: rgba(60, 60, 67, 0.3);
