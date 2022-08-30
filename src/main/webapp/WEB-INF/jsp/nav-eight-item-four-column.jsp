@@ -950,35 +950,63 @@
 		   <div class="stepContainer">
 			    <div id="svg_wrap"></div>
 			
-			    <h1 class="steph1">Online Application</h1>
-			    <section class="stepSection">
-			      <p>Personal information</p>
-			      <input type="text" placeholder="Firstname" />
-			      <input type="text" placeholder="Surname" />
-			      <input type="text" placeholder="Birthdate" />
-			      <input type="text" placeholder="Insurance number" />
-			      <input type="text" placeholder="Family status" />
+			    <h1 class="steph1">간편 A/S 요청 서비스</h1>
+			    <section class="stepSection selectSteps">
+			      <p>A/S 신청<br/>RMS 번호로 쉽게 A/S 요청 하세요</p>
+			      <input type="text" placeholder="2501-02-00052" />
+			      <input type="radio" id="selectSteps1" name="1step"><label for="selectSteps1">A/S 요청하기</label>
+			      <input type="radio" id="selectSteps2" name="1step"><label for="selectSteps2">일반 A/S 요청하기<br/>(RMS 번호가 없어요)</label>
 			    </section>
 			
-			    <section class="stepSection">
-			      <p>Address</p>
-			      <input type="text" placeholder="Street, nbr" />
-			      <input type="text" placeholder="City" />
-			      <input type="text" placeholder="Postcode" />
-			      <input type="text" placeholder="Country" />
+			    <section class="stepSection selectSteps">
+			      <p>서비스 구분 선택<br/>원하시는 서비스의 종류를 선택해 주세요</p>
+			      <input type="radio" id="selectSteps3" name="2step"><label for="selectSteps3">냉동기 사업자 입니다.<br/>A/S를 요청 합니다.</label>
+			      <input type="radio" id="selectSteps4" name="2step"><label for="selectSteps4">파트너 입니다.<br/>A/S 대행 요청 합니다.</label>
+			      <input type="radio" id="selectSteps5" name="2step"><label for="selectSteps5">제조사 입니다.<br/>A/S 대행 요청 합니다.</label>
 			    </section>
 			
-			    <section class="stepSection">
-			      <p>Contact information</p>
-			      <input type="text" placeholder="Email address" />
-			      <input type="text" placeholder="Phone" />
-			      <input type="text" placeholder="Mobile" />
+			    <section class="stepSection selectSteps">
+			      <p>A/S 대행 유.무상 선택<br/>무상 : 대행 요청자에게 비용 청구 / 유상 : 현장에서 결제</p>
+			      <input type="radio" id="selectSteps6" name="3step"><label for="selectSteps6">무상 A/S 기간입니다.</label>
+			      <input type="radio" id="selectSteps7" name="3step"><label for="selectSteps7">유상 A/S 기간입니다.</label>
 			    </section>
 			
-			    <section class="stepSection">
-			      <p>Application</p>
-			      <input type="text" placeholder="Preferred entrance date" />
-			      <input type="text" placeholder="Number of people" />
+			    <section class="stepSection selectSteps">
+			      <p>서비스 유형 선택<br/>긴급 : 2시간 이내 / 출장 및 진단비 100,000<br/>일반 : 일정 조율 / 출장 및 진단비 : 50,000</p>
+			      <input type="radio" id="selectSteps8" name="4step"><label for="selectSteps8">긴급으로 A/S 요청합니다.</label>
+			      <input type="radio" id="selectSteps9" name="4step"><label for="selectSteps9">긴급으로 A/S 요청합니다.</label>
+			    </section>
+			    
+			    <section class="stepSection selectSteps">
+			      <p>고장 제품 선택<br/>어떤 제품의 A/S가 필요하신가요?</p>
+			      <input type="radio" id="selectSteps10" name="5step"><label for="selectSteps10">업소용 냉장고</label>
+			      <input type="radio" id="selectSteps11" name="5step"><label for="selectSteps11">쇼케이스 류</label>
+			    </section>
+			    <section class="stepSection selectSteps">
+			      <p>고장 증상 선택<br/>증상을 알면 A/S가 빨라집니다</p>
+			      <input type="radio" id="selectSteps12" name="6step"><label for="selectSteps12">온도가 떨어지지 않아요</label>
+			      <input type="radio" id="selectSteps13" name="6step"><label for="selectSteps13">기계가 작동하지 않아요 </label>
+			    </section>
+			    <section class="stepSection selectSteps">
+			      <p>A/S 요청지 주소<br/>현장 주소를 입력해 주세요</p>
+			      <input type="text" placeholder="우편번호" />
+			      <input type="text" placeholder="주소지" />
+			      <input type="text" placeholder="상세주소" />
+			    </section>
+			    
+			    <section class="stepSection selectSteps">
+			      <p>상호를 알려주세요<br/>간판명 또는 기업명을 알려주세요</p>
+			      <input type="text" placeholder="상호 or 기업명" />
+			    </section>
+			    
+			    <section class="stepSection selectSteps">
+			      <p>그 외 참고사항 입력<br/>제품의 상세모델명 또는 참고사항을 남겨주세요</p>
+			      <input type="text" placeholder="ex)pa-100이라고 표기되어 있음" />
+			    </section>
+			    <section class="stepSection selectSteps">
+			      <p>전화번호 인증<br/>담당자님의 번호를 인증해 주세요</p>
+			      <input type="text" placeholder="010 - 없이 숫자만 입면" />
+			      <input type="text" placeholder="인증번호" />
 			    </section>
 			
 			    <section class="stepSection">
@@ -986,8 +1014,8 @@
 			      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			    </section>
 			
-			    <div class="stepButton" id="prev">&larr; Previous</div>
-			    <div class="stepButton" id="next">Next &rarr;</div>
+			    <div class="stepButton" id="prev">&larr; 이전</div>
+			    <div class="stepButton" id="next">다음 &rarr;</div>
 			    <div class="stepButton" id="submit">Agree and send application</div>
 			</div>
 

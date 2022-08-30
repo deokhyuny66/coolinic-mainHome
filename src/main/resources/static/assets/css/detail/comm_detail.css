@@ -179,7 +179,7 @@
 }
 
 .stepButton {
-  background: rgb(237, 40, 70);
+  background: #2251A1;
   border-radius: 5px;
   padding: 15px 25px;
   display: inline-block;
@@ -226,4 +226,30 @@
 }
 
 
-
+.stepContainer .selectSteps {
+    padding: 15px 10px;
+}
+.stepContainer .selectSteps input[type=radio]{
+    display: none;
+}
+.stepContainer .selectSteps input[type=radio]+label{
+    cursor: pointer;
+    width: 100%;
+    margin: 7px 0px;
+    display: inline-block;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+    font-family: inherit;
+    background: white;
+}
+.stepContainer .selectSteps input[type=radio]+label{
+    background-color: #fff;
+    color: #333;
+}
+.stepContainer .selectSteps input[type=radio]:checked+label{
+    background-color: #333;
+    color: #fff;
+}
