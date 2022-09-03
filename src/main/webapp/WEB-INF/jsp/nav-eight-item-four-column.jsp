@@ -59,7 +59,7 @@
           <div class="position-relative px-3 w-lg-50 position-lg-absolute" id="baseContent">
             <div class="row align-items-center minh-50vh justify-content-center py-5 minh-lg-100vh">
               <div class="bg-holder overlay overlay-1">
-              	<video src="/assets/video/coolinic.mp4" class="videoMp4" autoplay muted loop controls></video>
+              	<video src="/assets/video/coolinic.mp4" class="videoMp4-main" autoplay muted loop controls></video>
               	<!-- <video src="/assets/video/joomin.mp4" style="width: 100%; height: 100%;background-size: contain;" autoplay muted loop controls></video> -->
               </div>
               <!--/.bg-holder-->
@@ -130,7 +130,7 @@
 	  <!-- 회사소개 -->
       <!-- <section> begin ============================-->
       <section class="py-0 overflow-hidden" id="digital-header">
-        <div class="bg-holder overlay digital-header overlay-1" style="background-image:url(/assets/img/detail//headers/header-digital.jpg);" data-zanim-xs='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll"></div>
+        <div class="bg-holder overlay digital-header overlay-1" style="background-image:url(/assets/img/detail/headers/header-digital.jpg);" data-zanim-xs='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll"></div>
         <!--/.bg-holder-->
         <div class="container">
           <div class="row min-vh-100 align-items-center py-8 justify-content-center text-center">
@@ -153,7 +153,7 @@
         <div class="container-fluid">
           <div class="row align-items-center py-6 py-md-8 py-lg-0">
             <div class="col-lg-4 px-lg-5">
-              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.1}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail//icons/icon-startup.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.1}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail/icons/icon-startup.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
                 <div class="media-body">
                   <div class="overflow-hidden">
                     <h4 data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>organic search optimization</h4>
@@ -165,7 +165,7 @@
               </div>
             </div>
             <div class="col-lg-4 px-lg-5 border-lg-left border-lg-right border-300 py-4 py-md-7">
-              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.2}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail//icons/icon-target.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.2}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail/icons/icon-target.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
                 <div class="media-body">
                   <div class="overflow-hidden">
                     <h4 data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>conversion rate optimization</h4>
@@ -177,7 +177,7 @@
               </div>
             </div>
             <div class="col-lg-4 px-lg-5">
-              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail//icons/icon-teamwork.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+              <div class="media text-sans-serif overflow-hidden" data-zanim-timeline='{"delay":0.3}' data-zanim-trigger="scroll"><img class="mr-3" src="/assets/img/detail/icons/icon-teamwork.svg" alt="icon" width="50" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
                 <div class="media-body">
                   <div class="overflow-hidden">
                     <h4 data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>advanced website analytics</h4>
@@ -200,7 +200,7 @@
       <section class="border-top border-bottom border-300 bg-light" id="digital-about">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-4"><img class="img-fluid" src="/assets/img/detail//illustration/digital-01.svg" alt="" /></div>
+            <div class="col-md-4"><img class="img-fluid" src="/assets/img/detail/illustration/digital-01.svg" alt="" /></div>
             <div class="col-md-7 ml-auto">
               <h3 class="mb-3">appear on the first page of google!</h3>
               <p class="text-sans-serif">We offer professional SEO services that help websites rise in rank on Google and other search engines — even when it comes to<span class="font-weight-extra-bold"> highly competitive keywords.</span> A sound search engine marketing plan that includes SEO is essential to increasing your website’s visibility.</p>
@@ -247,22 +247,22 @@
           </div>
           <div class="row mt-6 inner">
             <div class="col-sm-6 col-lg-3 mb-4">
-              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-02.svg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail/illustration/digital-02.svg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
                 <h5 class="py-3 mb-0 bg-light">Social media marketing</h5>
               </div>
             </div>
             <div class="col-sm-6 col-lg-3 mb-4">
-              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-03.svg" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail/illustration/digital-03.svg" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
                 <h5 class="py-3 mb-0 bg-light">Organic Long-Term SEO</h5>
               </div>
             </div>
             <div class="col-sm-6 col-lg-3 mb-4">
-              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-04.svg" alt="" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail/illustration/digital-04.svg" alt="" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
                 <h5 class="py-3 mb-0 bg-light">Advanced Web Analytics</h5>
               </div>
             </div>
             <div class="col-sm-6 col-lg-3 mb-4">
-              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail//illustration/digital-05.svg" alt="" data-zanim-xs='{"delay":0.4,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+              <div class="h-100 border border-300 justify-content-between d-flex flex-column rounded"><img class="my-4 img-fluid" src="/assets/img/detail/illustration/digital-05.svg" alt="" data-zanim-xs='{"delay":0.4,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
                 <h5 class="py-3 mb-0 bg-light">Pay Per Click Management</h5>
               </div>
             </div>
@@ -330,7 +330,7 @@
         <div class="container-fluid px-lg-0" style="padding-top:7.5rem;padding-bottom:7.5rem;">
           <div class="row align-items-center">
             <div class="col-lg-6 align-self-stretch py-11">
-              <div class="bg-holder" style="background-image:url(/assets/img/detail//digital-strategy.jpg);"></div>
+              <div class="bg-holder" style="background-image:url(/assets/img/detail/digital-strategy.jpg);"></div>
               <!--/.bg-holder-->
             </div>
             <div class="col-lg-6 px-sm-6 px-md-8 px-lg-6 px-xl-8 py-6 py-md-8 align-self-stretch bg-light">
@@ -372,28 +372,28 @@
           </div>
           <div class="row justify-content-center mt-6 inner">
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/23.png" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/23.png" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/22.png" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/22.png" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4 mt-md-0">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/24.png" alt="" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/24.png" alt="" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4 mt-lg-0">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/26.png" alt="" data-zanim-xs='{"delay":0.4,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/26.png" alt="" data-zanim-xs='{"delay":0.4,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/13.png" alt="" data-zanim-xs='{"delay":0.5,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/13.png" alt="" data-zanim-xs='{"delay":0.5,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/04.png" alt="" data-zanim-xs='{"delay":0.6,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/04.png" alt="" data-zanim-xs='{"delay":0.6,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/27.png" alt="" data-zanim-xs='{"delay":0.7,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/27.png" alt="" data-zanim-xs='{"delay":0.7,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mt-4">
-              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail//logo/14.png" alt="" data-zanim-xs='{"delay":0.8,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+              <div class="bg-light p-4 p-sm-6 h-100 rounded"><img class="logo-grid" src="/assets/img/detail/logo/14.png" alt="" data-zanim-xs='{"delay":0.8,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
             </div>
           </div>
           <div class="row mt-6 text-center">
@@ -529,11 +529,9 @@
 			<header id="headersv" class="row_flex">
     			<h2>AI 자동견적 계산기</h2>
   			</header>
-				
+			
 		  	<section id="sectionsv">
-		  	
-   			<form name="rentalForm" id="rentalForm" method="post" onsubmit="return false;">
-<!-- 	   			<input type="hidden" name="estType" id="estType" value="RENTAL">
+<!-- 	   		<input type="hidden" name="estType" id="estType" value="RENTAL">
 	   			<input type="hidden" name="pSize" id="pSize" value="">
 	   			<input type="hidden" name="pOption" id="pOption" value="">
 	   			<input type="hidden" name="pPeriod" id="pPeriod" value="">
@@ -543,8 +541,7 @@
 				<input type="hidden" name="pOptionConcentric220" id="pOptionConcentric220" value="">
 	   			<input type="hidden" name="pOptionAirCurtain" id="pOptionAirCurtain" value="">
 	   			<input type="hidden" name="pOptionConcentric380" id="pOptionConcentric380" value="">
-	   			<input type="hidden" name="pOptionLogo" id="pOptionLogo" value="">
-	   			
+	   			<input type="hidden" name="pOptionLogo" id="pOptionLogo" value="">   			
 	   			<input type="hidden" name="pSizePay" id="pSizePay" value="0">
 	   			<input type="hidden" name="pOptionPay" id="pOptionPay" value="0">
 	   			<input type="hidden" name="pOptionConcentric220Pay" id="pOptionConcentric220Pay" value="0">
@@ -558,39 +555,41 @@
 	   			<input type="hidden" name="pTotalPay" id="pTotalPay" value="0">
 	   			<input type="hidden" name="pMonthPay" id="pMonthPay" value="0"> -->
    			
+   			<form action="/proc/calc" name="rentalForm" id="rentalForm" method="post">
    			<!-- container_content -->
    			<div class="container_content">
      			<div class="row_flex">
        				<!-- product_info -->
        				<div class="product_info">
          				<!-- product_size -->
-         				<div class="product_size product_info_item">
-      					<h3>컨테이너 사이즈</h3>
-      					<p><img src="/assets/img/calc/size_img.png" alt="빙고 컨테이너 이미지"></p>
-           				<table id="20ftMasterList">
-	             			<th class="br_l"></th>
-				            <th>내부<span>(m)</span></th>
-				            <th>외부<span>(m)</span></th>
-				            <th class="br_r">개구부<span>(m)</span></th>
-	             			<tr>
-				               	<td>길이</td>
-				               	<td>5.5</td>
-				               	<td>6.1</td>
-				               	<td>-</td>
-				            </tr>
-				            <tr>
-				            	<td>폭</td>
-				                <td>2.3</td>
-				                <td>2.4</td>
-				                <td>2.4</td>
-				            </tr>
-				            <tr>
-				                <td>높이</td>
-				                <td>2.3</td>
-				                <td>2.6</td>
-				                <td>2.6</td>
-				            </tr>
-           				</table>
+	         				<div class="product_size product_info_item">
+	      					<h3>저온창고 사이즈</h3>
+	      					<!-- <p><img src="/assets/img/calc/size_img.png" alt="빙고 컨테이너 이미지"></p> -->
+	      					<video src="/assets/video/coolinic.mp4" class="videoMp4-calc" autoplay muted loop controls></video>
+	           				<table id="20ftMasterList">
+		             			<th class="br_l"></th>
+					            <th>내부<span>(m)</span></th>
+					            <th>외부<span>(m)</span></th>
+					            <th class="br_r">개구부<span>(m)</span></th>
+		             			<tr>
+					               	<td>길이</td>
+					               	<td>5.5</td>
+					               	<td>6.1</td>
+					               	<td>-</td>
+					            </tr>
+					            <tr>
+					            	<td>폭</td>
+					                <td>2.3</td>
+					                <td>2.4</td>
+					                <td>2.4</td>
+					            </tr>
+					            <tr>
+					                <td>높이</td>
+					                <td>2.3</td>
+					                <td>2.6</td>
+					                <td>2.6</td>
+					            </tr>
+	           				</table>
          				</div>
          				
        				</div>
@@ -598,14 +597,14 @@
        				<div class="addition">
          				<!-- product_size -->
          				<div class="product_size product_info_item product_info_item_mobile">
-       					<h3>컨테이너 사이즈</h3>
-       					<p><img src="/assets/img/calc/size_img.png" alt="빙고 컨테이너 이미지"></p>
+       					<h3>저온창고 사이즈</h3>
+       					<p><img src="/assets/img/calc/size_img.png"></p>
        						<table id="20ftMasterList_M">
 		       					<th class="br_l"></th>
 					            <th>내부<span>(m)</span></th>
 					            <th>외부<span>(m)</span></th>
 					            <th class="br_r">개구부<span>(m)</span></th>
-		             					<tr>
+		             			<tr>
 					               	<td>길이</td>
 					               	<td>5.5</td>
 					               	<td>6.1</td>
@@ -625,107 +624,69 @@
 					            </tr>
          					</table>
          				</div>
-         				
-         				<!--cont_box-->
-         				<div id="cont_box" class="cont_box tab_rental_cont">
-           					<!-- <h3>정보입력</h3> -->
-           					<div class="omrs-input-group">
-								<label class="omrs-input-filled">
-								  <input required>
-								  <span class="omrs-input-label">가로</span>
-								  <span class="omrs-input-helper">(저온창고의 가로 SIZE)</span>
-								</label>
-							</div> 
-           					<div class="omrs-input-group">
-								<label class="omrs-input-filled">
-								  <input required>
-								  <span class="omrs-input-label">세로</span>
-									<span class="omrs-input-helper">(저온창고의 세로 SIZE)</span>
-								</label>
-							</div>  
-	              			<div class="omrs-input-group">
-								<label class="omrs-input-filled">
-								  <input required>
-								  <span class="omrs-input-label">높이</span>
-									<span class="omrs-input-helper">(저온창고의 높이 SIZE)</span>
-								</label>
-							</div> 
-							<div class="omrs-input-group">
-							<label class="omrs-input-filled">
-								<select>
-							      <option selected disabled>저장품목</option>
-							      <option value="pdf">PDF</option>
-							      <option value="txt">txt</option>
-							      <option value="epub">ePub</option>
-							      <option value="fb2">fb2</option>
-							      <option value="mobi">mobi</option>
-							   </select>
-							   <span class="omrs-input-helper">(저장품목 내용)</span>
-						   </label>
-						   </div>
-							<div class="omrs-input-group">
-							<label class="omrs-input-filled">
-								<select>
-							      <option selected disabled>희망온도</option>
-							      <option value="pdf">PDF</option>
-							      <option value="txt">txt</option>
-							      <option value="epub">ePub</option>
-							      <option value="fb2">fb2</option>
-							      <option value="mobi">mobi</option>
-							   </select>
-							   <span class="omrs-input-helper">(저온창고 희망온도)</span>
-						   </label>
-						   </div>
-							<div class="omrs-input-group">
-							<label class="omrs-input-filled">
-								<select>
-							      <option selected disabled>출입구형태</option>
-							      <option value="pdf">PDF</option>
-							      <option value="txt">txt</option>
-							      <option value="epub">ePub</option>
-							      <option value="fb2">fb2</option>
-							      <option value="mobi">mobi</option>
-							   </select>
-							   <span class="omrs-input-helper">(저온창고 출입구 형태)</span>
-						   </label>
-						   </div>
-						   <div class="omrs-input-group">
-							<label class="omrs-input-filled">
-								<select>
-							      <option selected disabled>출입구사이즈</option>
-							      <option value="pdf">PDF</option>
-							      <option value="txt">txt</option>
-							      <option value="epub">ePub</option>
-							      <option value="fb2">fb2</option>
-							      <option value="mobi">mobi</option>
-							   </select>
-							   <span class="omrs-input-helper">(저온창고 출입구 SIZE)</span>
-						   </label>
-						   </div>
-						   <div class="omrs-input-group">
-							<label class="omrs-input-filled">
-								<select>
-							      <option selected disabled>구매형태</option>
-							      <option value="pdf">PDF</option>
-							      <option value="txt">txt</option>
-							      <option value="epub">ePub</option>
-							      <option value="fb2">fb2</option>
-							      <option value="mobi">mobi</option>
-							   </select>
-							   <span class="omrs-input-helper">(저온창고 구매형태)</span>
-						   </label>
-						   </div>
-         		      </div>
-         			 
-          			  <!--cont_box-->
-          			  <div class="cont_box tab_common_cont">
-            			      <h3>수량선택</h3>
-            				  <div class="item row_flex" id="quantity">
-              			      <p id="decreaseQuantity"><span></span></p>
-              				  <p id="numberUpDown">1</p>
-              				  <p id="increaseQuantity"><span></span><span></span></p>
-            				  </div>
-          			  </div>
+
+         				<div class="cont_box tab_common_cont">
+              					<h3>정보입력</h3>
+              					<div class="item">
+                					<input type="text" name="wid" placeholder="가로">
+              					</div>
+              					<div class="item">
+                					<input type="text" name="vert" placeholder="세로">
+              					</div>
+              					<div class="item">
+                					<input type="text" name="heg" placeholder="높이">
+              					</div>
+              					<div class="item">
+	              					<select name="store">
+								      <option selected disabled>저장품목</option>
+								      <option value="storelist01">어패류</option>
+								      <option value="storelist02">화훼류</option>
+								      <option value="storelist03">돈육</option>
+								      <option value="storelist04">채소류</option>
+								      <option value="storelist05">과실류</option>
+								      <option value="storelist06">혼합류</option>
+								      <option value="storelist07">기타</option>
+								   </select>
+              					</div>
+              					<div class="item">
+	              					<select name="temperture">
+								      <option selected disabled>희망온도</option>
+								      <option value="temp01">냉장(0 ~ 15℃)</option>
+								      <option value="temp02">냉동(0 ~ -20℃)</option>
+								      <option value="temp03">동결(-20 ~ -40℃)</option>
+								      <option value="temp04">급속동결(-40 ~ -70℃)</option>
+								   </select>
+              					</div>
+              					<div class="item">
+	              					<select name="mtype">
+								      <option selected disabled>출입구형태</option>
+								      <option value="mtype01">오버랩 도어(일반 도어 타입)</option>
+								      <option value="mtype02">수동 슬라이드 편개(한쪽 열림)</option>
+								      <option value="mtype03">수동 슬라이드 양개(양쪽 열림)</option>
+								      <option value="mtype04">자동 슬라이드 편개(한쪽 열림)</option>
+								      <option value="mtype05">자동 슬라이드 양개(양쪽 열림)</option>
+								   </select>
+              					</div>
+              					<div class="item">
+	              					<select name="msize">
+								      <option selected disabled>출입구사이즈</option>
+								      <option value="msize01">평수에 맞게 스탠다드 적용</option>
+								      <option value="msize02">가로*세로*도어 두께 = 900*2100*100 (오버랩)</option>
+								      <option value="msize03">가로*세로*도어 두께 = 1000*2100*100 (오버랩)</option>
+								      <option value="msize04">가로*세로*도어 두께 = 1200*2400*100 (슬라이드 / 편개)</option>
+								      <option value="msize05">가로*세로*도어 두께 = 1400*2600*100 (슬라이드 / 편개)</option>
+								      <option value="msize06">가로*세로*도어 두께 = 2400*2600*100 (슬라이드 / 양개)</option>
+								      <option value="msize07">가로*세로*도어 두께 = 2600*2800*100 (슬라이드 / 양개)</option>
+								   </select>
+              					</div>
+              					<div class="item">
+	              					<select name="purchese">
+								      <option selected disabled>구매형태</option>
+								      <option value="purtype01">구입</option>
+								      <option value="purtype02">렌탈</option>
+								   </select>
+              					</div>
+            				</div>
           			  <!--cont_box end-->
         		      </div>
         			  <!-- addition end -->
@@ -741,7 +702,7 @@
               			      
               				<!--calculator_cont01-->
               				<div class="calculator_cont02 row_flex">
-                				<button type="button" id="btnSave"><a href="#a">예상 견적서 확인</a></button>
+                				<input type="submit" id="btnSave" value="예상 견적서 확인"><a href="#a"></a>
               				</div>
               				<!--calculator_cont02-->
             			</div>

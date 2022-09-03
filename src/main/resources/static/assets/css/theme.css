@@ -14010,74 +14010,74 @@ a.text-dark:hover, a.text-dark:focus {
 }
  */
 #bg-holder-about {
-	background-image:url("/assets/img/navigation/about-h.jpg");
+	background-image:url("/assets/img/navigation/about.jpg");
 }
 #bg-holder-about:hover {
-	background-image:url("/assets/img/navigation/about-h.jpg");
+	background-image:url("/assets/img/navigation/about.jpg");
 	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
 }
 #bg-holder-ai {
-	background-image:url("/assets/img/navigation/ai-h.jpg");
+	background-image:url("/assets/img/navigation/ai.jpg");
 }
 
 #bg-holder-ai:hover {
-  	background-image:url("/assets/img/navigation/ai-h.jpg");
+  	background-image:url("/assets/img/navigation/ai.jpg");
   	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
 }
 #bg-holder-3years {
-	background-image:url("/assets/img/navigation/3years-h.jpg");
+	background-image:url("/assets/img/navigation/3years.jpg");
 }
 #bg-holder-3years:hover {
-	background-image:url("/assets/img/navigation/3years-h.jpg");
+	background-image:url("/assets/img/navigation/3years.jpg");
 	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
 }
 #bg-holder-as {
-	background-image:url("/assets/img/navigation/as-h.jpg");
+	background-image:url("/assets/img/navigation/as.jpg");
 }
 #bg-holder-as:hover {
-	background-image:url("/assets/img/navigation/as-h.jpg");
+	background-image:url("/assets/img/navigation/as.jpg");
 	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
 }
 #bg-holder-contact {
-	background-image:url("/assets/img/navigation/contact-h.jpg");
+	background-image:url("/assets/img/navigation/golden.jpg");
 }
 #bg-holder-contact:hover {
-	background-image:url("/assets/img/navigation/contact-h.jpg");
+	background-image:url("/assets/img/navigation/golden.jpg");
 	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
 }
 #bg-holder-rms {
-	background-image:url("/assets/img/navigation/rms-h.jpg");
+	background-image:url("/assets/img/navigation/rms.jpg");
 }
 #bg-holder-rms:hover {
-	background-image:url("/assets/img/navigation/rms-h.jpg");
+	background-image:url("/assets/img/navigation/rms.jpg");
 	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
 }
 #bg-holder-ads {
-	background-image:url("/assets/img/navigation/ads-h.jpg");
+	background-image:url("/assets/img/navigation/ads.jpg");
 }
 #bg-holder-ads:hover {
-	background-image:url("/assets/img/navigation/ads-h.jpg");
+	background-image:url("/assets/img/navigation/ads.jpg");
 	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
 }
 #bg-holder-integration {
-	background-image:url("/assets/img/navigation/integration-h.jpg")
+	background-image:url("/assets/img/navigation/integration.jpg")
 }
 #bg-holder-integration:hover {
-	background-image:url("/assets/img/navigation/integration-h.jpg");
+	background-image:url("/assets/img/navigation/integration.jpg");
 	-webkit-transform: scale(1.15);
   	-ms-transform: scale(1.15);
   	transform: scale(1.15);
@@ -14780,13 +14780,16 @@ p.lead {
 }
 
 @media screen and (min-width:1200px)  { 
-	.videoMp4 {
+	.videoMp4-main {
 		width: 100%; height: 900px !important;background-size: contain;
+	}
+	.videoMp4-calc {
+		width: 100%; background-size: contain;
 	}
 }
 
 @media screen and (min-width:480px) {
-	.videoMp4 {
+	.videoMp4-main {
 		width: 100%; height: 500px;background-size: contain;
 	}
 }

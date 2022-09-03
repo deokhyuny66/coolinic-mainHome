@@ -164,6 +164,7 @@ div.product_info_item.price_list{
     background-color: #fff;
     margin-bottom: 5px;
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
 .cont_box .item label{
     align-items: center;
@@ -174,6 +175,26 @@ div.product_info_item.price_list{
     cursor: pointer;
     height: 70px;
 }
+.item input[type='text'],
+.item select {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(69, 94, 234, 0.3);
+    cursor: pointer;
+    height: 70px;
+    width: 100%;
+}
+
+.item span {
+	font-size: 14px;
+    color: var(--omrs-color-ink-medium-contrast);
+    letter-spacing: 0.0275rem;
+    margin: 0.125rem 0.875rem;
+}
+
+
 .cont_box .item label:hover{
     border: 2px solid rgba(69, 94, 234, 0.6);
 }
@@ -187,7 +208,7 @@ div.product_info_item.price_list{
     font-weight: normal;
 }
 .cont_box .item input{
-    display: none;
+    /* display: none; */
 }
 .cont_box .item input:checked + label{
     border: 3px solid #2251A1;
@@ -202,7 +223,7 @@ div.product_info_item.price_list{
 .cont_box .item label#period_txt p:nth-child(2){
     display: none;
 }
-.cont_box .item label#period_txt input{
+.cont_box .item label#period_txt inpu{
     width: 50px;
     margin-right: 5px;
     text-align: center;
@@ -394,6 +415,19 @@ div.product_info_item.price_list{
     height: 53px;
     cursor: pointer;
 }
+
+.calculator_cont02 input[type="submit"]{
+    line-height: 53px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    height: 53px;
+    cursor: pointer;
+}
+
 
 
 /* notice */
@@ -780,6 +814,12 @@ div.product_info_item.price_list{
         height: 48px;
     }
     .calculator_cont02 button{
+        line-height: 48px;
+        font-size: 16px;
+        height: 48px;
+    }
+    
+    .calculator_cont02 input[type="submit"]{
         line-height: 48px;
         font-size: 16px;
         height: 48px;
