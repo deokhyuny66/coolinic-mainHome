@@ -1,8 +1,5 @@
 package com.freeze.list.Controller;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 /*import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -22,22 +19,11 @@ import org.json.JSONObject;*/
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/*import com.google.code.geocoder.Geocoder;
-import com.google.code.geocoder.GeocoderRequestBuilder;
-import com.google.code.geocoder.model.GeocodeResponse;
-import com.google.code.geocoder.model.GeocoderRequest;
-import com.google.code.geocoder.model.GeocoderResult;
-import com.google.code.geocoder.model.GeocoderStatus;
-import com.google.code.geocoder.model.LatLng;*/
-
 @Controller
 public class CoolinicController {
 
-	@RequestMapping("/")
+	@RequestMapping("/") 
 	public String view() throws Exception {
-		System.out.println("AA");
-		return "/nav-eight-item-four-column";
-		/* return "redirect:action/main"; */
+		return "/nav-eight-item-four-column"; 
 	}
-
 }

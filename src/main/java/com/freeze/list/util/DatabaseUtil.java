@@ -10,7 +10,7 @@ public class DatabaseUtil {
 			 * String dbURL =
 			 * "jdbc:mysql://54.180.61.247:3306/freeze_db?useUnicode=true&characterEncoding=UTF8";
 			 */
-			String dbURL = "jdbc:mysql://localhost:3306/freeze_db?useUnicode=true&characterEncoding=utf8";
+			String dbURL = "jdbc:mysql://localhost:3306/hpm?useUnicode=true&characterEncoding=utf8";
             String dbID = "root"; 
             String dbPassword = "eownwnsla12";
             Class.forName("com.mysql.jdbc.Driver"); 

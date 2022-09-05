@@ -2,13 +2,15 @@ package com.freeze.list.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 @RequestMapping("/proc")
 public class CoolinicAction {
-	@RequestMapping("/calc")
+
+	@PostMapping("/calc")
 	public String calcProc() throws Exception{
-		System.out.println("TEST");
 		return "/proc/calc";
 	}
+	
 }

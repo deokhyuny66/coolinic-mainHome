@@ -682,8 +682,8 @@
               					<div class="item">
 	              					<select name="purchese">
 								      <option selected disabled>구매형태</option>
-								      <option value="purtype01">구입</option>
-								      <option value="purtype02">렌탈</option>
+								      <option value="purchese01">구입</option>
+								      <option value="purchese02">렌탈</option>
 								   </select>
               					</div>
             				</div>
@@ -1026,15 +1026,7 @@
 	            <div class="col-lg-6 px-0 order-lg-2" data-zanim-lg='{"animation":"slide-left","delay":0.4}' data-zanim-trigger="scroll">
 	              <div class="owl-carousel owl-theme owl-dots-inner owl-theme-white h-100" data-options='{"items":1,"autoplay":true,"loop":true,"autoplayHoverPause":true,"animateOut":"fadeOut","nav":true}' data-zanim-lg='{"animation":"zoom-out","delay":0}' data-zanim-trigger="scroll">
 	                <div class="min-vh-lg-100 py-9">
-	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/header-3.jpg);"></div>
-	                  <!--/.bg-holder-->
-	                </div>
-	                <div class="min-vh-lg-100 py-9">
-	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/header-2.jpg);"></div>
-	                  <!--/.bg-holder-->
-	                </div>
-	                <div class="min-vh-lg-100 py-9">
-	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/header-12.jpg);"></div>
+	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/rms-header.jpg);"></div>
 	                  <!--/.bg-holder-->
 	                </div>
 	              </div>
@@ -2238,9 +2230,7 @@
           </div>
         </div>
       </div>
-      
-      
-     
+
       <!-- Docs  -->    
      <div class="page position-absolute t-0 w-100" id="docs">
         <div class="row no-gutters minh-100vh ">
@@ -2254,15 +2244,7 @@
 	            <div class="col-lg-6 px-0 order-lg-2" data-zanim-lg='{"animation":"slide-left","delay":0.4}' data-zanim-trigger="scroll">
 	              <div class="owl-carousel owl-theme owl-dots-inner owl-theme-white h-100" data-options='{"items":1,"autoplay":true,"loop":true,"autoplayHoverPause":true,"animateOut":"fadeOut","nav":true}' data-zanim-lg='{"animation":"zoom-out","delay":0}' data-zanim-trigger="scroll">
 	                <div class="min-vh-lg-100 py-9">
-	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/header-3.jpg);"></div>
-	                  <!--/.bg-holder-->
-	                </div>
-	                <div class="min-vh-lg-100 py-9">
-	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/header-2.jpg);"></div>
-	                  <!--/.bg-holder-->
-	                </div>
-	                <div class="min-vh-lg-100 py-9">
-	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/header-12.jpg);"></div>
+	                  <div class="bg-holder" style="background-image:url(/assets/img/detail/headers/golden-header.jpg);"></div>
 	                  <!--/.bg-holder-->
 	                </div>
 	              </div>
